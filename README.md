@@ -3,4 +3,4 @@
 ## repositories
 
 - [gitlab](https://gitlab.com/bamdad-sabbagh/music/emkanrecords-www) main
-- [github](#)
+- [github](https://github.com/bamdadsabbagh/emkanrecords-www)
