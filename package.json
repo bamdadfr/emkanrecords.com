@@ -1,0 +1,40 @@
+{
+  "name": "emkanrecords-www",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "start": "BROWSER=none react-scripts start",
+    "build": "GENERATE_SOURCEMAP=false react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "lint": "eslint src --ext .js,.jsx,.ts,.tsx --fix",
+    "style": "stylelint 'src/**/*.{js,jsx,ts,tsx}' --fix",
+    "snyk-protect": "snyk protect",
+    "prepare": "yarn run snyk-protect"
+  },
+  "dependencies": {
+    "normalize.css": "^8.0.1",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-icons": "^3.10.0",
+    "react-router-dom": "^5.2.0",
+    "react-spring": "^8.0.20",
+    "snyk": "^1.325.0"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "devDependencies": {
+    "@bamdadsabbagh/eslint-config": "^1.1.4",
+    "@bamdadsabbagh/stylelint-config": "^1.0.7",
+    "@types/react": "^16.9.35",
+    "@types/react-dom": "^16.9.8",
+    "@types/react-router-dom": "^5.1.5",
+    "react-scripts": "^3.4.0",
+    "typescript": "^3.9.3"
+  },
+  "snyk": true
+}
