@@ -19,8 +19,6 @@ build:
   rules:
     - if: '$CI_COMMIT_REF_NAME == "master" && $CI_PIPELINE_SOURCE != "schedule"'
       when: always
-  script:
-    - echo "build..."
 
 base_image_update:on-schedule:
   stage: base_image_update
