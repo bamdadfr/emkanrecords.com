@@ -5,19 +5,17 @@ on:
     types: [published]
 
 jobs:
-
+  # docker build and push to GPR
   docker-build-push-gpr:
     runs-on: ubuntu-latest 
     steps:
-
+    
     - run: echo ::set-env name=REPO::$(echo "${{ github.repository }}" | awk -F / '{print $2}' | sed -e "s/:refs//")
       shell: bash
 
-    - name: git checkout
-      uses: actions/checkout@master
+    - uses: actions/checkout@master
 
-    - name: docker build push
-      uses: docker/build-push-action@v1
+    - uses: docker/build-push-action@v1
       with:
         registry: docker.pkg.github.com
         username: ${{ github.repository_owner }}
