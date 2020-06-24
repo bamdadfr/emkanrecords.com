@@ -16,10 +16,10 @@ jobs:
     - name: docker build push
       uses: docker/build-push-action@v1
       with:
-        username: $GITHUB_ACTOR
-        password: ${{ secrets.GITHUB_TOKEN }}
         registry: docker.pkg.github.com
-        repository: ${{ secrets.GITHUB_REPOSITORY }}
+        username: ${{ github.repository_owner }}
+        password: ${{ github.token }}
+        repository: ${{ github.repository }}
         tags: latest
 
      #This Action Emits 2 Variables, IMAGE_SHA_NAME and IMAGE_URL 
