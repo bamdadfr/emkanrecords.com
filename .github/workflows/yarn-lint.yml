@@ -4,8 +4,7 @@ on: push
 
 jobs:
 
-  yarn-lint:
-    name: yarn-lint
+  run:
     runs-on: ubuntu-latest
     steps:
 

@@ -1,11 +1,10 @@
-name: yarn-lint
+name: yarn-outdated
 
 on: push
 
 jobs:
 
-  yarn-lint:
-    name: yarn-lint
+  run:
     runs-on: ubuntu-latest
     steps:
 
@@ -17,5 +16,8 @@ jobs:
         with:
           node-version: '12'
 
-      - name: linting
+      - name: check out of date packages
         run: yarn outdated
+
+      - name: upgrade to latest
+        run: yarn upgrade --latest
