@@ -4,8 +4,8 @@ on:
   push:
     branches:
       - master
-  # schedule:
-    # - cron: '0 */6 * * *'
+  schedule:
+    - cron: '0 2 * * *'
 
 jobs:
 
@@ -13,22 +13,17 @@ jobs:
     runs-on: ubuntu-latest
     steps:
 
-      - name: git checkout
-        uses: actions/checkout@v2
+      - uses: actions/checkout@v2
 
-      - name: set up node 12
-        uses: actions/setup-node@v1
+      - uses: actions/setup-node@v1
         with:
           node-version: '12'
 
-      - name: install packages
-        run: yarn install --pure-lockfile --no-progress    
+      - run: yarn install --pure-lockfile --no-progress    
         
-      - name: install semantic-release
-        run: npm install -g semantic-release @semantic-release/github @semantic-release/git
+      - run: npm install -g semantic-release @semantic-release/github @semantic-release/git
 
-      - name: running semantic-release
-        run: semantic-release
+      - run: semantic-release
         env:
           GH_TOKEN: ${{ secrets.GH_TOKEN_TRIGGERING }} # custom GH_TOKEN so we can trigger events
           # GH_TOKEN: ${{ github.token }}
