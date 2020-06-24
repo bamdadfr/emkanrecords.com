@@ -17,7 +17,7 @@ jobs:
           node-version: '12'
 
       - name: install linters
-        run: yarn global add @bamdadsabbagh/eslint-config @bamdadsabbagh/stylelint-config
+        run: yarn add @bamdadsabbagh/eslint-config @bamdadsabbagh/stylelint-config
 
       - name: run linters
         run: yarn lint
