@@ -1,4 +1,4 @@
-name: publish-docker-gpr
+name: docker-build-push-gpr
 
 on:
   create:
@@ -6,7 +6,9 @@ on:
       - v*
 
 jobs:
-  build:
+
+  docker-build-push-gpr:
+    name: docker-build-push-gpr
     runs-on: ubuntu-latest 
     steps:
 
