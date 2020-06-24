@@ -7,8 +7,7 @@ on:
 
 jobs:
 
-  docker-build-push-gpr:
-    name: docker-build-push-gpr
+  run:
     runs-on: ubuntu-latest 
     steps:
 

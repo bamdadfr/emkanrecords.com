@@ -1,4 +1,4 @@
-name: yarn-outdated
+name: yarn-upgrade
 
 on: push
 
