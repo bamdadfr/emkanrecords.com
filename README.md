@@ -3,5 +3,5 @@
 ## run
 
 ```bash
-docker run -d --name emkanrecords-www --restart=always -p 5001:80 registry.emkanrecords.com/bamdad-sabbagh/music/emkanrecords-www
+docker run -d --name emkanrecords-www --restart=always -p 5001:80 docker.pkg.github.com/bamdadsabbagh/emkanrecords-www/emkanrecords-www:latest
 ```
