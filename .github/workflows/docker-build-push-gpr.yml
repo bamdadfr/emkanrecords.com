@@ -2,7 +2,7 @@ name: docker-build-push-gpr
 
 on:
   push:
-    branches:    
+    branches:
       - 'releases/**'
 
 jobs:
