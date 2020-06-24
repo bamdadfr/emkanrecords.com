@@ -21,3 +21,6 @@ jobs:
 
       - name: run linters
         run: yarn lint
+
+      - name: git diff
+        run: git diff
