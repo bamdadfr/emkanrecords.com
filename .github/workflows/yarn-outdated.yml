@@ -16,8 +16,5 @@ jobs:
         with:
           node-version: '12'
 
-      - name: check out of date packages
-        run: yarn outdated
-
       - name: upgrade to latest
         run: yarn upgrade --latest
