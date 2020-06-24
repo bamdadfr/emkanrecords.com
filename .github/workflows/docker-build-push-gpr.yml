@@ -1,9 +1,11 @@
 name: docker-build-push-gpr
 
 on:
-  create:
+  push:
+    branches:
+      - master
     tags:
-      - v*
+      - v*.*.*
 
 jobs:
 
