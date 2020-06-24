@@ -1,6 +1,8 @@
 name: yarn-upgrade
 
-on: push
+on:
+  schedule:
+    - '0 */6 * * *'
 
 jobs:
 
