@@ -1,9 +1,7 @@
 name: publish-docker-gpr
 
 on:
-  push:
-    branches:
-      - master
+  create:
     tags:
       - v*
 
