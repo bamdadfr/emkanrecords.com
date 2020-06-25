@@ -18,8 +18,6 @@ jobs:
 
       - run: yarn lint
 
-      - run: git diff
-
       - run: |
           git config --global user.email "asfalte@bamdadsabbagh.com"
           git config --global user.name "asfalte"
