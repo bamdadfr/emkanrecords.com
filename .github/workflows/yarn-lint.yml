@@ -8,19 +8,22 @@ jobs:
     runs-on: ubuntu-latest
     steps:
 
-      - name: git checkout
-        uses: actions/checkout@v2
+      - uses: actions/checkout@v2
 
-      - name: set up node 12
-        uses: actions/setup-node@v1
+      - uses: actions/setup-node@v1
         with:
           node-version: '12'
 
-      - name: install packages
-        run: yarn
+      - run: yarn
 
-      - name: run linters
-        run: yarn lint
+      - run: yarn lint
 
-      - name: git diff
-        run: git diff
+      - run: git diff
+
+      - run: |
+          git add .
+          git commit -m "fix: auto linting"
+      
+      - run: |
+          git push
+      

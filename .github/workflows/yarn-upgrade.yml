@@ -10,13 +10,18 @@ jobs:
     runs-on: ubuntu-latest
     steps:
 
-      - name: git checkout
-        uses: actions/checkout@v2
+      - uses: actions/checkout@v2
 
-      - name: set up node 12
-        uses: actions/setup-node@v1
+      - uses: actions/setup-node@v1
         with:
           node-version: '12'
 
-      - name: upgrade to latest
-        run: yarn upgrade --latest
+      - run: yarn upgrade --latest
+
+      - run: |
+          git add .
+          git commit -m "fix: auto upgrade to latest"
+      
+      - uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ github.token }}
