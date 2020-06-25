@@ -21,6 +21,10 @@ jobs:
       - run: git diff
 
       - run: |
+          git config --global user.email "asfalte@bamdadsabbagh.com"
+          git config --global user.name "asfalte"
+
+      - run: |
           git add .
           git commit -m "fix: auto linting"
       
