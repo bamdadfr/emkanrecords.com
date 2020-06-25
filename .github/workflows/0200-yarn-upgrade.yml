@@ -2,12 +2,12 @@ name: yarn-upgrade
 
 on:
   schedule:
-    # - cron: '0 */6 * * *' # each 6 hour
-    - cron: '28 0 * * *' # 00:28 each day
+    # - cron: '0 2 * * *' # 02:00 each day
+    - cron: '45 0 * * *'
 
 jobs:
-
-  run:
+  # yarn upgrade --latest
+  yarn-upgrade:
     runs-on: ubuntu-latest
     steps:
 
@@ -25,8 +25,8 @@ jobs:
 
       - run: |
           git add .
-          git commit -m "fix: auto upgrade to latest"
+          git diff-index --quiet HEAD || git commit -m "fix: auto upgrade to latest"
 
       - run: |
-          git push
+          git diff-index --quiet HEAD || git push
       
