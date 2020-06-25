@@ -1,4 +1,4 @@
-name: yarn-lint
+name: push-yarn-lint
 
 on: push
 

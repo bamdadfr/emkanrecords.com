@@ -1,4 +1,4 @@
-name: yarn-upgrade
+name: 0200-yarn-upgrade
 
 on:
   schedule:

@@ -1,4 +1,4 @@
-name: semantic-release
+name: 0400-semantic-release
 
 on:
   schedule:
