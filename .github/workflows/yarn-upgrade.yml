@@ -2,8 +2,7 @@ name: 0200-yarn-upgrade
 
 on:
   schedule:
-    # - cron: '0 2 * * *' # 02:00 each day
-    - cron: '45 0 * * *'
+    - cron: '0 2 * * *' # 02:00 each day
 
 jobs:
   # yarn upgrade --latest
