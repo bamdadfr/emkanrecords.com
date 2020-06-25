@@ -2,7 +2,7 @@ name: 0400-semantic-release
 
 on:
   schedule:
-    - cron: '0 4 * * *' # 04:00 each day
+    - cron: '0 4 * * *' # UTC 04:00 each day
 
 jobs:
   # semantic-release
