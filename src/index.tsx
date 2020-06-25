@@ -16,7 +16,7 @@ const Root = (): React.ReactElement => {
 
 ReactDOM.render (
     <Root />,
-    document.getElementById ('root')
+    document.getElementById ('root'),
 )
 
 serviceWorker.register ()
