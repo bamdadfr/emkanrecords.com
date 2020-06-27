@@ -1,8 +1,8 @@
-name: 0200-yarn-upgrade
+name: hourly-yarn-upgrade
 
 on:
   schedule:
-    - cron: '0 2 * * *' # UTC 02:00 each day
+    - cron: '0 * * * *' # UTC
 
 jobs:
   # yarn upgrade --latest
@@ -27,4 +27,4 @@ jobs:
           git diff-index --quiet HEAD || git commit -m "fix: auto upgrade to latest"
 
       - run: git push
-      
+
