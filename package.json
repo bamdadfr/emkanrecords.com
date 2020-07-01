@@ -20,7 +20,7 @@
     "react-icons": "^3.10.0",
     "react-router-dom": "^5.2.0",
     "react-spring": "^8.0.20",
-    "snyk": "^1.358.0"
+    "snyk": "^1.359.0"
   },
   "browserslist": [
     ">0.2%",
