@@ -20,7 +20,7 @@
     "react-icons": "^3.10.0",
     "react-router-dom": "^5.2.0",
     "react-spring": "^8.0.20",
-    "snyk": "^1.361.1"
+    "snyk": "^1.361.2"
   },
   "browserslist": [
     ">0.2%",
@@ -29,8 +29,8 @@
     "not op_mini all"
   ],
   "devDependencies": {
-    "@bamdadsabbagh/eslint-config": "^1.2.12",
-    "@bamdadsabbagh/stylelint-config": "^1.2.10",
+    "@bamdadsabbagh/eslint-config": "^1.2.13",
+    "@bamdadsabbagh/stylelint-config": "^1.2.11",
     "@types/react": "^16.9.41",
     "@types/react-dom": "^16.9.8",
     "@types/react-router-dom": "^5.1.5",
