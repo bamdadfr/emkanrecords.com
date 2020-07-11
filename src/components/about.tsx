@@ -1,12 +1,12 @@
 import React from 'react'
 import { FaAt } from 'react-icons/fa'
-import Spring from '../animations/spring'
+import { AnimationSpring } from './animation.spring'
 
-export default (): React.ReactElement => {
+export const About = (): React.ReactElement => {
 
     return (
         <>
-            <Spring payload={
+            <AnimationSpring payload={
                 (
                     <>
 

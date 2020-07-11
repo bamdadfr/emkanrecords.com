@@ -1,19 +1,19 @@
-import React from 'react'
+import React, { ReactElement } from 'react'
 import { FaShoppingCart, FaSpotify, FaYoutube } from 'react-icons/fa'
-import Spring from '../animations/spring'
-import releases from './data'
+import { AnimationSpring } from './animation.spring'
+import { ReleasesData } from './releases.data'
 
-export default (): React.ReactElement => {
+export const Releases = (): ReactElement => {
 
     return (
         <>
 
             <div className="releases-container">
 
-                {releases.map (release => (
+                {ReleasesData.map (release => (
                     <React.Fragment key={release.url}>
                         <div className="releases-item">
-                            <Spring payload={
+                            <AnimationSpring payload={
                                 (
                                     <img
                                         src={release.image}
@@ -23,7 +23,7 @@ export default (): React.ReactElement => {
                             }
                             />
 
-                            <Spring payload={
+                            <AnimationSpring payload={
                                 (
                                     <h1 className="color-01">
                                         {release.name}
@@ -32,7 +32,7 @@ export default (): React.ReactElement => {
                             }
                             />
 
-                            <Spring payload={
+                            <AnimationSpring payload={
                                 (
                                     <h2 className="color-02">
                                         {release.artist}
@@ -41,7 +41,7 @@ export default (): React.ReactElement => {
                             }
                             />
 
-                            <Spring payload={
+                            <AnimationSpring payload={
                                 (
                                     <div className="releases-icons color-02">
                                         <a

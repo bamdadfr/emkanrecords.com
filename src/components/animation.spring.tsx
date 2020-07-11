@@ -1,11 +1,8 @@
-import React from 'react'
+import React, { ReactElement } from 'react'
 import { Spring } from 'react-spring/renderprops'
+import { IAnimationSpringProps } from './animation.spring.types'
 
-interface IProps {
-    payload: React.ReactElement,
-}
-
-export default (props: IProps): React.ReactElement => {
+export const AnimationSpring = (props: IAnimationSpringProps): ReactElement => {
 
     const { payload } = props
 
@@ -15,7 +12,7 @@ export default (props: IProps): React.ReactElement => {
                 from={{ 'opacity': 0 }}
                 to={{ 'opacity': 1 }}
             >
-                {props => (
+                {(props): ReactElement => (
                     <div style={props}>
                         {payload}
                     </div>

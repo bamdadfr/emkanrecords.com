@@ -1,4 +1,4 @@
-export default [
+export const ReleasesData = [
     {
         'key': '9',
         'artist': 'Losless',

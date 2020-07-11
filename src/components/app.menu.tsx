@@ -1,13 +1,13 @@
-import React from 'react'
+import React, { ReactElement } from 'react'
 import { NavLink } from 'react-router-dom'
-import Spring from '../animations/spring'
+import { AnimationSpring } from './animation.spring'
 
-export default function (): React.ReactElement {
+export const AppMenu = (): ReactElement => {
 
     return (
         <>
             <div className="top-bar">
-                <Spring payload={
+                <AnimationSpring payload={
                     (
                         <div className="top-bar-item">
                             <NavLink

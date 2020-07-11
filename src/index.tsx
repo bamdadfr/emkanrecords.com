@@ -2,7 +2,7 @@ import React from 'react'
 import ReactDOM from 'react-dom'
 import * as serviceWorker from './serviceWorker'
 import 'normalize.css'
-import App from './components/app/app'
+import { App } from './components/app'
 
 const Root = (): React.ReactElement => {
 

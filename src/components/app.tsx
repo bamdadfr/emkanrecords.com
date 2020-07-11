@@ -1,16 +1,15 @@
 import React, { ReactElement } from 'react'
 import { BrowserRouter, Route, Switch } from 'react-router-dom'
-import './app.css'
-import Spring from '../animations/spring'
-import TopBar from './top-bar'
-import About from '../about/about'
-
-const Releases = React.lazy (() => import ('../releases/releases'))
+import './app.styles.css'
+import { AnimationSpring } from './animation.spring'
+import { AppMenu } from './app.menu'
+import { Releases } from './releases'
+import { About } from './about'
 
 const Fallback = (): ReactElement => {
 
     return (
-        <Spring payload={(
+        <AnimationSpring payload={(
             <>
                 Loading...
             </>
@@ -20,13 +19,13 @@ const Fallback = (): ReactElement => {
 
 }
 
-export default (): ReactElement => {
+export const App = (): ReactElement => {
 
     return (
         <>
             <BrowserRouter>
 
-                <Spring payload={
+                <AnimationSpring payload={
                     <div className="header-logo" />
                 }
                 />
@@ -34,7 +33,7 @@ export default (): ReactElement => {
                 <div className="page">
                     <div className="container">
 
-                        <TopBar />
+                        <AppMenu />
 
                         <div className="main-container">
                             <main className="main">
