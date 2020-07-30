@@ -1,5 +1,4 @@
 FROM node:alpine as build
-LABEL maintainer="Bamdad Sabbagh <devops@bamdadsabbagh.com>"
 
 WORKDIR /app
 
