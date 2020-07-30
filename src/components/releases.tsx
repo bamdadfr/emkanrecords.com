@@ -1,6 +1,8 @@
-import React, { ReactElement } from 'react'
+import React, { ReactElement, Fragment } from 'react'
 import { ReleasesData } from './releases.data'
-import { ReleasesCard } from './releases.card'
+import { ReleasesImage } from './releases.image'
+import { ReleasesIcons } from './releases.icons'
+import { ReleasesText } from './releases.text'
 
 export const Releases = (): ReactElement => {
 
@@ -9,9 +11,13 @@ export const Releases = (): ReactElement => {
             <div className="releases-container">
 
                 {ReleasesData.map (release => (
-                    <React.Fragment key={release.url}>
-                        <ReleasesCard release={release} />
-                    </React.Fragment>
+                    <Fragment key={release.url}>
+                        <div className="releases-item">
+                            <ReleasesImage release={release} />
+                            <ReleasesText release= {release} />
+                            <ReleasesIcons release={release} />
+                        </div>
+                    </Fragment>
                 ))}
 
             </div>
