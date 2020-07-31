@@ -1,3 +1,22 @@
+## [1.3.14](https://github.com/bamdadsabbagh/emkanrecords-www/compare/v1.3.13...v1.3.14) (2020-07-31)
+
+
+### Bug Fixes
+
+* asfalte: ⚙️ yarn-upgrade__0*100 ([d02b110](https://github.com/bamdadsabbagh/emkanrecords-www/commit/d02b110c31582ed2fec8db615fb284038c4cc5fb))
+* asfalte: ⚙️ yarn-upgrade__0*100 ([42fca73](https://github.com/bamdadsabbagh/emkanrecords-www/commit/42fca73d15b2d5cc14538673e41f6d1626783943))
+* asfalte: ⚙️ yarn-upgrade__0x100 ([c97b331](https://github.com/bamdadsabbagh/emkanrecords-www/commit/c97b3312ae0918949ad1f2bdfc073ff00c6ba60d))
+* asfalte: ⚙️ yarn-upgrade__0x100 ([379ac7f](https://github.com/bamdadsabbagh/emkanrecords-www/commit/379ac7f8e924e0747bbc33adc4636ffb9117b061))
+* asfalte: ⚙️ yarn-upgrade__0x100 ([2a398ac](https://github.com/bamdadsabbagh/emkanrecords-www/commit/2a398ac02980b1d8a268e776addf0e6ca2cfd38e))
+* asfalte: ⚙️ yarn-upgrade__0x100 ([c2fee08](https://github.com/bamdadsabbagh/emkanrecords-www/commit/c2fee08affa73b50491e5107d788a6ffb5b8618e))
+* asfalte: ⚙️ yarn-upgrade__0x100 ([8ff6616](https://github.com/bamdadsabbagh/emkanrecords-www/commit/8ff66162efb3f5f48047bb7b5f9b118ad73dc78a))
+* asfalte: ⚙️ yarn-upgrade__0x100 ([88373d4](https://github.com/bamdadsabbagh/emkanrecords-www/commit/88373d46c33eda288ec0bb01b54abf0fe852aee8))
+* asfalte: ⚙️ yarn-upgrade__0x100 ([a84ac5b](https://github.com/bamdadsabbagh/emkanrecords-www/commit/a84ac5b34388b5b1c00e78ecb4a96877430f46e3))
+* better code quality ([186571d](https://github.com/bamdadsabbagh/emkanrecords-www/commit/186571df29b00f259104f5dc00026b089f2ee61e))
+* better dockerfile ([ad9990a](https://github.com/bamdadsabbagh/emkanrecords-www/commit/ad9990ac6b05e730ed9a6ae5c558e4d1bd95ccdf))
+* better workflows ([a641c00](https://github.com/bamdadsabbagh/emkanrecords-www/commit/a641c001af42d9ffa96bd7075196779118f17591))
+* code splitting and quality ([c96b307](https://github.com/bamdadsabbagh/emkanrecords-www/commit/c96b30799fec740680f605553165e776294118f6))
+
 ## [1.3.13](https://github.com/bamdadsabbagh/emkanrecords-www/compare/v1.3.12...v1.3.13) (2020-07-30)
 
 
