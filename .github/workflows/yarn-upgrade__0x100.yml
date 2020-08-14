@@ -15,7 +15,7 @@ jobs:
         with:
           node-version: '12'
 
-      - run: yarn upgrade --latest
+      - run: yarn upgrade
 
       - run: |
           git config --global user.email "asfalte@bamdadsabbagh.com"
