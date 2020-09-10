@@ -1,3 +1,11 @@
+## [1.3.55](https://github.com/bamdadsabbagh/emkanrecords-www/compare/v1.3.54...v1.3.55) (2020-09-10)
+
+
+### Bug Fixes
+
+* asfalte: 🔨 git-commit-force-release__push ([d27bf4f](https://github.com/bamdadsabbagh/emkanrecords-www/commit/d27bf4ff18dac339d328c0955d3e89f7e643d1d6))
+* blocked at v1 [force-release] ([6e09d7f](https://github.com/bamdadsabbagh/emkanrecords-www/commit/6e09d7f089b9aae255a3af2365699430855425b8))
+
 ## [1.3.54](https://github.com/bamdadsabbagh/emkanrecords-www/compare/v1.3.53...v1.3.54) (2020-09-10)
 
 
