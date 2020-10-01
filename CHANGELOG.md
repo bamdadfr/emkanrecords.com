@@ -1,3 +1,15 @@
+## [1.3.75](https://github.com/bamdadsabbagh/emkanrecords-www/compare/v1.3.74...v1.3.75) (2020-10-01)
+
+
+### Bug Fixes
+
+* asfalte: ⚙️ yarn-upgrade__0x100 ([98599b3](https://github.com/bamdadsabbagh/emkanrecords-www/commit/98599b3fc74730b5940ab6bf9ecb1f04d079cf5c))
+* asfalte: ⚙️ yarn-upgrade__0x100 ([3dd37a8](https://github.com/bamdadsabbagh/emkanrecords-www/commit/3dd37a8864e8b612e3d4472891a540ab87160c1e))
+* asfalte: ⚙️ yarn-upgrade__0x100 ([b901bed](https://github.com/bamdadsabbagh/emkanrecords-www/commit/b901bede96f727ae787708fa1e6ba93897e023f9))
+* asfalte: ⚙️ yarn-upgrade__0x100 ([ccc9cbb](https://github.com/bamdadsabbagh/emkanrecords-www/commit/ccc9cbb31f8ccb16aac3c1e328a90fd03d75447e))
+* asfalte: ⚙️ yarn-upgrade__0x100 ([1f9b93d](https://github.com/bamdadsabbagh/emkanrecords-www/commit/1f9b93d92b15cb40931062668952174dfb6f902f))
+* asfalte: ⚙️ yarn-upgrade__0x100 ([f9e9ae2](https://github.com/bamdadsabbagh/emkanrecords-www/commit/f9e9ae2d721071e46abdc277c81eb4a756bc265f))
+
 ## [1.3.74](https://github.com/bamdadsabbagh/emkanrecords-www/compare/v1.3.73...v1.3.74) (2020-09-30)
 
 
