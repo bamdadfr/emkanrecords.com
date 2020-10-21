@@ -1,3 +1,16 @@
+# [1.4.0](https://github.com/bamdadsabbagh/emkanrecords-www/compare/v1.3.95...v1.4.0) (2020-10-21)
+
+
+### Bug Fixes
+
+* asfalte: ⚙️ yarn-upgrade__0x100 ([8a1edd7](https://github.com/bamdadsabbagh/emkanrecords-www/commit/8a1edd7d9ef2b86f1a334dfb37dc6e7706f6c5c0))
+* asfalte: 🔨 git-commit-force-release__push ([9988155](https://github.com/bamdadsabbagh/emkanrecords-www/commit/998815573af1b2dbde730fc969c39f7335ebff99))
+
+
+### Features
+
+* upgraded typescript, react and react-dom [force-release] ([113bc93](https://github.com/bamdadsabbagh/emkanrecords-www/commit/113bc93a4cd9995dcb2b546331bf19a726cd6299))
+
 ## [1.3.95](https://github.com/bamdadsabbagh/emkanrecords-www/compare/v1.3.94...v1.3.95) (2020-10-21)
 
 
