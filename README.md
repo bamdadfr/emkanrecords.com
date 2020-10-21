@@ -2,8 +2,8 @@
 
 [![Maintainability](https://api.codeclimate.com/v1/badges/d03ca633f0cac75c7520/maintainability)](https://codeclimate.com/github/bamdadsabbagh/emkanrecords-www/maintainability)
 ![Snyk Vulnerabilities for GitHub Repo](https://img.shields.io/snyk/vulnerabilities/github/bamdadsabbagh/emkanrecords-www)
-![David](https://img.shields.io/david/bamdadsabbagh/bamdadsabbagh-www)
-![David](https://img.shields.io/david/dev/bamdadsabbagh/bamdadsabbagh-www)
+![David](https://img.shields.io/david/bamdadsabbagh/emkanrecords-www)
+![David](https://img.shields.io/david/dev/bamdadsabbagh/emkanrecords-www)
 
 ## run
 
