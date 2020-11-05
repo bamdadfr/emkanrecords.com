@@ -1,9 +1,11 @@
 # [emkanrecords-www](https://emkanrecords.com/)
 
-[![Maintainability](https://api.codeclimate.com/v1/badges/d03ca633f0cac75c7520/maintainability)](https://codeclimate.com/github/bamdadsabbagh/emkanrecords-www/maintainability)
-![Snyk Vulnerabilities for GitHub Repo](https://img.shields.io/snyk/vulnerabilities/github/bamdadsabbagh/emkanrecords-www)
-![David](https://img.shields.io/david/bamdadsabbagh/emkanrecords-www)
-![David](https://img.shields.io/david/dev/bamdadsabbagh/emkanrecords-www)
+[![version](https://img.shields.io/github/v/release/bamdadsabbagh/emkanrecords-www)](#-emkan-records)
+
+[![code climate](https://api.codeclimate.com/v1/badges/d03ca633f0cac75c7520/maintainability)](#-emkan-records)
+
+[![dependencies](https://img.shields.io/david/bamdadsabbagh/emkanrecords-www)](#-emkan-records)
+[![snyk](https://img.shields.io/snyk/vulnerabilities/github/bamdadsabbagh/emkanrecords-www)](#-emkan-records)
 
 ## run
 
