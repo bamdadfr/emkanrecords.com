@@ -14,5 +14,5 @@
 ## runtime
 
 ```bash
-docker run -d --name emkanrecords-www --restart=always -p 5001:80 docker.pkg.github.com/bamdadsabbagh/emkanrecords-www/emkanrecords-www:latest
+docker run -d --name emkanrecords-www --restart=always -p 8080:80 docker.pkg.github.com/bamdadsabbagh/emkanrecords-www/emkanrecords-www:latest
 ```
