@@ -7,7 +7,11 @@
 [![dependencies](https://img.shields.io/david/bamdadsabbagh/emkanrecords-www)](#-emkan-records)
 [![snyk](https://img.shields.io/snyk/vulnerabilities/github/bamdadsabbagh/emkanrecords-www)](#-emkan-records)
 
-## run
+## screenshots
+
+<img src="https://i.imgur.com/ty6puSW.gif"/>
+
+## runtime
 
 ```bash
 docker run -d --name emkanrecords-www --restart=always -p 5001:80 docker.pkg.github.com/bamdadsabbagh/emkanrecords-www/emkanrecords-www:latest
