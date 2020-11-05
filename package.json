@@ -15,12 +15,6 @@
     "start": "BROWSER=none SKIP_PREFLIGHT_CHECK=true react-scripts start",
     "test": "react-scripts test"
   },
-  "browserslist": [
-    ">0.2%",
-    "not dead",
-    "not ie <= 11",
-    "not op_mini all"
-  ],
   "dependencies": {
     "normalize.css": "^8.0.1",
     "react": "^17.0.0",
