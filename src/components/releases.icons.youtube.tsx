@@ -1,5 +1,6 @@
 import React, { ReactElement } from 'react'
 import { FaYoutube } from 'react-icons/fa'
+import { ReleasesIconsBlueprint } from './releases.icons.blueprint'
 
 export const ReleasesIconsYoutube = (props: any): ReactElement => {
 
@@ -7,15 +8,11 @@ export const ReleasesIconsYoutube = (props: any): ReactElement => {
 
     return (
         <>
-            <a
-                href={`${release.url}/youtube`}
-                className="releases-icons-youtube"
-                target="_blank"
-                rel="noopener noreferrer"
-                aria-label={`${release.artist} - ${release.name} - YouTube`}
-            >
-                <FaYoutube />
-            </a>
+            <ReleasesIconsBlueprint
+                release={release}
+                vendorName="youtube"
+                vendorIcon={FaYoutube}
+            />
         </>
     )
 

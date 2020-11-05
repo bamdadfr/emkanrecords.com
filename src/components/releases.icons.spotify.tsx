@@ -1,5 +1,6 @@
 import React, { ReactElement } from 'react'
 import { FaSpotify } from 'react-icons/fa'
+import { ReleasesIconsBlueprint } from './releases.icons.blueprint'
 
 export const ReleasesIconsSpotify = (props: any): ReactElement => {
 
@@ -7,15 +8,11 @@ export const ReleasesIconsSpotify = (props: any): ReactElement => {
 
     return (
         <>
-            <a
-                href={`${release.url}/spotify`}
-                className="releases-icons-spotify"
-                target="_blank"
-                rel="noopener noreferrer"
-                aria-label={`${release.artist} - ${release.name} - Spotify`}
-            >
-                <FaSpotify />
-            </a>
+            <ReleasesIconsBlueprint
+                release={release}
+                vendorName="spotify"
+                vendorIcon={FaSpotify}
+            />
         </>
     )
 
