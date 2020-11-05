@@ -1,8 +1,7 @@
 import React, { ReactElement } from 'react'
+import { FaShoppingCart, FaSpotify, FaYoutube } from 'react-icons/fa'
 import { AnimationSpring } from './animation.spring'
-import { ReleasesIconsSpotify } from './releases.icons.spotify'
-import { ReleasesIconsYoutube } from './releases.icons.youtube'
-import { ReleasesIconsCart } from './releases.icons.cart'
+import { ReleasesIconsBlueprint } from './releases.icons.blueprint'
 
 export const ReleasesIcons = (props: any): ReactElement => {
 
@@ -14,9 +13,23 @@ export const ReleasesIcons = (props: any): ReactElement => {
                 (
                     <div className="releases-icons color-02">
 
-                        <ReleasesIconsSpotify release={release} />
-                        <ReleasesIconsYoutube release={release} />
-                        <ReleasesIconsCart release={release} />
+                        <ReleasesIconsBlueprint
+                            release={release}
+                            vendorName="spotify"
+                            vendorIcon={FaSpotify}
+                        />
+
+                        <ReleasesIconsBlueprint
+                            release={release}
+                            vendorName="youtube"
+                            vendorIcon={FaYoutube}
+                        />
+                        
+                        <ReleasesIconsBlueprint
+                            release={release}
+                            vendorName="cart"
+                            vendorIcon={FaShoppingCart}
+                        />
 
                     </div>
                 )
