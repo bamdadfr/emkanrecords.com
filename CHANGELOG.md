@@ -1,3 +1,23 @@
+## [1.4.18](https://github.com/bamdadsabbagh/emkanrecords-www/compare/v1.4.17...v1.4.18) (2020-11-05)
+
+
+### Bug Fixes
+
+* 4K ready ([c6132f6](https://github.com/bamdadsabbagh/emkanrecords-www/commit/c6132f6b8e376dc638a0bc1b8ed924906f453b19))
+* added author ([d23a783](https://github.com/bamdadsabbagh/emkanrecords-www/commit/d23a783d99ccc2f5fd6152de0de6a30c9884efcc))
+* added default browsers ([baa2daf](https://github.com/bamdadsabbagh/emkanrecords-www/commit/baa2daf0fcba035829fd61d7cce436c468ca97fe))
+* added description ([cd62217](https://github.com/bamdadsabbagh/emkanrecords-www/commit/cd62217f987a92178e420bf1b22b0d71b82d9035))
+* added license ([2872b6e](https://github.com/bamdadsabbagh/emkanrecords-www/commit/2872b6edaabf6aeda68b72c2dd6c8122786ea7d8))
+* asfalte: 🔨 git-commit-force-release__push ([269c420](https://github.com/bamdadsabbagh/emkanrecords-www/commit/269c420bf0ba9161d431e04539a9d842443463ac))
+* better package.json ([03a2748](https://github.com/bamdadsabbagh/emkanrecords-www/commit/03a27489583b2ebb8b7faafda4c10b26a193a802))
+* removed browser list ([13054ad](https://github.com/bamdadsabbagh/emkanrecords-www/commit/13054ada220798fe4c7029aacc083d01d693143b))
+
+
+### Performance Improvements
+
+* Merge pull request [#17](https://github.com/bamdadsabbagh/emkanrecords-www/issues/17) from bamdadsabbagh:beta ([09a6314](https://github.com/bamdadsabbagh/emkanrecords-www/commit/09a6314dcabc830af10b5eb140a65582ab137afd))
+* upgraded to react-scripts 4.0.0 ([eed19c2](https://github.com/bamdadsabbagh/emkanrecords-www/commit/eed19c2557483074c7e617a35f593b76c40daee1))
+
 ## [1.4.17](https://github.com/bamdadsabbagh/emkanrecords-www/compare/v1.4.16...v1.4.17) (2020-11-05)
 
 
