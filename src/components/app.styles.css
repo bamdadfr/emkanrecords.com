@@ -256,3 +256,39 @@ body {
         max-width: 350px;
     }
 }
+
+/* iPad */
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .releases-container {
+        grid-template-columns: auto auto;
+    }
+
+    .releases-item {
+        max-width: 300px;
+    }
+}
+
+/* iPad Pro */
+
+@media only screen and (min-width: 1024px) and (max-width: 1280px) {
+    .releases-item {
+        max-width: 350px;
+    }
+}
+
+/* 4K */
+
+@media only screen and (min-width: 3840px) {
+    .top-bar-link {
+        max-width: 800px;
+    }
+
+    .releases-container{
+        grid-template-columns: auto auto auto;
+    }
+
+    .releases-item {
+        max-width: 500px;
+    }
+}
