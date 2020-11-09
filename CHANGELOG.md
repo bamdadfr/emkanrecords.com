@@ -1,3 +1,11 @@
+## [1.4.98](https://github.com/bamdadsabbagh/emkanrecords-www/compare/v1.4.97...v1.4.98) (2020-11-09)
+
+
+### Bug Fixes
+
+* asfalte: 🔨 git-commit-force-release__push ([6131329](https://github.com/bamdadsabbagh/emkanrecords-www/commit/613132958ca55cf117d870c427f2734fe25e8225))
+* fixes do upgrades at 0x30 [#19](https://github.com/bamdadsabbagh/emkanrecords-www/issues/19) [force-release] ([f7afe69](https://github.com/bamdadsabbagh/emkanrecords-www/commit/f7afe6970ae1c4cc112ff96d045bcc1f5b77d835))
+
 ## [1.4.97](https://github.com/bamdadsabbagh/emkanrecords-www/compare/v1.4.96...v1.4.97) (2020-11-09)
 
 
