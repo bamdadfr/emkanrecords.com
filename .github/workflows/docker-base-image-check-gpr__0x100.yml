@@ -24,7 +24,7 @@ jobs:
           if ./check.sh ${{ env.BASE_IMAGE }} docker.pkg.github.com/${{ github.repository }}/${{ env.IMAGE }}:latest; then
             echo "IS_UP_TO_DATE='true'" >> $GITHUB_ENV
           else
-            echo "IS_UP_TO_DATE='true'" >> $GITHUB_ENV
+            echo "IS_UP_TO_DATE='false'" >> $GITHUB_ENV
           fi
 
       - if: env.IS_UP_TO_DATE != 'true'
