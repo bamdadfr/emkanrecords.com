@@ -1,3 +1,11 @@
+## [1.4.272](https://github.com/bamdadsabbagh/emkanrecords-www/compare/v1.4.271...v1.4.272) (2020-11-16)
+
+
+### Bug Fixes
+
+* asfalte: ⚙️ yarn-upgrade__0x100 ([0e6bcf3](https://github.com/bamdadsabbagh/emkanrecords-www/commit/0e6bcf3b3a90d083f1d6095e533bf6906e8ba4ff))
+* asfalte: 🐳 docker-base-image-check-gpr__0x100 ([5348df0](https://github.com/bamdadsabbagh/emkanrecords-www/commit/5348df0c2d3460c9c5228f8311bc2328d23319e6))
+
 ## [1.4.271](https://github.com/bamdadsabbagh/emkanrecords-www/compare/v1.4.270...v1.4.271) (2020-11-16)
 
 
