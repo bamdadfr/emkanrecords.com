@@ -1,3 +1,10 @@
+## [1.4.314](https://github.com/bamdadsabbagh/emkanrecords-www/compare/v1.4.313...v1.4.314) (2020-11-18)
+
+
+### Bug Fixes
+
+* asfalte: 🐳 docker-base-image-check-gpr__0x100 ([8fd7157](https://github.com/bamdadsabbagh/emkanrecords-www/commit/8fd71572b714c862e115db2ce524f4644acf2ed8))
+
 ## [1.4.313](https://github.com/bamdadsabbagh/emkanrecords-www/compare/v1.4.312...v1.4.313) (2020-11-18)
 
 
