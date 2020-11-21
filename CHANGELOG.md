@@ -1,3 +1,11 @@
+## [1.4.391](https://github.com/bamdadsabbagh/emkanrecords-www/compare/v1.4.390...v1.4.391) (2020-11-21)
+
+
+### Bug Fixes
+
+* asfalte: 🔨 git-commit-force-release__push ([8a7b1b9](https://github.com/bamdadsabbagh/emkanrecords-www/commit/8a7b1b97c91c60697f061e19bb0e64466a72a0c7))
+* tsconfig compatibility with ts4 [force-release] ([ea2b4fb](https://github.com/bamdadsabbagh/emkanrecords-www/commit/ea2b4fb114e7d110bca4d85d0ffbf457a9ae635f))
+
 ## [1.4.390](https://github.com/bamdadsabbagh/emkanrecords-www/compare/v1.4.389...v1.4.390) (2020-11-21)
 
 
