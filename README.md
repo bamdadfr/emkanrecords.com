@@ -1,17 +1,29 @@
-# [emkanrecords-www](https://emkanrecords.com/)
+#
 
-[![version](https://img.shields.io/github/v/release/bamdadsabbagh/emkanrecords-www)](#-emkan-records)
+<p align=center>
+    <font size=10>
+        <a href="https://emkanrecords.com/">
+            emkanrecords
+        </a>
+    </font>
+</p>
 
-[![code climate](https://api.codeclimate.com/v1/badges/d03ca633f0cac75c7520/maintainability)](#-emkan-records)
+<p align=center>
+    <img src="https://img.shields.io/github/v/release/bamdadsabbagh/emkanrecords-www">
+    <img src="https://api.codeclimate.com/v1/badges/d03ca633f0cac75c7520/maintainability">
+</p>
 
-[![dependencies](https://img.shields.io/david/bamdadsabbagh/emkanrecords-www)](#-emkan-records)
-[![snyk](https://img.shields.io/snyk/vulnerabilities/github/bamdadsabbagh/emkanrecords-www)](#-emkan-records)
+<p align=center>
+    <img src="https://img.shields.io/david/bamdadsabbagh/emkanrecords-www">
+    <img src="https://img.shields.io/david/dev/bamdadsabbagh/emkanrecords-www">
+    <img src="https://img.shields.io/snyk/vulnerabilities/github/bamdadsabbagh/emkanrecords-www">
+</p>
 
-## screenshots
+## 📸 Screenshots
 
 <img src="https://i.imgur.com/ty6puSW.gif"/>
 
-## runtime
+## 🐳 Docker
 
 ```bash
 docker run -d --name emkanrecords-www --restart=always -p 8080:80 docker.pkg.github.com/bamdadsabbagh/emkanrecords-www/emkanrecords-www:latest
