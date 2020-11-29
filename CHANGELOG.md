@@ -1,3 +1,16 @@
+## [1.4.584](https://github.com/bamdadsabbagh/emkanrecords-www/compare/v1.4.583...v1.4.584) (2020-11-29)
+
+
+### Bug Fixes
+
+* asfalte: 🐳 docker-base-image-check-gpr__0x100 ([e4705f5](https://github.com/bamdadsabbagh/emkanrecords-www/commit/e4705f57ee53624b695d1eb2dd42bf81896b49a1))
+* asfalte: 🔨 git-commit-force-release__push ([4c36879](https://github.com/bamdadsabbagh/emkanrecords-www/commit/4c36879362e0e4c16fd1a947b9ab12adefe60c54))
+
+
+### Performance Improvements
+
+* upgraded react-scripts and types [force-release] ([810b804](https://github.com/bamdadsabbagh/emkanrecords-www/commit/810b8048fe0f472d6e220547fb4b676d7c9da111))
+
 ## [1.4.583](https://github.com/bamdadsabbagh/emkanrecords-www/compare/v1.4.582...v1.4.583) (2020-11-29)
 
 
