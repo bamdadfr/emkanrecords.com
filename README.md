@@ -1,7 +1,7 @@
 #
 
 <p align=center>
-    <font size=10>
+    <font size=12>
         <a href="https://emkanrecords.com/">
             emkanrecords
         </a>
