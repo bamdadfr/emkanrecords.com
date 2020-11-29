@@ -1,11 +1,9 @@
 #
 
 <p align=center>
-    <font size=12>
-        <a href="https://emkanrecords.com/">
-            emkanrecords
-        </a>
-    </font>
+    <a href="https://emkanrecords.com/">
+        emkanrecords
+    </a>
 </p>
 
 <p align=center>
