@@ -1,11 +1,15 @@
-#
+# <img width=25 src="https://i.imgur.com/hDy0s9d.png"> Emkan Records
 
 <p align=center>
-  <a href="https://emkanrecords.com/"><img width=150 src="https://raw.githubusercontent.com/bamdadsabbagh/emkanrecords-www/master/public/safari-pinned-tab.svg"></a>
+  <a href="https://emkanrecords.com"><img width=150 src="https://i.imgur.com/hDy0s9d.png"></a>
 </p>
 
 <p align=center>
   digital record label from France
+</p>
+
+<p align=center>
+  <img src="https://img.shields.io/badge/role-lead-blueviolet">
 </p>
 
 <p align=center>
@@ -15,7 +19,7 @@
 
 <p align=center>
   <img src="https://img.shields.io/github/languages/count/bamdadsabbagh/emkanrecords-www">
-  <img  src="https://img.shields.io/github/languages/top/bamdadsabbagh/emkanrecords-www">
+  <img src="https://img.shields.io/github/languages/top/bamdadsabbagh/emkanrecords-www">
 </p>
 
 <p align=center>
@@ -29,9 +33,14 @@
   <img src="https://img.shields.io/snyk/vulnerabilities/github/bamdadsabbagh/emkanrecords-www">
 </p>
 
-## 📸 Screenshots
+<p align=center>
+  <img src="https://img.shields.io/badge/ci-github--actions-yellowgreen">
+  <img src="https://img.shields.io/badge/cd-docker-yellowgreen">
+</p>
 
-<img src="https://i.imgur.com/ty6puSW.gif"/>
+<p align=center>
+  <img src="https://i.imgur.com/8YOEFjm.gif">
+</p>
 
 ## 🐳 Docker
 
