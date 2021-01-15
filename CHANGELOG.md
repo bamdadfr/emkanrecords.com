@@ -1,3 +1,10 @@
+## [1.4.696](https://github.com/bamdadsabbagh/emkanrecords-www/compare/v1.4.695...v1.4.696) (2021-01-15)
+
+
+### Bug Fixes
+
+* asfalte: ⚙️ npm-update--0x130 ([ffe217b](https://github.com/bamdadsabbagh/emkanrecords-www/commit/ffe217b0ab2da8f88a09055fb295aaee79a20ef8))
+
 ## [1.4.695](https://github.com/bamdadsabbagh/emkanrecords-www/compare/v1.4.694...v1.4.695) (2021-01-14)
 
 
