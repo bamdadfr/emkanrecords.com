@@ -6,7 +6,7 @@ COPY package.json yarn.lock tsconfig.json ./
 RUN yarn install --pure-lockfile --no-progress
 
 COPY . ./
-RUN npm run build
+RUN yarn build
 
 # final step - serving app
 FROM nginx:alpine
