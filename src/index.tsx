@@ -4,15 +4,11 @@ import * as serviceWorker from './serviceWorker'
 import 'normalize.css'
 import { App } from './components/app'
 
-const Root = (): React.ReactElement => {
-
-    return (
-        <>
-            <App />
-        </>
-    )
-
-}
+const Root = (): React.ReactElement => (
+    <>
+        <App />
+    </>
+)
 
 ReactDOM.render (
     <Root />,
