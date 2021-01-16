@@ -1,3 +1,19 @@
+# [1.5.0](https://github.com/bamdadsabbagh/emkanrecords-www/compare/v1.4.697...v1.5.0) (2021-01-16)
+
+
+### Bug Fixes
+
+* arrow return block ([6cc28f1](https://github.com/bamdadsabbagh/emkanrecords-www/commit/6cc28f1cf48b1c29ec02c715df44d1952335804c))
+* asfalte: ⚙️ npm-update--0x130 ([4414d37](https://github.com/bamdadsabbagh/emkanrecords-www/commit/4414d37ab47c996ccedc73e561afaefc2838dd5e))
+* asfalte: 🔨 git-commit-force-release--onPush ([d416f7f](https://github.com/bamdadsabbagh/emkanrecords-www/commit/d416f7fde1214b8c5add91625b6cde477b43a4fc))
+* asfalte: 🔨 git-commit-force-release--onPush ([005ad8c](https://github.com/bamdadsabbagh/emkanrecords-www/commit/005ad8c7773b644f4ac69bd2c6f816a964918fc5))
+* updated workflows [force-release] ([332ddd5](https://github.com/bamdadsabbagh/emkanrecords-www/commit/332ddd521f559647aee2d6d74c455a1cf9801ef3))
+
+
+### Features
+
+* migrated back to `yarn` ([3ed76b7](https://github.com/bamdadsabbagh/emkanrecords-www/commit/3ed76b7837101146b0a111655ce03c76b5719e60))
+
 ## [1.4.697](https://github.com/bamdadsabbagh/emkanrecords-www/compare/v1.4.696...v1.4.697) (2021-01-16)
 
 
