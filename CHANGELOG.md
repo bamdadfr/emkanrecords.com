@@ -1,3 +1,13 @@
+## [1.5.1](https://github.com/bamdadsabbagh/emkanrecords-www/compare/v1.5.0...v1.5.1) (2021-01-16)
+
+
+### Bug Fixes
+
+* asfalte: 🔨 git-commit-force-release--onPush ([b2d5f6f](https://github.com/bamdadsabbagh/emkanrecords-www/commit/b2d5f6ffb0f18e31286bed71ba488eaffa335fe4))
+* asfalte: 🔨 git-commit-force-release--onPush ([ae66dcc](https://github.com/bamdadsabbagh/emkanrecords-www/commit/ae66dccd8e7a1f6e9d007e3812632b122275d867))
+* dockerfile to yarn [force-release] ([31ef28e](https://github.com/bamdadsabbagh/emkanrecords-www/commit/31ef28e001a9de9b761070871e1af40dd3b47b02))
+* forgot to rename build step [force-release] ([01f6d90](https://github.com/bamdadsabbagh/emkanrecords-www/commit/01f6d90b3434b2bec170b66edf34950b7631a734))
+
 # [1.5.0](https://github.com/bamdadsabbagh/emkanrecords-www/compare/v1.4.697...v1.5.0) (2021-01-16)
 
 
