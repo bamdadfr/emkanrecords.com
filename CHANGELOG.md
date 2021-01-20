@@ -1,3 +1,11 @@
+## [1.5.15](https://github.com/bamdadsabbagh/emkanrecords-www/compare/v1.5.14...v1.5.15) (2021-01-20)
+
+
+### Bug Fixes
+
+* asfalte: 🔨 git-commit-force-release--onPush ([5e99b00](https://github.com/bamdadsabbagh/emkanrecords-www/commit/5e99b00bce82c444f6e334bf5dd5e2dbb906bca5))
+* removed useless service worker ([b18a87a](https://github.com/bamdadsabbagh/emkanrecords-www/commit/b18a87abd76c9210709a09027702d7932f250e07))
+
 ## [1.5.14](https://github.com/bamdadsabbagh/emkanrecords-www/compare/v1.5.13...v1.5.14) (2021-01-20)
 
 
