@@ -3,8 +3,9 @@
 !package.json
 !yarn.lock
 
-!src/
-!public/
-!docker/
+!components
+!pages
+!public
+!styles
 
-!tsconfig.json
+!jsconfig.json

@@ -1,0 +1,87 @@
+@import 'styles/colors';
+
+.release {
+  //background: red;
+
+  // image
+  div:first-child {
+    border-radius: 4px;
+  }
+
+  // details
+  div:last-child {
+    display: flex;
+
+    // title
+    span:first-child {
+      flex: 1;
+      margin-left: 1px;
+
+      // name
+      h3 {
+        color: $secondary-bright;
+        font-size: 1.5rem;
+        margin-top: -4px;
+        //background: red;
+      }
+
+      // artist
+      h2 {
+        color: $secondary-dark;
+        font-size: 1rem;
+        margin-top: -8px;
+      }
+    }
+
+    // icons
+    span:last-child {
+      color: $secondary-dark;
+      font-size: 1.667rem;
+      //font-size: 1.333rem;
+      align-self: flex-start;
+      margin-right: 2px;
+      margin-top: -1px;
+
+      svg {
+        transition: color 250ms ease-in-out;
+      }
+
+      a {
+        display: inline-flex;
+        //background: red;
+
+        // spotify
+        &:first-child {
+          margin-right: 7px;
+
+          &:hover {
+            color: $icon-spotify;
+          }
+        }
+
+        // youtube
+        &:nth-child(2) {
+          margin-right: 6px;
+
+          &:hover {
+            color: $icon-youtube;
+          }
+        }
+
+        // cart
+        &:last-child {
+          //background: blue;
+          svg {
+            padding-top: 1px;
+            padding-right: 1px;
+          }
+
+          &:hover {
+            color: $icon-cart;
+          }
+        }
+      }
+
+    }
+  }
+}
