@@ -3,9 +3,7 @@
 !package.json
 !yarn.lock
 
-!components
-!pages
 !public
-!styles
+!src
 
 !jsconfig.json

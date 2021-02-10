@@ -1,5 +1,4 @@
-import Head from 'next/head'
-import Meta from '@/components/layout-meta'
+import Meta from './layout-meta'
 import LayoutHeader from './layout-header'
 import LayoutNav from './layout-nav'
 import LayoutMain from './layout-main'
@@ -11,12 +10,6 @@ export default function Layout ({ children }) {
     return (
         <>
             <AnimationFade>
-                {/* <Head> */}
-                {/*    <title> */}
-                {/*        Emkan Records */}
-                {/*    </title> */}
-                {/*    /!* <link rel="icon" href="/favicon-32x32.png"/> *!/ */}
-                {/* </Head> */}
 
                 <Meta/>
 

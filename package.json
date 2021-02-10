@@ -1,33 +1,37 @@
 {
-  "name": "bamdadsabbagh-www-nextjs",
-  "version": "0.1.0",
-  "private": true,
+  "name": "emkanrecords-www",
+  "version": "1.5.35",
+  "description": "Emkan Records - digital record label from France.",
+  "license": "MIT",
+  "author": {
+    "name": "Bamdad Sabbagh",
+    "email": "hello@bamdadsabbagh.com",
+    "url": "https://bamdadsabbagh.com/"
+  },
   "scripts": {
     "build": "next build",
     "dev": "next dev",
     "export": "next export",
     "lint": "yarn lint:es",
-    "lint:es": "yarn lint:es:components && yarn lint:es:pages",
-    "lint:es:components": "eslint components --ext .js,.jsx,.ts,.tsx --fix",
-    "lint:es:pages": "eslint pages --ext .js,.jsx,.ts,.tsx --fix",
+    "lint:es": "eslint src/ --ext .js,.jsx,.ts,.tsx --fix",
     "lint:style": "yarn lint:style:components && yarn lint:style:pages",
-    "lint:style:components": "stylelint 'components/**/*.{css,scss,js,jsx,ts,tsx}' --fix",
-    "lint:style:pages": "stylelint 'pages/**/*.{css,scss,js,jsx,ts,tsx}' --fix",
+    "lint:style:components": "stylelint 'src/components/**/*.{css,scss,js,jsx,ts,tsx}' --fix",
+    "lint:style:pages": "stylelint 'src/pages/**/*.{css,scss,js,jsx,ts,tsx}' --fix",
     "package:clean": "rm -rf node_modules",
     "package:reinstall": "yarn package:clean && yarn",
     "package:sort": "npx sort-package-json",
     "start": "next start"
   },
   "dependencies": {
-    "@fontsource/roboto": "^4.2.0",
     "next": "10.0.6",
     "react": "17.0.1",
     "react-dom": "17.0.1",
-    "react-icons": "^4.2.0",
-    "react-spring": "^8.0.27",
-    "sass": "^1.32.6"
+    "react-spring": "^8.0.27"
   },
   "devDependencies": {
-    "@bamdadsabbagh/eslint-config": "^1.5.13"
+    "@bamdadsabbagh/eslint-config": "^1.5.13",
+    "@fontsource/roboto": "^4.2.0",
+    "react-icons": "^4.2.0",
+    "sass": "^1.32.6"
   }
 }

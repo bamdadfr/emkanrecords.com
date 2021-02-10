@@ -1,6 +1,6 @@
 import { useRouter } from 'next/router'
-import styles from '@/components/layout-nav-link.module.scss'
 import Link from 'next/link'
+import styles from './layout-nav-link.module.scss'
 
 export default function LayoutNavLink ({ href, text }) {
 

@@ -1,6 +1,6 @@
 import { FaAt } from 'react-icons/fa'
-import AnimationFade from '@/components/animation-fade'
 import Head from 'next/head'
+import AnimationFade from '../components/animation-fade'
 import styles from './index.module.scss'
 
 export default function Index () {

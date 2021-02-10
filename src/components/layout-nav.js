@@ -1,4 +1,4 @@
-import LayoutNavLink from '@/components/layout-nav-link'
+import LayoutNavLink from './layout-nav-link'
 import styles from './layout-nav.module.scss'
 
 export default function LayoutNav () {
