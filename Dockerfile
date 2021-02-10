@@ -1,19 +1,31 @@
-FROM node:alpine as build
+# build
+FROM node:lts-alpine AS build
 
 WORKDIR /app
+COPY package.json yarn.lock ./
+RUN yarn install --frozen-lockfile
 
-COPY package.json yarn.lock tsconfig.json ./
-RUN yarn install --pure-lockfile --no-progress
-
-COPY . ./
+COPY . .
 RUN yarn build
 
-# final step - serving app
-FROM nginx:alpine
+# production dependencies
+FROM node:lts-alpine AS dependencies
+
+WORKDIR /app
+COPY package.json yarn.lock ./
+RUN yarn install --production --frozen-lockfile
+
+# serve
+FROM node:lts-alpine
 LABEL maintainer="Bamdad Sabbagh <devops@bamdadsabbagh.com>"
 
-COPY --from=build /app/build /app
-COPY docker/nginx.conf /etc/nginx/conf.d/default.conf
+WORKDIR /app
+ENV NODE_ENV=production
 
-EXPOSE 80
-CMD ["nginx", "-g", "daemon off;"]
+# COPY --from=builder /app/next.config.js ./
+COPY --from=build /app/public ./public
+COPY --from=build /app/.next ./.next
+COPY --from=dependencies /app/node_modules ./node_modules
+
+EXPOSE 3000
+CMD ["node_modules/.bin/next", "start"]

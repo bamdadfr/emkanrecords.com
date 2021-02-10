@@ -1,0 +1,12 @@
+@import 'src/styles/colors';
+
+.emailPrefix {
+  color: $primary;
+}
+
+.emailAt {
+  margin-bottom: -2px;
+  margin-left: 1px;
+  margin-right: 1px;
+  font-size: 0.9em;
+}
