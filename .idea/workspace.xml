@@ -2,72 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1f235642-03ed-4414-8ec4-307610e8520b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/components/animation-fade.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/layout-footer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/layout-footer.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/layout-header.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/layout-header.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/layout-main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/layout-main.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/layout-meta.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/layout-nav-link.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/layout-nav-link.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/layout-nav.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/layout-nav.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/layout.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/release-body.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/release-body.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/releases.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jsconfig.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/next.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/404.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/_app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/_document.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/index.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/releases.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/releases.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/header_bright.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/lotties/26603-spotify-rounded.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/lotties/408-youtube-icon-reveal.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/lotties/746-shopping-cart.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/oldLotties/37725-loading-50-among-us.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/oldLotties/41446-teh-tarik.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/oldLotties/Composition_1(1).json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/oldLotties/Composition_1.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/releases/EMK000.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/releases/EMK001.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/releases/EMK002.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/releases/EMK003.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/releases/EMK004.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/releases/EMK005.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/releases/EMK006.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/releases/EMK007.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/releases/EMK008.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/favicon/android-chrome-192x192.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/favicon/android-chrome-512x512.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/favicon/apple-touch-icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/favicon/browserconfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/favicon/favicon-16x16.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/favicon/favicon-32x32.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/favicon/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/favicon/mstile-150x150.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/favicon/safari-pinned-tab.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/favicon/site.webmanifest" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/styles/colors.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/styles/index.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/styles/reset.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/styles/sizes.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.dockerignore" beforeDir="false" afterPath="$PROJECT_DIR$/.dockerignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.markdownlint.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.stylelintrc.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker/nginx.conf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/misc/mail.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/jsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/next.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/next.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -117,8 +56,30 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1612941037220</updated>
-      <workItem from="1612941037737" duration="1514000" />
+      <workItem from="1612941037737" duration="2245000" />
     </task>
+    <task id="LOCAL-00001" summary="clean">
+      <created>1612942724658</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1612942724659</updated>
+    </task>
+    <task id="LOCAL-00002" summary="intellij">
+      <created>1612942734483</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1612942734483</updated>
+    </task>
+    <task id="LOCAL-00003" summary="feat: moved to nextjs">
+      <created>1612942841174</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1612942841174</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -134,6 +95,12 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="clean" />
+    <MESSAGE value="intellij" />
+    <MESSAGE value="feat: moved to nextjs" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: moved to nextjs" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
