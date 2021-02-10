@@ -8,7 +8,7 @@ export default function LayoutNavLink ({ href, text }) {
     const activeClass = router.pathname === href ? styles.active : null
 
     return (
-        <Link className={styles.link} href={href}>
+        <Link href={href}>
             <a>
                 <button className={activeClass} type="button">
                     {text}

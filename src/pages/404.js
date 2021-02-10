@@ -1,4 +1,4 @@
-import AnimationFade from '../components/animation-fade'
+import AnimationFade from '@/components/animation-fade'
 
 export default function NotFound () {
 

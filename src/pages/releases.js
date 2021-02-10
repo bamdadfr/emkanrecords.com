@@ -1,8 +1,8 @@
 import { Fragment } from 'react'
 import Head from 'next/head'
-import AnimationFade from '../components/animation-fade'
-import ReleaseBody from '../components/release-body'
-import ReleasesData from '../data/releases'
+import AnimationFade from '@/components/animation-fade'
+import ReleaseBody from '@/components/release-body'
+import ReleasesData from '@/data/releases'
 import styles from './releases.module.scss'
 
 export default function Releases () {
