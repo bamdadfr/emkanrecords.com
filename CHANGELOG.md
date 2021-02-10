@@ -1,3 +1,16 @@
+# [1.6.0](https://github.com/emkanrecords/emkanrecords-www/compare/v1.5.35...v1.6.0) (2021-02-10)
+
+
+### Bug Fixes
+
+* asfalte: 🔨 git-commit-force-release--onPush ([d37dd43](https://github.com/emkanrecords/emkanrecords-www/commit/d37dd4310ad0095727a8ed6363ca91956c6ba7fb))
+* docker is now correctly building ([b47a2f1](https://github.com/emkanrecords/emkanrecords-www/commit/b47a2f127e585dcddb8a7405091789f757a854c2))
+
+
+### Features
+
+* moved to nextjs ([f05d221](https://github.com/emkanrecords/emkanrecords-www/commit/f05d22102fbd1a8c2b5659c1b35d330b79d8407a))
+
 ## [1.5.35](https://github.com/bamdadsabbagh/emkanrecords-www/compare/v1.5.34...v1.5.35) (2021-02-10)
 
 
