@@ -41,5 +41,5 @@
 ## 🐳 Docker
 
 ```bash
-docker run -d --name emkanrecords-www --restart=always -p 8080:80 docker.pkg.github.com/emkanrecords/emkanrecords-www/emkanrecords-www:latest
+docker run -d --name emkanrecords-www --restart=always -p 8080:3000 docker.pkg.github.com/emkanrecords/emkanrecords-www/emkanrecords-www:latest
 ```
