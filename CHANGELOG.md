@@ -1,3 +1,14 @@
+## [1.6.1](https://github.com/emkanrecords/emkanrecords-www/compare/v1.6.0...v1.6.1) (2021-02-11)
+
+
+### Bug Fixes
+
+* asfalte: ⚙️ yarn-upgrade--0x130 ([f1daa20](https://github.com/emkanrecords/emkanrecords-www/commit/f1daa20de77c2004c83085bc71ce13c1d3969799))
+* asfalte: ⚙️ yarn-upgrade--0x130 ([d32c864](https://github.com/emkanrecords/emkanrecords-www/commit/d32c864494080eb732792b0ddd69d1b8353f2cee))
+* asfalte: ⚙️ yarn-upgrade--0x130 ([87b0282](https://github.com/emkanrecords/emkanrecords-www/commit/87b0282bf4ebddd0f5e330213ab421f244d6d5b5))
+* asfalte: ⚙️ yarn-upgrade--0x130 ([f157951](https://github.com/emkanrecords/emkanrecords-www/commit/f157951c19c791a0c6150438fdb2d83b41f84633))
+* removed some dead code + relative paths ([861d212](https://github.com/emkanrecords/emkanrecords-www/commit/861d2123a8b6a503d706b21b7a881af1744992d3))
+
 # [1.6.0](https://github.com/emkanrecords/emkanrecords-www/compare/v1.5.35...v1.6.0) (2021-02-10)
 
 
