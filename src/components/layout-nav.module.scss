@@ -6,9 +6,9 @@
   grid-template-columns: 1fr 1fr;
   grid-column-gap: var(--base-gap);
 
-  a {
+  > a {
 
-    button {
+    > button {
       height: 36px;
       width: 100%;
 
