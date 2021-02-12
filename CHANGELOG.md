@@ -1,3 +1,12 @@
+## [1.7.1](https://github.com/emkanrecords/emkanrecords-www/compare/v1.7.0...v1.7.1) (2021-02-12)
+
+
+### Bug Fixes
+
+* asfalte: 🔨 git-commit-force-release--onPush ([84f0fcc](https://github.com/emkanrecords/emkanrecords-www/commit/84f0fcca820348df19fdb56e88b7e09abaa2e0d6))
+* better matomo implementation [#64](https://github.com/emkanrecords/emkanrecords-www/issues/64) ([99a7436](https://github.com/emkanrecords/emkanrecords-www/commit/99a7436150d928e3913c3d815b5c990428cb49ec))
+* slightly better scoping ([bd8d5e0](https://github.com/emkanrecords/emkanrecords-www/commit/bd8d5e0524f4c598f5cd755f879a32f814da9ed5))
+
 # [1.7.0](https://github.com/emkanrecords/emkanrecords-www/compare/v1.6.1...v1.7.0) (2021-02-12)
 
 
