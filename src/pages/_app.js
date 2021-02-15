@@ -1,18 +1,30 @@
 import '@/styles/index.scss'
 import Layout from '@/components/layout'
 import { useEffect } from 'react'
-import { init } from '@/lib/matomo'
+import { useRouter } from 'next/router'
+import * as gtag from '@/lib/gtag'
 
 export default function MyApp ({ Component, pageProps }) {
 
+    const router = useRouter ()
+
     useEffect (() => {
 
-        init ({
-            'url': 'https://matomo.emkanrecords.com/',
-            'siteId': '6',
-        })
+        const handleRouteChange = (url) => {
 
-    }, [])
+            gtag.pageview (url)
+
+        }
+
+        router.events.on ('routeChangeComplete', handleRouteChange)
+
+        return () => {
+
+            router.events.off ('routeChangeComplete', handleRouteChange)
+
+        }
+
+    }, [router.events])
 
     return (
         <Layout>
