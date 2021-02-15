@@ -1,3 +1,15 @@
+# [1.8.0](https://github.com/emkanrecords/emkanrecords-www/compare/v1.7.2...v1.8.0) (2021-02-15)
+
+
+### Bug Fixes
+
+* asfalte: 🔨 git-commit-force-release--onPush ([4512bd1](https://github.com/emkanrecords/emkanrecords-www/commit/4512bd1bc0173cde25aa9b7c4a32220143f169db))
+
+
+### Features
+
+* switch to GA ([03836f1](https://github.com/emkanrecords/emkanrecords-www/commit/03836f1d66799b4d00aafa7a5e679ecd6afd2ce1))
+
 ## [1.7.2](https://github.com/emkanrecords/emkanrecords-www/compare/v1.7.1...v1.7.2) (2021-02-15)
 
 
