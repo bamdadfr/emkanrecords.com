@@ -1,3 +1,10 @@
+## [1.8.7](https://github.com/emkanrecords/emkanrecords-www/compare/v1.8.6...v1.8.7) (2021-03-15)
+
+
+### Bug Fixes
+
+* asfalte: ⚙️ yarn-upgrade--onMondays-1000 ([472d11e](https://github.com/emkanrecords/emkanrecords-www/commit/472d11e4fed1b34529c95645ca664973a2160e90))
+
 ## [1.8.6](https://github.com/emkanrecords/emkanrecords-www/compare/v1.8.5...v1.8.6) (2021-03-12)
 
 
