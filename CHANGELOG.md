@@ -1,3 +1,11 @@
+## [1.8.9](https://github.com/emkanrecords/emkanrecords-www/compare/v1.8.8...v1.8.9) (2021-03-25)
+
+
+### Bug Fixes
+
+* asfalte: 🔨 git-commit-force-release--onPush ([e984c85](https://github.com/emkanrecords/emkanrecords-www/commit/e984c850bcbb8e6738c2dd867404060af8032c9c))
+* **styles:** linting rules and `sass-reset` ([1546fda](https://github.com/emkanrecords/emkanrecords-www/commit/1546fda11b690f2014c8dd7e84a2d47847fe54c8))
+
 ## [1.8.8](https://github.com/emkanrecords/emkanrecords-www/compare/v1.8.7...v1.8.8) (2021-03-22)
 
 
