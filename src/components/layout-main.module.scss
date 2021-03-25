@@ -1,17 +1,18 @@
 @import 'src/styles/colors';
 
 .container {
-  * {
-    //line-height: 1.75;
-    line-height: 1.6;
-    letter-spacing: 0.00938rem;
-  }
+    * {
+        //line-height: 1.75;
 
-  h1 {
-    color: $secondary-bright;
-  }
+        line-height: 1.6;
+        letter-spacing: 0.00938rem;
+    }
 
-  p {
-    color: $secondary-dark;
-  }
+    h1 {
+        color: $secondary-bright;
+    }
+
+    p {
+        color: $secondary-dark;
+    }
 }

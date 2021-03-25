@@ -1,9 +1,9 @@
 .container {
-  display: grid;
-  grid-template-columns: repeat(var(--columns), 1fr);
-  grid-column-gap: var(--base-gap);
-  grid-row-gap: var(--base-gap);
-  align-items: center;
-  //justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(var(--columns), 1fr);
+    grid-column-gap: var(--base-gap);
+    grid-row-gap: var(--base-gap);
+    align-items: center;
+    //justify-content: center;
 }
 
