@@ -1,3 +1,10 @@
+## [1.8.13](https://github.com/emkanrecords/emkanrecords-www/compare/v1.8.12...v1.8.13) (2021-04-07)
+
+
+### Bug Fixes
+
+* asfalte: 🐳 docker-gpr-base-image-check--0x100 ([38b99c1](https://github.com/emkanrecords/emkanrecords-www/commit/38b99c10ba83a825a49bc51b378b53397604f2da))
+
 ## [1.8.12](https://github.com/emkanrecords/emkanrecords-www/compare/v1.8.11...v1.8.12) (2021-04-05)
 
 
