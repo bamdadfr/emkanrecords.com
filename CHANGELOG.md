@@ -1,3 +1,17 @@
+# [1.9.0](https://github.com/emkanrecords/emkanrecords-www/compare/v1.8.16...v1.9.0) (2021-04-19)
+
+
+### Bug Fixes
+
+* asfalte: 🔨 git-commit-force-release--onPush ([276687a](https://github.com/emkanrecords/emkanrecords-www/commit/276687ac3004784f52b89cfb777253958f1c2fa7))
+
+
+### Features
+
+* **app:** better coding style and file structure ([bc462c4](https://github.com/emkanrecords/emkanrecords-www/commit/bc462c4c1789851113d7ca3daea271c0fdb1a242))
+* **deps:** upgraded to latest ([30f75a0](https://github.com/emkanrecords/emkanrecords-www/commit/30f75a04b9cd74d2e11529cff0a1bb28298f893f))
+* **eslint:** `js` file instead of `json` ([70f8c1d](https://github.com/emkanrecords/emkanrecords-www/commit/70f8c1d1d2b7c9de1ed0b03180e975ba1eae5764))
+
 ## [1.8.16](https://github.com/emkanrecords/emkanrecords-www/compare/v1.8.15...v1.8.16) (2021-04-19)
 
 
