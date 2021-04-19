@@ -1,3 +1,11 @@
+## [1.9.1](https://github.com/emkanrecords/emkanrecords-www/compare/v1.9.0...v1.9.1) (2021-04-19)
+
+
+### Bug Fixes
+
+* asfalte: 🔨 git-commit-force-release--onPush ([1948fb3](https://github.com/emkanrecords/emkanrecords-www/commit/1948fb3581f5e7a99c091763dc36b8cdc041ca4c))
+* **layout-meta:** missing space ([e2076c2](https://github.com/emkanrecords/emkanrecords-www/commit/e2076c229bf57c4da3a41c9e8f3fab073fdb881f))
+
 # [1.9.0](https://github.com/emkanrecords/emkanrecords-www/compare/v1.8.16...v1.9.0) (2021-04-19)
 
 
