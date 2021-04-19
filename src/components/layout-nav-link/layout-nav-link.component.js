@@ -1,8 +1,10 @@
+import React from 'react'
+import PropTypes from 'prop-types'
 import { useRouter } from 'next/router'
 import Link from 'next/link'
 import styles from './layout-nav-link.module.scss'
 
-export default function LayoutNavLink ({ href, text }) {
+function LayoutNavLinkComponent ({ href, text }) {
 
     const router = useRouter ()
     const activeClass = router.pathname === href ? styles.active : null
@@ -19,3 +21,9 @@ export default function LayoutNavLink ({ href, text }) {
 
 }
 
+LayoutNavLinkComponent.propTypes = {
+    'href': PropTypes.string.isRequired,
+    'text': PropTypes.string.isRequired,
+}
+
+export default LayoutNavLinkComponent

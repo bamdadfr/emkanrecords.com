@@ -1,8 +1,8 @@
-import { Fragment } from 'react'
+import React, { Fragment } from 'react'
 import Head from 'next/head'
-import AnimationFade from '@/components/animation-fade'
-import ReleaseBody from '@/components/release-body'
-import ReleasesData from '@/data/releases'
+import AnimationFadeComponent from '@/components/animation-fade/animation-fade.component'
+import ReleaseBodyComponent from '@/components/release-body/release-body.component'
+import { ReleasesData } from '@/data/releases.data'
 import styles from './releases.module.scss'
 
 export default function Releases () {
@@ -14,22 +14,26 @@ export default function Releases () {
                     Releases | Emkan Records
                 </title>
             </Head>
-            <AnimationFade>
+            <AnimationFadeComponent>
                 <h1
                     style={{ 'display': 'none' }}
                 >
                     releases
                 </h1>
                 <div className={styles.container}>
-                    {ReleasesData.map (release => (
-                        <Fragment key={release.id}>
-                            <ReleaseBody>
-                                {release}
-                            </ReleaseBody>
-                        </Fragment>
-                    ))}
+                    {
+                        ReleasesData.map (
+                            (release) => (
+                                <Fragment key={release.id}>
+                                    <ReleaseBodyComponent>
+                                        {release}
+                                    </ReleaseBodyComponent>
+                                </Fragment>
+                            ),
+                        )
+                    }
                 </div>
-            </AnimationFade>
+            </AnimationFadeComponent>
         </>
     )
 

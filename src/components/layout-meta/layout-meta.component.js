@@ -1,6 +1,7 @@
+import React from 'react'
 import Head from 'next/head'
 
-export default function Meta () {
+function LayoutMetaComponent() {
 
     return (
         <Head>
@@ -41,3 +42,5 @@ export default function Meta () {
     )
 
 }
+
+export default LayoutMetaComponent

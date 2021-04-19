@@ -1,13 +1,16 @@
-import AnimationFade from '@/components/animation-fade'
+import React from 'react'
+import AnimationFadeComponent from '@/components/animation-fade/animation-fade.component'
 
-export default function NotFound () {
+function NotFound () {
 
     return (
-        <AnimationFade>
+        <AnimationFadeComponent>
             <h1>
                 Page Not Found
             </h1>
-        </AnimationFade>
+        </AnimationFadeComponent>
     )
 
 }
+
+export default NotFound

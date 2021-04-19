@@ -1,6 +1,7 @@
+import React from 'react'
 import { FaAt } from 'react-icons/fa'
 import Head from 'next/head'
-import AnimationFade from '@/components/animation-fade'
+import AnimationFadeComponent from '@/components/animation-fade/animation-fade.component'
 import styles from './index.module.scss'
 
 export default function Index () {
@@ -12,7 +13,7 @@ export default function Index () {
                     Emkan Records
                 </title>
             </Head>
-            <AnimationFade>
+            <AnimationFadeComponent>
                 <h1>
                     digital record label from France.
                 </h1>
@@ -37,7 +38,7 @@ export default function Index () {
                     <br/>
                     soundcloud links only
                 </p>
-            </AnimationFade>
+            </AnimationFadeComponent>
         </>
     )
 

@@ -1,6 +1,7 @@
+import React from 'react'
 import styles from './layout-footer.module.scss'
 
-export default function LayoutFooter () {
+function LayoutFooterComponent () {
 
     return (
         <footer className={styles.container}>
@@ -17,3 +18,5 @@ export default function LayoutFooter () {
     )
 
 }
+
+export default LayoutFooterComponent

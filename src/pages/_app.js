@@ -1,10 +1,11 @@
+import React, { useEffect } from 'react'
+import PropTypes from 'prop-types'
 import '@/styles/index.scss'
-import Layout from '@/components/layout'
-import { useEffect } from 'react'
+import LayoutComponent from '@/components/layout/layout.component'
 import { useRouter } from 'next/router'
 import * as gtag from '@/lib/gtag'
 
-export default function MyApp ({ Component, pageProps }) {
+function EmkanApp ({ Component, pageProps }) {
 
     const router = useRouter ()
 
@@ -27,10 +28,17 @@ export default function MyApp ({ Component, pageProps }) {
     }, [router.events])
 
     return (
-        <Layout>
+        <LayoutComponent>
+            {/* eslint-disable-next-line react/jsx-props-no-spreading */}
             <Component {...pageProps} />
-        </Layout>
+        </LayoutComponent>
     )
 
 }
 
+EmkanApp.propTypes = {
+    'Component': PropTypes.func.isRequired,
+    'pageProps': PropTypes.shape ({}).isRequired,
+}
+
+export default EmkanApp
