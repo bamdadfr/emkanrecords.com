@@ -41,7 +41,9 @@ module.exports = {
         if (!options.isServer) {
 
             config.resolve.alias['@sentry/node'] = '@sentry/browser'
-        
+
+            config.resolve.fallback.fs = false
+
         }
 
         // Define an environment variable so source code can check whether or not
@@ -77,11 +79,11 @@ module.exports = {
                     'release': VERCEL_GIT_COMMIT_SHA,
                 }),
             )
-        
+
         }
 
         return config
-    
+
     },
     basePath,
 }
