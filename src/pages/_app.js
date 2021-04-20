@@ -1,11 +1,13 @@
 import React, { useEffect } from 'react'
-import PropTypes from 'prop-types'
 import '@/styles/index.scss'
 import LayoutComponent from '@/components/layout/layout.component'
 import { useRouter } from 'next/router'
 import * as gtag from '@/lib/gtag'
+import { init as sentryInit } from '@/lib/sentry'
 
-function MyApp ({ Component, pageProps }) {
+sentryInit ()
+
+function MyApp ({ Component, pageProps, err }) {
 
     const router = useRouter ()
 
@@ -30,15 +32,10 @@ function MyApp ({ Component, pageProps }) {
     return (
         <LayoutComponent>
             {/* eslint-disable-next-line react/jsx-props-no-spreading */}
-            <Component {...pageProps} />
+            <Component {...pageProps} err={err}/>
         </LayoutComponent>
     )
 
-}
-
-MyApp.propTypes = {
-    'Component': PropTypes.func.isRequired,
-    'pageProps': PropTypes.shape ({}).isRequired,
 }
 
 export default MyApp
