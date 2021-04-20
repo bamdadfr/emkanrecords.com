@@ -3,9 +3,6 @@ import '@/styles/index.scss'
 import LayoutComponent from '@/components/layout/layout.component'
 import { useRouter } from 'next/router'
 import * as gtag from '@/lib/gtag'
-import { init as sentryInit } from '@/lib/sentry'
-
-sentryInit ()
 
 function MyApp ({ Component, pageProps, err }) {
 
