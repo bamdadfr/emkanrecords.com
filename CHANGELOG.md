@@ -1,3 +1,11 @@
+## [1.10.2](https://github.com/emkanrecords/emkanrecords-www/compare/v1.10.1...v1.10.2) (2021-04-20)
+
+
+### Bug Fixes
+
+* asfalte: 🔨 git-commit-force-release--onPush ([39e94ca](https://github.com/emkanrecords/emkanrecords-www/commit/39e94ca71a6534bf3ee47447239e17e29e12ba2e))
+* **sentry:** removed for the time being ([84fe484](https://github.com/emkanrecords/emkanrecords-www/commit/84fe4847eea0bb2a02a0174836779c6539901dfd))
+
 ## [1.10.1](https://github.com/emkanrecords/emkanrecords-www/compare/v1.10.0...v1.10.1) (2021-04-20)
 
 
