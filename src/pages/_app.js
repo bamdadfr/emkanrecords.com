@@ -5,7 +5,7 @@ import LayoutComponent from '@/components/layout/layout.component'
 import { useRouter } from 'next/router'
 import * as gtag from '@/lib/gtag'
 
-function EmkanApp ({ Component, pageProps }) {
+function MyApp ({ Component, pageProps }) {
 
     const router = useRouter ()
 
@@ -36,9 +36,9 @@ function EmkanApp ({ Component, pageProps }) {
 
 }
 
-EmkanApp.propTypes = {
+MyApp.propTypes = {
     'Component': PropTypes.func.isRequired,
     'pageProps': PropTypes.shape ({}).isRequired,
 }
 
-export default EmkanApp
+export default MyApp

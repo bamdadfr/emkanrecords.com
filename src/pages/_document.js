@@ -2,7 +2,7 @@ import React from 'react'
 import Document, { Html, Head, Main, NextScript } from 'next/document'
 import { GA_TRACKING_ID } from '@/lib/gtag'
 
-class EmkanDocument extends Document {
+class MyDocument extends Document {
 
     render () {
 
@@ -28,4 +28,4 @@ class EmkanDocument extends Document {
 
 }
 
-export default EmkanDocument
+export default MyDocument
