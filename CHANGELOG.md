@@ -1,3 +1,12 @@
+## [1.10.1](https://github.com/emkanrecords/emkanrecords-www/compare/v1.10.0...v1.10.1) (2021-04-20)
+
+
+### Bug Fixes
+
+* asfalte: 🔨 git-commit-force-release--onPush ([3028d12](https://github.com/emkanrecords/emkanrecords-www/commit/3028d1238c21812897c43feff5d413aa259670cd))
+* **sentry:** `fs` resolving with webpack ([90886ff](https://github.com/emkanrecords/emkanrecords-www/commit/90886ff91549e132230981f01fc9c0df91b72791))
+* **sentry:** init script ([d94c60d](https://github.com/emkanrecords/emkanrecords-www/commit/d94c60df270202616eaca558f03dd7d07c9366cd))
+
 # [1.10.0](https://github.com/emkanrecords/emkanrecords-www/compare/v1.9.1...v1.10.0) (2021-04-20)
 
 
