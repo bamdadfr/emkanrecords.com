@@ -1,3 +1,15 @@
+# [1.10.0](https://github.com/emkanrecords/emkanrecords-www/compare/v1.9.1...v1.10.0) (2021-04-20)
+
+
+### Bug Fixes
+
+* asfalte: 🔨 git-commit-force-release--onPush ([4a6ab2d](https://github.com/emkanrecords/emkanrecords-www/commit/4a6ab2d0a7c20866d0b30cf93c04865556a0714d))
+
+
+### Features
+
+* **app:** added `sentry` issue tracking ([06f51b2](https://github.com/emkanrecords/emkanrecords-www/commit/06f51b2867f8b44f0d61b076d978454801559479))
+
 ## [1.9.1](https://github.com/emkanrecords/emkanrecords-www/compare/v1.9.0...v1.9.1) (2021-04-19)
 
 
