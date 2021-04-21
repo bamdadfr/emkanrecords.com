@@ -1,8 +1,8 @@
 import React from 'react'
 import Head from 'next/head'
 
-function LayoutMetaComponent () {
-        
+export default function LayoutMetaComponent () {
+
     return (
         <Head>
             <link
@@ -42,5 +42,3 @@ function LayoutMetaComponent () {
     )
 
 }
-
-export default LayoutMetaComponent

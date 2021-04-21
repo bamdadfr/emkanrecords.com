@@ -4,7 +4,7 @@ import LayoutComponent from '@/components/layout/layout.component'
 import { useRouter } from 'next/router'
 import * as gtag from '@/lib/gtag'
 
-function MyApp ({ Component, pageProps, err }) {
+export default function MyApp ({ Component, pageProps, err }) {
 
     const router = useRouter ()
 
@@ -34,5 +34,3 @@ function MyApp ({ Component, pageProps, err }) {
     )
 
 }
-
-export default MyApp

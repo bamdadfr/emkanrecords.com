@@ -7,7 +7,7 @@ import LayoutMainComponent from '../layout-main/layout-main.component'
 import LayoutFooterComponent from '../layout-footer/layout-footer.component'
 import AnimationFadeComponent from '../animation-fade/animation-fade.component'
 
-function LayoutComponent ({ children }) {
+export default function LayoutComponent ({ children }) {
 
     return (
         <>
@@ -32,5 +32,3 @@ function LayoutComponent ({ children }) {
 LayoutComponent.propTypes = {
     'children': PropTypes.node.isRequired,
 }
-
-export default LayoutComponent

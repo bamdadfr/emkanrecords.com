@@ -1,7 +1,7 @@
 import React from 'react'
 import AnimationFadeComponent from '@/components/animation-fade/animation-fade.component'
 
-function NotFound () {
+export default function NotFound () {
 
     return (
         <AnimationFadeComponent>
@@ -12,5 +12,3 @@ function NotFound () {
     )
 
 }
-
-export default NotFound

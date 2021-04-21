@@ -4,7 +4,7 @@ import Image from 'next/image'
 import { FaShoppingCart, FaSpotify, FaYoutube } from 'react-icons/fa'
 import styles from './release-body.module.scss'
 
-function ReleaseBodyComponent ({ children }) {
+export default function ReleaseBodyComponent ({ children }) {
 
     const { image, artist, name, url, id } = children
     const paddedId = id.toString ().padStart (3, '0')
@@ -68,5 +68,3 @@ ReleaseBodyComponent.propTypes = {
         'id': PropTypes.number.isRequired,
     }).isRequired,
 }
-
-export default ReleaseBodyComponent

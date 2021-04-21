@@ -2,7 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import styles from './layout-main.module.scss'
 
-function LayoutMainComponent ({ children }) {
+export default function LayoutMainComponent ({ children }) {
 
     return (
         <main className={styles.container}>
@@ -15,5 +15,3 @@ function LayoutMainComponent ({ children }) {
 LayoutMainComponent.propTypes = {
     'children': PropTypes.node.isRequired,
 }
-
-export default LayoutMainComponent

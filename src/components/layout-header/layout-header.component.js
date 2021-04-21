@@ -2,7 +2,7 @@ import React from 'react'
 import Image from 'next/image'
 import styles from './layout-header.module.scss'
 
-function LayoutHeaderComponent () {
+export default function LayoutHeaderComponent () {
 
     return (
         <header className={styles.container}>
@@ -17,5 +17,3 @@ function LayoutHeaderComponent () {
     )
 
 }
-
-export default LayoutHeaderComponent

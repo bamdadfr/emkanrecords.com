@@ -4,7 +4,7 @@ import { useRouter } from 'next/router'
 import Link from 'next/link'
 import styles from './layout-nav-link.module.scss'
 
-function LayoutNavLinkComponent ({ href, text }) {
+export default function LayoutNavLinkComponent ({ href, text }) {
 
     const router = useRouter ()
     const activeClass = router.pathname === href ? styles.active : null
@@ -25,5 +25,3 @@ LayoutNavLinkComponent.propTypes = {
     'href': PropTypes.string.isRequired,
     'text': PropTypes.string.isRequired,
 }
-
-export default LayoutNavLinkComponent

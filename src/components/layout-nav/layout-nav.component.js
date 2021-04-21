@@ -2,7 +2,7 @@ import React from 'react'
 import LayoutNavLinkComponent from '../layout-nav-link/layout-nav-link.component'
 import styles from './layout-nav.module.scss'
 
-function LayoutNavComponent () {
+export default function LayoutNavComponent () {
 
     return (
         <nav className={styles.container}>
@@ -12,5 +12,3 @@ function LayoutNavComponent () {
     )
 
 }
-
-export default LayoutNavComponent
