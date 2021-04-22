@@ -32,7 +32,7 @@ jobs:
             semantic-release-chrome \
             semantic-release-firefox-add-on \
             aggregate-error
-        
+
       - run: semantic-release
         env:
           GH_TOKEN: ${{ secrets.PAT }}

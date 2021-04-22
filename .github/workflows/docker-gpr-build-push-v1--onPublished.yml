@@ -7,7 +7,7 @@ on:
 
 jobs:
   docker-gpr-build-push-v1--onPublished:
-    runs-on: ubuntu-latest 
+    runs-on: ubuntu-latest
     steps:
 
       - run: echo "IMAGE=$(echo "${{ github.repository }}" | awk -F / '{print $2}' | sed -e "s/:refs//")" >> $GITHUB_ENV
