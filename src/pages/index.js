@@ -10,7 +10,7 @@ export default function Index () {
         <>
             <Head>
                 <title>
-                    Emkan Records
+                    About | Emkan Records
                 </title>
             </Head>
             <AnimationFadeComponent>
