@@ -8,7 +8,7 @@ export default function LayoutHeaderComponent () {
         <header className={styles.container}>
             <Image
                 alt="logo"
-                src="/assets/header_bright.png"
+                src="/header/header_bright.png"
                 layout="intrinsic"
                 width={360}
                 height={128}
