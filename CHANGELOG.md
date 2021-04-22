@@ -1,3 +1,11 @@
+## [1.10.4](https://github.com/bamdadsabbagh/emkanrecords-com--www/compare/v1.10.3...v1.10.4) (2021-04-22)
+
+
+### Bug Fixes
+
+* asfalte: 🔨 git-commit-force-release--onPush ([dca454c](https://github.com/bamdadsabbagh/emkanrecords-com--www/commit/dca454cc47a86438c91abe8658512fb568663c27))
+* **stylelint:** better stylelint config ([cafdd00](https://github.com/bamdadsabbagh/emkanrecords-com--www/commit/cafdd00c3172d3e8b3bf7ee3057c44de639c5032))
+
 ## [1.10.3](https://github.com/bamdadsabbagh/emkanrecords-com--www/compare/v1.10.2...v1.10.3) (2021-04-22)
 
 
