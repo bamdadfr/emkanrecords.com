@@ -15,7 +15,8 @@ export default class MyDocument extends Document {
                         src={`https://www.googletagmanager.com/gtag/js?id=${GA_TRACKING_ID}`}
                     />
                     <script
-                        dangerouslySetInnerHTML={{ '__html': `function gtag(){dataLayer.push(arguments)}window.dataLayer=window.dataLayer||[],gtag("js",new Date),gtag("config","${GA_TRACKING_ID}",{page_path:window.location.pathname});` }}/>
+                        dangerouslySetInnerHTML={{ '__html': `function gtag(){dataLayer.push(arguments)}window.dataLayer=window.dataLayer||[],gtag("js",new Date),gtag("config","${GA_TRACKING_ID}",{page_path:window.location.pathname});` }}
+                    />
                 </Head>
                 <body>
                     <Main/>
