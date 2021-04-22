@@ -1,7 +1,5 @@
-# <img width=25 src="https://i.imgur.com/hDy0s9d.png"> Emkan Records
-
 <p align="center">
-    <a href="https://emkanrecords.com">
+    <a href="https://www.emkanrecords.com">
         <img width=150 src="https://i.imgur.com/hDy0s9d.png" alt="logo">
     </a>
 </p>
@@ -32,14 +30,3 @@
     <img src="https://img.shields.io/david/dev/emkanrecords/emkanrecords-www" alt="dev-dependencies">
     <img src="https://img.shields.io/snyk/vulnerabilities/github/emkanrecords/emkanrecords-www" alt="vulnerabilities">
 </p>
-
-<p align="center">
-    <img src="https://img.shields.io/badge/ci-github--actions-yellowgreen" alt="ci">
-    <img src="https://img.shields.io/badge/cd-docker-yellowgreen" alt="cd">
-</p>
-
-## 🐳 Docker
-
-```bash
-docker run -d --name emkanrecords-www --restart=always -p 3000:3000 docker.pkg.github.com/emkanrecords/emkanrecords-www/emkanrecords-www:latest
-```
