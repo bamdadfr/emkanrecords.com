@@ -1,11 +1,11 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import LayoutMetaComponent from '../layout-meta/layout-meta.component'
-import LayoutHeaderComponent from '../layout-header/layout-header.component'
-import LayoutNavComponent from '../layout-nav/layout-nav.component'
-import LayoutMainComponent from '../layout-main/layout-main.component'
-import LayoutFooterComponent from '../layout-footer/layout-footer.component'
-import AnimationFadeComponent from '../animation-fade/animation-fade.component'
+import LayoutMetaComponent from '@/components/layout-meta/layout-meta.component'
+import LayoutHeaderComponent from '@/components/layout-header/layout-header.component'
+import LayoutNavComponent from '@/components/layout-nav/layout-nav.component'
+import LayoutMainComponent from '@/components/layout-main/layout-main.component'
+import LayoutFooterComponent from '@/components/layout-footer/layout-footer.component'
+import AnimationFadeComponent from '@/components/animation-fade/animation-fade.component'
 
 export default function LayoutComponent ({ children }) {
 
