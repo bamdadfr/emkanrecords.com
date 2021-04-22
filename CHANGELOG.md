@@ -1,3 +1,19 @@
+## [1.10.3](https://github.com/bamdadsabbagh/emkanrecords-com--www/compare/v1.10.2...v1.10.3) (2021-04-22)
+
+
+### Bug Fixes
+
+* asfalte: 🔨 git-commit-force-release--onPush ([2bed4b1](https://github.com/bamdadsabbagh/emkanrecords-com--www/commit/2bed4b1150aec6c73fe15f2f43d65b6c09eda361))
+* **deps:** updated to latest ([3b56ab2](https://github.com/bamdadsabbagh/emkanrecords-com--www/commit/3b56ab27342180f04bd8a6c9c5dd2ecf840a178c))
+* **document:** slightly better formatting ([61be9f9](https://github.com/bamdadsabbagh/emkanrecords-com--www/commit/61be9f94ba8f95d3431545535506ed5331c6fece))
+* **exports:** inline default `export` ([24d3486](https://github.com/bamdadsabbagh/emkanrecords-com--www/commit/24d3486b6b6724f1f10758a7511f0978729e6d97))
+* **index:** better title ([210e069](https://github.com/bamdadsabbagh/emkanrecords-com--www/commit/210e0699f9250c7f06dc7de2ac0692d4c0d2af62))
+* **layout:** better imports ([c49127f](https://github.com/bamdadsabbagh/emkanrecords-com--www/commit/c49127f1ea1c1f959e492ee685da0de453dacdd7))
+* **layout-header:** correct paths ([2022af7](https://github.com/bamdadsabbagh/emkanrecords-com--www/commit/2022af72e28f05c4c6abcd7f89d1ab0ddc5cd492))
+* **package.json:** `rimraf` instead of `rm -rf` ([45283fc](https://github.com/bamdadsabbagh/emkanrecords-com--www/commit/45283fcad026c6a518d6c9986697845811f9ccb4))
+* **public:** moved assets to better folder structure ([41612f4](https://github.com/bamdadsabbagh/emkanrecords-com--www/commit/41612f4068f6a9c9639149292eeeb6010394e9f4))
+* **releases.data:** correct paths ([fee0ca8](https://github.com/bamdadsabbagh/emkanrecords-com--www/commit/fee0ca8ad1e8cdc790af53b61cfd2881d6cee9ea))
+
 ## [1.10.2](https://github.com/emkanrecords/emkanrecords-www/compare/v1.10.1...v1.10.2) (2021-04-20)
 
 
