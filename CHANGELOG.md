@@ -1,3 +1,10 @@
+## [1.12.1](https://github.com/bamdadsabbagh/emkanrecords-com--www/compare/v1.12.0...v1.12.1) (2021-04-23)
+
+
+### Bug Fixes
+
+* **head:** better react helmet meta tags ([3c85d71](https://github.com/bamdadsabbagh/emkanrecords-com--www/commit/3c85d71bce298ab503315e1c0a40e8c434a2aa79))
+
 # [1.12.0](https://github.com/bamdadsabbagh/emkanrecords-com--www/compare/v1.11.0...v1.12.0) (2021-04-23)
 
 
