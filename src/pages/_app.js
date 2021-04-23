@@ -4,6 +4,7 @@ import LayoutComponent from '@/components/layout/layout.component'
 import { useRouter } from 'next/router'
 import * as gtag from '@/lib/gtag'
 import { Helmet } from 'react-helmet'
+import { MetaData } from '@/data/meta.data'
 
 export default function MyApp ({ Component, pageProps, err }) {
 
@@ -33,14 +34,7 @@ export default function MyApp ({ Component, pageProps, err }) {
                 htmlAttributes={{ 'lang': 'en' }}
                 title="Emkan Records"
                 meta={[
-                    {
-                        'name': 'viewport',
-                        'content': 'width=device-width, initial-scale=1',
-                    },
-                    {
-                        'property': 'og:title',
-                        'content': 'Emkan Records',
-                    },
+                    ...MetaData,
                 ]}
             />
             <LayoutComponent>

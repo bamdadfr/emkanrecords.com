@@ -2,6 +2,7 @@ import React from 'react'
 import { FaAt } from 'react-icons/fa'
 import AnimationFadeComponent from '@/components/animation-fade/animation-fade.component'
 import { Helmet } from 'react-helmet'
+import { MetaData } from '@/data/meta.data'
 import styles from './index.module.scss'
 
 export default function Index () {
@@ -11,9 +12,10 @@ export default function Index () {
             <Helmet
                 title="About | Emkan Records"
                 meta={[
+                    ...MetaData,
                     {
-                        'property': 'og:title',
-                        'content': 'About',
+                        'property': 'og:description',
+                        'content': 'digital record label from France',
                     },
                 ]}
             />

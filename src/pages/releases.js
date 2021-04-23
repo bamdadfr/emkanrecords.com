@@ -3,6 +3,7 @@ import AnimationFadeComponent from '@/components/animation-fade/animation-fade.c
 import ReleaseBodyComponent from '@/components/release-body/release-body.component'
 import { ReleasesData } from '@/data/releases.data'
 import { Helmet } from 'react-helmet'
+import { MetaData } from '@/data/meta.data'
 import styles from './releases.module.scss'
 
 export default function Releases () {
@@ -12,9 +13,10 @@ export default function Releases () {
             <Helmet
                 title="Releases | Emkan Records"
                 meta={[
+                    ...MetaData,
                     {
-                        'property': 'og:title',
-                        'content': 'Releases',
+                        'property': 'og:description',
+                        'content': 'releases',
                     },
                 ]}
             />
