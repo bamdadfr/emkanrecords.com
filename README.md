@@ -22,7 +22,7 @@
 
 <p align="center">
     <img src="https://img.shields.io/github/v/release/emkanrecords/emkanrecords-www" alt="release">
-    <img src="https://api.codeclimate.com/v1/badges/d03ca633f0cac75c7520/maintainability" alt="code-climate">
+    <img src="https://api.codeclimate.com/v1/badges/ced06df34aa1ac312864/maintainability" alt="code-climate">
 </p>
 
 <p align="center">
