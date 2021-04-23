@@ -1,3 +1,15 @@
+# [1.11.0](https://github.com/bamdadsabbagh/emkanrecords-com--www/compare/v1.10.4...v1.11.0) (2021-04-23)
+
+
+### Bug Fixes
+
+* **_document:** disabling eslint ([f275ee0](https://github.com/bamdadsabbagh/emkanrecords-com--www/commit/f275ee0e8c64b19af00a56e4e32c068f3a25bd17))
+
+
+### Features
+
+* **sentry:** added sentry for next.js ([2ad355e](https://github.com/bamdadsabbagh/emkanrecords-com--www/commit/2ad355e34bf87b5a1ddf8fc6e2644d1459612618))
+
 ## [1.10.4](https://github.com/bamdadsabbagh/emkanrecords-com--www/compare/v1.10.3...v1.10.4) (2021-04-22)
 
 
