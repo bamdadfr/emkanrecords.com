@@ -1,3 +1,10 @@
+# [1.12.0](https://github.com/bamdadsabbagh/emkanrecords-com--www/compare/v1.11.0...v1.12.0) (2021-04-23)
+
+
+### Features
+
+* **app:** added `react-helmet` ([7c2d2ca](https://github.com/bamdadsabbagh/emkanrecords-com--www/commit/7c2d2ca7b8b4a36994927438f4a8d65062ed4c55))
+
 # [1.11.0](https://github.com/bamdadsabbagh/emkanrecords-com--www/compare/v1.10.4...v1.11.0) (2021-04-23)
 
 
