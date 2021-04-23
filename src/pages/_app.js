@@ -3,6 +3,7 @@ import '@/styles/index.scss'
 import LayoutComponent from '@/components/layout/layout.component'
 import { useRouter } from 'next/router'
 import * as gtag from '@/lib/gtag'
+import { Helmet } from 'react-helmet'
 
 export default function MyApp ({ Component, pageProps, err }) {
 
@@ -27,10 +28,26 @@ export default function MyApp ({ Component, pageProps, err }) {
     }, [router.events])
 
     return (
-        <LayoutComponent>
-            {/* eslint-disable-next-line react/jsx-props-no-spreading */}
-            <Component {...pageProps} err={err}/>
-        </LayoutComponent>
+        <>
+            <Helmet
+                htmlAttributes={{ 'lang': 'en' }}
+                title="Emkan Records"
+                meta={[
+                    {
+                        'name': 'viewport',
+                        'content': 'width=device-width, initial-scale=1',
+                    },
+                    {
+                        'property': 'og:title',
+                        'content': 'Emkan Records',
+                    },
+                ]}
+            />
+            <LayoutComponent>
+                {/* eslint-disable-next-line react/jsx-props-no-spreading */}
+                <Component {...pageProps} err={err}/>
+            </LayoutComponent>
+        </>
     )
 
 }

@@ -1,18 +1,22 @@
 import React from 'react'
 import { FaAt } from 'react-icons/fa'
-import Head from 'next/head'
 import AnimationFadeComponent from '@/components/animation-fade/animation-fade.component'
+import { Helmet } from 'react-helmet'
 import styles from './index.module.scss'
 
 export default function Index () {
 
     return (
         <>
-            <Head>
-                <title>
-                    About | Emkan Records
-                </title>
-            </Head>
+            <Helmet
+                title="About | Emkan Records"
+                meta={[
+                    {
+                        'property': 'og:title',
+                        'content': 'About',
+                    },
+                ]}
+            />
             <AnimationFadeComponent>
                 <h1>
                     digital record label from France.
