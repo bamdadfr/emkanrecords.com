@@ -1,3 +1,11 @@
+## [1.12.3](https://github.com/bamdadsabbagh/emkanrecords-com--www/compare/v1.12.2...v1.12.3) (2021-05-03)
+
+
+### Bug Fixes
+
+* **_document:** enabled eslint ([1442121](https://github.com/bamdadsabbagh/emkanrecords-com--www/commit/1442121616531e2ce2b21cdea5fa6f2f327b6442))
+* **asfalte:** ⚙️ yarn-upgrade--onMondays-1000 ([024c01c](https://github.com/bamdadsabbagh/emkanrecords-com--www/commit/024c01c88e982f7c3eabf3dd6d0e8fc4b4fba17b))
+
 ## [1.12.2](https://github.com/bamdadsabbagh/emkanrecords-com--www/compare/v1.12.1...v1.12.2) (2021-04-26)
 
 
