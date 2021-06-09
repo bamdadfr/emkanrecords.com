@@ -1,3 +1,10 @@
+## [1.12.11](https://github.com/bamdadsabbagh/emkanrecords-com--www/compare/v1.12.10...v1.12.11) (2021-06-09)
+
+
+### Bug Fixes
+
+* **deps:** updated to latest `next` and `react-spring` ([993c5c9](https://github.com/bamdadsabbagh/emkanrecords-com--www/commit/993c5c9a374d5ac97792503f9c2bafa4fe9d0d83))
+
 ## [1.12.10](https://github.com/bamdadsabbagh/emkanrecords-com--www/compare/v1.12.9...v1.12.10) (2021-06-07)
 
 
