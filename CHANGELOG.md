@@ -1,3 +1,10 @@
+## [1.12.12](https://github.com/bamdadsabbagh/emkanrecords-com--www/compare/v1.12.11...v1.12.12) (2021-06-10)
+
+
+### Bug Fixes
+
+* **deps:** updated to latest ([6f4bf4f](https://github.com/bamdadsabbagh/emkanrecords-com--www/commit/6f4bf4f298a271f428901cb607d83b01250a8375))
+
 ## [1.12.11](https://github.com/bamdadsabbagh/emkanrecords-com--www/compare/v1.12.10...v1.12.11) (2021-06-09)
 
 
