@@ -1,3 +1,11 @@
+## [1.12.13](https://github.com/bamdadsabbagh/emkanrecords-com--www/compare/v1.12.12...v1.12.13) (2021-06-11)
+
+
+### Bug Fixes
+
+* **deps:** updated deps ([d1944f8](https://github.com/bamdadsabbagh/emkanrecords-com--www/commit/d1944f86072f8190e55c12135f01f0bd7b58202b))
+* **quality:** added jsdoc and tests ([dc41ca8](https://github.com/bamdadsabbagh/emkanrecords-com--www/commit/dc41ca82845c6c3b16b580a9be6fdfa1776bbf83))
+
 ## [1.12.12](https://github.com/bamdadsabbagh/emkanrecords-com--www/compare/v1.12.11...v1.12.12) (2021-06-10)
 
 
