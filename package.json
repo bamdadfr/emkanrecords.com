@@ -33,7 +33,7 @@
     },
     "devDependencies": {
         "@bamdadsabbagh/eslint-config": "^1.9.1",
-        "@bamdadsabbagh/stylelint-config": "^1.3.0",
+        "@bamdadsabbagh/stylelint-config": "^1.3.12",
         "@fontsource/roboto": "^4.2.0",
         "react-icons": "^4.2.0",
         "rimraf": "^3.0.2",
