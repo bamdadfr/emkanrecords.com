@@ -2,6 +2,12 @@ import React from 'react'
 import Image from 'next/image'
 import styles from './layout-header.module.scss'
 
+/**
+ * @function
+ * @name LayoutHeaderComponent
+ * @description layout: header component
+ * @return {JSX.Element}
+ */
 export default function LayoutHeaderComponent () {
 
     return (

@@ -4,6 +4,23 @@ import Image from 'next/image'
 import { FaShoppingCart, FaSpotify, FaYoutube } from 'react-icons/fa'
 import styles from './release-body.module.scss'
 
+const propTypes = {
+    'children': PropTypes.shape ({
+        'image': PropTypes.string.isRequired,
+        'artist': PropTypes.string.isRequired,
+        'name': PropTypes.string.isRequired,
+        'url': PropTypes.string.isRequired,
+        'id': PropTypes.number.isRequired,
+    }).isRequired,
+}
+
+/**
+ * @function
+ * @name ReleaseBodyComponent
+ * @description body for each release
+ * @param {Object} children - containing properties to render
+ * @return {JSX.Element}
+ */
 export default function ReleaseBodyComponent ({ children }) {
 
     const { image, artist, name, url, id } = children
@@ -59,12 +76,4 @@ export default function ReleaseBodyComponent ({ children }) {
 
 }
 
-ReleaseBodyComponent.propTypes = {
-    'children': PropTypes.shape ({
-        'image': PropTypes.string.isRequired,
-        'artist': PropTypes.string.isRequired,
-        'name': PropTypes.string.isRequired,
-        'url': PropTypes.string.isRequired,
-        'id': PropTypes.number.isRequired,
-    }).isRequired,
-}
+ReleaseBodyComponent.propTypes = propTypes

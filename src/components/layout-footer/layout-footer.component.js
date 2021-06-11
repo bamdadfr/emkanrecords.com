@@ -1,6 +1,12 @@
 import React from 'react'
 import styles from './layout-footer.module.scss'
 
+/**
+ * @function
+ * @name LayoutFooterComponent
+ * @description layout: footer component
+ * @return {JSX.Element}
+ */
 export default function LayoutFooterComponent () {
 
     return (

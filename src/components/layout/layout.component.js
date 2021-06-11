@@ -7,6 +7,17 @@ import LayoutMainComponent from '@/components/layout-main/layout-main.component'
 import LayoutFooterComponent from '@/components/layout-footer/layout-footer.component'
 import AnimationFadeComponent from '@/components/animation-fade/animation-fade.component'
 
+const propTypes = {
+    'children': PropTypes.node.isRequired,
+}
+
+/**
+ * @function
+ * @name LayoutComponent
+ * @description layout: entry point
+ * @param {JSX.Element} children - child component to render
+ * @return {JSX.Element}
+ */
 export default function LayoutComponent ({ children }) {
 
     return (
@@ -29,6 +40,4 @@ export default function LayoutComponent ({ children }) {
 
 }
 
-LayoutComponent.propTypes = {
-    'children': PropTypes.node.isRequired,
-}
+LayoutComponent.propTypes = propTypes

@@ -2,6 +2,17 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { useSpring, animated } from 'react-spring'
 
+const propTypes = {
+    'children': PropTypes.node.isRequired,
+}
+
+/**
+ * @function
+ * @name AnimationFadeComponent
+ * @description fade in child component using `react-spring`
+ * @param {JSX.Element} children - child component to render
+ * @return {JSX.Element}
+ */
 export default function AnimationFadeComponent ({ children }) {
 
     const props = useSpring ({ 'opacity': 1, 'from': { 'opacity': 0 }})
@@ -14,6 +25,4 @@ export default function AnimationFadeComponent ({ children }) {
 
 }
 
-AnimationFadeComponent.propTypes = {
-    'children': PropTypes.arrayOf (PropTypes.node).isRequired,
-}
+AnimationFadeComponent.propTypes = propTypes

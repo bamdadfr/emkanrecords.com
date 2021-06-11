@@ -1,6 +1,12 @@
 import React from 'react'
 import Head from 'next/head'
 
+/**
+ * @function
+ * @name LayoutMetaComponent
+ * @description layout: meta component
+ * @return {JSX.Element}
+ */
 export default function LayoutMetaComponent () {
 
     return (
