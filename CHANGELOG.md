@@ -1,3 +1,12 @@
+## [1.12.15](https://github.com/bamdadsabbagh/emkanrecords-com--www/compare/v1.12.14...v1.12.15) (2021-06-12)
+
+
+### Bug Fixes
+
+* **babel:** new config filename ([a00151a](https://github.com/bamdadsabbagh/emkanrecords-com--www/commit/a00151aa17172033e372cbc7d5bd2815e361e3fb))
+* **semantic-release:** better config filanem ([ee3ad33](https://github.com/bamdadsabbagh/emkanrecords-com--www/commit/ee3ad33367d14155f697769016fafaf83581cf1b))
+* **semantic-release:** fix `nextRelease` ([9bf32af](https://github.com/bamdadsabbagh/emkanrecords-com--www/commit/9bf32af4a366a676961752a6df4e549fcf2e58a3))
+
 ## [1.12.14](https://github.com/bamdadsabbagh/emkanrecords-com--www/compare/v1.12.13...v1.12.14) (2021-06-12)
 
 
