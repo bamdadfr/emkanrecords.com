@@ -1,3 +1,10 @@
+## [1.12.14](https://github.com/bamdadsabbagh/emkanrecords-com--www/compare/v1.12.13...v1.12.14) (2021-06-12)
+
+
+### Bug Fixes
+
+* **docker:** removing docker config (unused) ([ca87003](https://github.com/bamdadsabbagh/emkanrecords-com--www/commit/ca870035b1db930948ef7dba023d857349a32792))
+
 ## [1.12.13](https://github.com/bamdadsabbagh/emkanrecords-com--www/compare/v1.12.12...v1.12.13) (2021-06-11)
 
 
