@@ -1,3 +1,17 @@
+# [1.13.0](https://github.com/bamdadsabbagh/emkanrecords-com--www/compare/v1.12.19...v1.13.0) (2021-07-05)
+
+
+### Bug Fixes
+
+* **jsdoc:** lowercase types ([426b883](https://github.com/bamdadsabbagh/emkanrecords-com--www/commit/426b8839c70ce1de78faf6bf9c0e688b7bef2bc1))
+* **releases:** using the new `next/image` placeholder blur ([a9d8864](https://github.com/bamdadsabbagh/emkanrecords-com--www/commit/a9d88648a88d6e5662da746d357dafd4e3033eec))
+
+
+### Features
+
+* **app:** update to nextjs 11 ([932e12e](https://github.com/bamdadsabbagh/emkanrecords-com--www/commit/932e12e1a2a8f1dc4f8b1cc3cebc74dad7e4badf))
+* **app:** update to nextjs 11 ([b04a814](https://github.com/bamdadsabbagh/emkanrecords-com--www/commit/b04a814f02b79e9c3e9dddab3ee5ca3924281947))
+
 ## [1.12.19](https://github.com/bamdadsabbagh/emkanrecords-com--www/compare/v1.12.18...v1.12.19) (2021-07-05)
 
 
