@@ -18,7 +18,7 @@ const propTypes = {
  * @function
  * @name ReleaseBodyComponent
  * @description body for each release
- * @param {Object} children - containing properties to render
+ * @param {object} children - containing properties to render
  * @return {JSX.Element}
  */
 export default function ReleaseBodyComponent ({ children }) {
