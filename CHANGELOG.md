@@ -1,3 +1,10 @@
+## [1.13.1](https://github.com/bamdadsabbagh/emkanrecords-com--www/compare/v1.13.0...v1.13.1) (2021-07-05)
+
+
+### Bug Fixes
+
+* **build:** adding `eslint-config-next` ([4a7c36c](https://github.com/bamdadsabbagh/emkanrecords-com--www/commit/4a7c36cb75a48041b3beef007e5c1c221ffcaa3e))
+
 # [1.13.0](https://github.com/bamdadsabbagh/emkanrecords-com--www/compare/v1.12.19...v1.13.0) (2021-07-05)
 
 
