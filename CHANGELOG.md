@@ -1,3 +1,10 @@
+## [1.13.2](https://github.com/bamdadsabbagh/emkanrecords-com--www/compare/v1.13.1...v1.13.2) (2021-07-05)
+
+
+### Bug Fixes
+
+* **_document:** disabling eslint ([2c49a48](https://github.com/bamdadsabbagh/emkanrecords-com--www/commit/2c49a484fbd559211f85c27bb40e24bab83b13df))
+
 ## [1.13.1](https://github.com/bamdadsabbagh/emkanrecords-com--www/compare/v1.13.0...v1.13.1) (2021-07-05)
 
 
