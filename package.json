@@ -41,6 +41,7 @@
         "babel-jest": "^27.0.2",
         "enzyme": "^3.11.0",
         "enzyme-adapter-react-16": "^1.15.6",
+        "eslint-config-next": "^11.0.1",
         "jest": "^27.0.4",
         "jest-css-modules": "^2.1.0",
         "react-icons": "^4.2.0",
