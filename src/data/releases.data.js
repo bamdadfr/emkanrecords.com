@@ -1,9 +1,19 @@
+import EMK000 from '../../public/releases/EMK000.jpg'
+import EMK001 from '../../public/releases/EMK001.jpg'
+import EMK002 from '../../public/releases/EMK002.jpg'
+import EMK003 from '../../public/releases/EMK003.jpg'
+import EMK004 from '../../public/releases/EMK004.jpg'
+import EMK005 from '../../public/releases/EMK005.jpg'
+import EMK006 from '../../public/releases/EMK006.jpg'
+import EMK007 from '../../public/releases/EMK007.jpg'
+import EMK008 from '../../public/releases/EMK008.jpg'
+
 export const ReleasesData = [
     {
         'id': 8,
         'artist': 'Losless',
         'name': 'Sphere',
-        'image': '/releases/EMK008.jpg',
+        'image': EMK008,
         'date': 2019,
         'url': 'https://smarturl.it/EMK008',
     },
@@ -11,7 +21,7 @@ export const ReleasesData = [
         'id': 7,
         'artist': 'Losless',
         'name': 'Synecku',
-        'image': '/releases/EMK007.jpg',
+        'image': EMK007,
         'date': 2017,
         'url': 'https://smarturl.it/EMK007',
     },
@@ -19,7 +29,7 @@ export const ReleasesData = [
         'id': 6,
         'artist': 'Gary Stallman',
         'name': 'Cyber Syndrome',
-        'image': '/releases/EMK006.jpg',
+        'image': EMK006,
         'date': 2017,
         'url': 'https://smarturl.it/EMK006',
     },
@@ -27,7 +37,7 @@ export const ReleasesData = [
         'id': 5,
         'artist': 'Gary Stallman',
         'name': 'Son Of The Internet',
-        'image': '/releases/EMK005.jpg',
+        'image': EMK005,
         'date': 2017,
         'url': 'https://smarturl.it/EMK005',
     },
@@ -35,7 +45,7 @@ export const ReleasesData = [
         'id': 4,
         'artist': 'Blinkhorn',
         'name': 'Feedback',
-        'image': '/releases/EMK004.jpg',
+        'image': EMK004,
         'date': 2017,
         'url': 'https://smarturl.it/EMK004',
     },
@@ -43,7 +53,7 @@ export const ReleasesData = [
         'id': 3,
         'artist': 'Losless',
         'name': 'Largo',
-        'image': '/releases/EMK003.jpg',
+        'image': EMK003,
         'date': 2017,
         'url': 'https://smarturl.it/EMK003',
     },
@@ -51,7 +61,7 @@ export const ReleasesData = [
         'id': 2,
         'artist': 'Losless',
         'name': "Rur'",
-        'image': '/releases/EMK002.jpg',
+        'image': EMK002,
         'date': 2016,
         'url': 'https://smarturl.it/EMK002',
     },
@@ -59,7 +69,7 @@ export const ReleasesData = [
         'id': 1,
         'artist': 'Losless',
         'name': 'Signature',
-        'image': '/releases/EMK001.jpg',
+        'image': EMK001,
         'date': 2016,
         'url': 'https://smarturl.it/EMK001',
     },
@@ -67,7 +77,7 @@ export const ReleasesData = [
         'id': 0,
         'artist': 'Gary Stallman',
         'name': 'Sudo Service Start',
-        'image': '/releases/EMK000.jpg',
+        'image': EMK000,
         'date': 2016,
         'url': 'https://smarturl.it/EMK000',
     },

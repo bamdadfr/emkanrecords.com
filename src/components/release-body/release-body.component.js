@@ -6,7 +6,11 @@ import styles from './release-body.module.scss'
 
 const propTypes = {
     'children': PropTypes.shape ({
-        'image': PropTypes.string.isRequired,
+        'image': PropTypes.shape ({
+            'src': PropTypes.string.isRequired,
+            'width': PropTypes.number.isRequired,
+            'height': PropTypes.number.isRequired,
+        }).isRequired,
         'artist': PropTypes.string.isRequired,
         'name': PropTypes.string.isRequired,
         'url': PropTypes.string.isRequired,
@@ -34,6 +38,7 @@ export default function ReleaseBodyComponent ({ children }) {
                 layout="intrinsic"
                 width={370}
                 height={370}
+                placeholder="blur"
             />
             <div>
                 <span>
