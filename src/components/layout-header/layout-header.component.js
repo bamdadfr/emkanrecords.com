@@ -1,6 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
 import styles from './layout-header.module.scss'
+import headerImage from '../../../public/header/header_bright.png'
 
 /**
  * @function
@@ -14,10 +15,11 @@ export default function LayoutHeaderComponent () {
         <header className={styles.container}>
             <Image
                 alt="logo"
-                src="/header/header_bright.png"
+                src={headerImage}
                 layout="intrinsic"
                 width={360}
                 height={128}
+                placeholder="blur"
             />
         </header>
     )

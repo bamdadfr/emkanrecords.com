@@ -1,3 +1,17 @@
+## [1.13.3](https://github.com/bamdadsabbagh/emkanrecords-com--www/compare/v1.13.2...v1.13.3) (2021-07-05)
+
+
+### Bug Fixes
+
+* **header:** image now uses placeholder ([eea586e](https://github.com/bamdadsabbagh/emkanrecords-com--www/commit/eea586e5849902aa4ef0a0289bb06c7ad5818948))
+
+## [1.13.2](https://github.com/bamdadsabbagh/emkanrecords-com--www/compare/v1.13.1...v1.13.2) (2021-07-05)
+
+
+### Bug Fixes
+
+* **_document:** disabling eslint ([2c49a48](https://github.com/bamdadsabbagh/emkanrecords-com--www/commit/2c49a484fbd559211f85c27bb40e24bab83b13df))
+
 ## [1.13.1](https://github.com/bamdadsabbagh/emkanrecords-com--www/compare/v1.13.0...v1.13.1) (2021-07-05)
 
 
