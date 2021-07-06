@@ -1,3 +1,11 @@
+## [1.13.4](https://github.com/bamdadsabbagh/emkanrecords-com--www/compare/v1.13.3...v1.13.4) (2021-07-06)
+
+
+### Bug Fixes
+
+* **eslint:** updated to latest which includes jsdoc plugin ([59f3152](https://github.com/bamdadsabbagh/emkanrecords-com--www/commit/59f31520cb6f3d70afe180bd0d2e736328ee3e48))
+* **jsdoc:** compliant declarations ([5edd091](https://github.com/bamdadsabbagh/emkanrecords-com--www/commit/5edd091cf224487b1f8fa890f1cac3f98affbaa2))
+
 ## [1.13.3](https://github.com/bamdadsabbagh/emkanrecords-com--www/compare/v1.13.2...v1.13.3) (2021-07-05)
 
 
