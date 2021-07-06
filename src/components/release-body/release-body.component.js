@@ -22,8 +22,9 @@ const propTypes = {
  * @function
  * @name ReleaseBodyComponent
  * @description body for each release
- * @param {object} children - containing properties to render
- * @return {JSX.Element}
+ * @param {*} props - react component props
+ * @param {*} props.children - containing properties to render
+ * @returns {React.ReactNode} - react component
  */
 export default function ReleaseBodyComponent ({ children }) {
 

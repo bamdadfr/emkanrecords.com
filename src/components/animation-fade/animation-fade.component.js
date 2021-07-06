@@ -10,8 +10,9 @@ const propTypes = {
  * @function
  * @name AnimationFadeComponent
  * @description fade in child component using `react-spring`
- * @param {JSX.Element} children - child component to render
- * @return {JSX.Element}
+ * @param {*} props - react component props
+ * @param {React.ReactNode} props.children - child component to render
+ * @returns {React.ReactNode} - react component
  */
 export default function AnimationFadeComponent ({ children }) {
 

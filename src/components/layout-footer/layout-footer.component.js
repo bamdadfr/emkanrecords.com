@@ -5,7 +5,7 @@ import styles from './layout-footer.module.scss'
  * @function
  * @name LayoutFooterComponent
  * @description layout: footer component
- * @return {JSX.Element}
+ * @returns {React.ReactNode} - react component
  */
 export default function LayoutFooterComponent () {
 

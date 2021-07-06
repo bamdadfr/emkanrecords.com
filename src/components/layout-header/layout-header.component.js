@@ -6,7 +6,7 @@ import styles from './layout-header.module.scss'
  * @function
  * @name LayoutHeaderComponent
  * @description layout: header component
- * @return {JSX.Element}
+ * @returns {React.ReactNode} - react component
  */
 export default function LayoutHeaderComponent () {
 

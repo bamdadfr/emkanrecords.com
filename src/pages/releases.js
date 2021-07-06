@@ -6,6 +6,11 @@ import { Helmet } from 'react-helmet'
 import { MetaData } from '@/data/meta.data'
 import styles from './releases.module.scss'
 
+/**
+ * @function
+ * @description page: releases
+ * @returns {React.ReactNode} - react component
+ */
 export default function Releases () {
 
     return (

@@ -6,7 +6,7 @@ import styles from './layout-nav.module.scss'
  * @function
  * @name LayoutNavComponent
  * @description layout: nav component
- * @return {JSX.Element}
+ * @returns {React.ReactNode} - react component
  */
 export default function LayoutNavComponent () {
 

@@ -1,3 +1,4 @@
+/* eslint-disable jsdoc/require-jsdoc */
 import React, { useEffect } from 'react'
 import '@/styles/index.scss'
 import LayoutComponent from '@/components/layout/layout.component'

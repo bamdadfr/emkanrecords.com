@@ -15,8 +15,9 @@ const propTypes = {
  * @function
  * @name LayoutComponent
  * @description layout: entry point
- * @param {JSX.Element} children - child component to render
- * @return {JSX.Element}
+ * @param {*} props - react component props
+ * @param {React.ReactNode} props.children - child component to render
+ * @returns {React.ReactNode} - react component
  */
 export default function LayoutComponent ({ children }) {
 

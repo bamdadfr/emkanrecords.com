@@ -5,6 +5,11 @@ import { Helmet } from 'react-helmet'
 import { MetaData } from '@/data/meta.data'
 import styles from './index.module.scss'
 
+/**
+ * @function
+ * @description page: index
+ * @returns {React.ReactNode} - react component
+ */
 export default function Index () {
 
     return (

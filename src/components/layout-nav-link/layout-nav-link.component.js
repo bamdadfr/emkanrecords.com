@@ -13,9 +13,10 @@ const propTypes = {
  * @function
  * @name LayoutNavLinkComponent
  * @description layout: nav link component
- * @param {string} href - URL to check if active
- * @param {string} text - text of <a>
- * @return {JSX.Element}
+ * @param {*} props - react component props
+ * @param {string} props.href - URL to check if active
+ * @param {string} props.text - text of <a>
+ * @returns {React.ReactNode} - react component
  */
 export default function LayoutNavLinkComponent ({ href, text }) {
 
