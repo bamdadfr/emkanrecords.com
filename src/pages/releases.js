@@ -1,9 +1,8 @@
 import React, { Fragment } from 'react'
+import Head from 'next/head'
 import AnimationFadeComponent from '@/components/animation-fade/animation-fade.component'
 import ReleaseBodyComponent from '@/components/release-body/release-body.component'
 import { ReleasesData } from '@/data/releases.data'
-import { Helmet } from 'react-helmet'
-import { MetaData } from '@/data/meta.data'
 import styles from './releases.module.scss'
 
 /**
@@ -15,16 +14,12 @@ export default function Releases () {
 
     return (
         <>
-            <Helmet
-                title="Releases | Emkan Records"
-                meta={[
-                    ...MetaData,
-                    {
-                        'property': 'og:description',
-                        'content': 'releases',
-                    },
-                ]}
-            />
+            <Head>
+                <title>
+                    Releases | Emkan Recorsd
+                </title>
+                <meta property="og:description" content="releases"/>
+            </Head>
             <AnimationFadeComponent>
                 <h1
                     style={{ 'display': 'none' }}
