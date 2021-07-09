@@ -17,6 +17,7 @@ export default function Index () {
                 <title>
                     About | Emkan Records
                 </title>
+                <meta property="og:description" content="Digital record label from France."/>
             </Head>
             <AnimationFadeComponent>
                 <h1>

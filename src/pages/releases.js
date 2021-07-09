@@ -16,7 +16,7 @@ export default function Releases () {
         <>
             <Head>
                 <title>
-                    Releases | Emkan Recorsd
+                    Releases | Emkan Records
                 </title>
                 <meta property="og:description" content="releases"/>
             </Head>

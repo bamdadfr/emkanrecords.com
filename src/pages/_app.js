@@ -53,7 +53,6 @@ export default function MyApp ({ Component, pageProps, err }) {
                 </title>
                 <meta property="viewport" content="width=device-width, initial-scale=1"/>
                 <meta property="og:title" content="Emkan Records"/>
-                <meta property="og:description" content="Digital record label from France."/>
                 <meta property="og:image"
                     content="https://www.emkanrecords.com/_next/image?url=%2Fheader%2Fheader_bright.png&w=384&q=75"/>
             </Head>
