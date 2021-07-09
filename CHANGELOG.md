@@ -1,3 +1,16 @@
+## [1.13.5](https://github.com/bamdadsabbagh/emkanrecords-com--www/compare/v1.13.4...v1.13.5) (2021-07-09)
+
+
+### Bug Fixes
+
+* **_app:** remove helmet + add head counterpart + jsdoc ([34b5fb5](https://github.com/bamdadsabbagh/emkanrecords-com--www/commit/34b5fb5a098239ae6805cc5de94880029cc2ff23))
+* **_document:** remove helmet + add noinspection for intellij ([f084ad2](https://github.com/bamdadsabbagh/emkanrecords-com--www/commit/f084ad29b3fea6a76f6804899536d87dc49eb85c))
+* **deps:** remove `react-helmet` + update other deps ([5faedda](https://github.com/bamdadsabbagh/emkanrecords-com--www/commit/5faedda4df80efed243c4aaa76cb49f332c0fc85))
+* **index:** replace helmet with head ([44ee39d](https://github.com/bamdadsabbagh/emkanrecords-com--www/commit/44ee39d53a0c58ed556c0accf70ccbb74776a1a8))
+* **layout-meta:** refactor easier file reading + noinspection for intellij ([7d606ae](https://github.com/bamdadsabbagh/emkanrecords-com--www/commit/7d606ae660d7b15d720c29b256c103ff14a600b8))
+* **meta.data:** remove unused file ([06faac6](https://github.com/bamdadsabbagh/emkanrecords-com--www/commit/06faac6ff1cfcdabf3ca6874d0dcbeefa8cdf665))
+* **releases:** replace helmet by head ([e4f8cf6](https://github.com/bamdadsabbagh/emkanrecords-com--www/commit/e4f8cf69ec11252f5a5db0d7573de0f7171f8173))
+
 ## [1.13.4](https://github.com/bamdadsabbagh/emkanrecords-com--www/compare/v1.13.3...v1.13.4) (2021-07-06)
 
 
