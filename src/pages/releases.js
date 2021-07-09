@@ -16,9 +16,9 @@ export default function Releases () {
         <>
             <Head>
                 <title>
-                    Releases | Emkan Recorsd
+                    Releases | Emkan Records
                 </title>
-                <meta property="og:description" content="releases"/>
+                <meta property="og:description" content="Releases"/>
             </Head>
             <AnimationFadeComponent>
                 <h1
