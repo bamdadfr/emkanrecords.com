@@ -1,3 +1,10 @@
+## [1.13.6](https://github.com/bamdadsabbagh/emkanrecords-com--www/compare/v1.13.5...v1.13.6) (2021-07-09)
+
+
+### Bug Fixes
+
+* **og:description:** removed global description + added at page level + fixed typo ([edc73c1](https://github.com/bamdadsabbagh/emkanrecords-com--www/commit/edc73c18184638bd9e27815713312e45b11d5517))
+
 ## [1.13.5](https://github.com/bamdadsabbagh/emkanrecords-com--www/compare/v1.13.4...v1.13.5) (2021-07-09)
 
 
