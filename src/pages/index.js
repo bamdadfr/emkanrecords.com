@@ -1,8 +1,7 @@
 import React from 'react'
+import Head from 'next/head'
 import { FaAt } from 'react-icons/fa'
 import AnimationFadeComponent from '@/components/animation-fade/animation-fade.component'
-import { Helmet } from 'react-helmet'
-import { MetaData } from '@/data/meta.data'
 import styles from './index.module.scss'
 
 /**
@@ -14,16 +13,11 @@ export default function Index () {
 
     return (
         <>
-            <Helmet
-                title="About | Emkan Records"
-                meta={[
-                    ...MetaData,
-                    {
-                        'property': 'og:description',
-                        'content': 'digital record label from France',
-                    },
-                ]}
-            />
+            <Head>
+                <title>
+                    About | Emkan Records
+                </title>
+            </Head>
             <AnimationFadeComponent>
                 <h1>
                     digital record label from France.
