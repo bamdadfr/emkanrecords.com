@@ -1,66 +1,44 @@
-import React, { useEffect } from 'react'
-import '@/styles/index.scss'
-import LayoutComponent from '@/components/layout/layout.component'
-import { useRouter } from 'next/router'
-import Head from 'next/head'
-import * as gtag from '@/lib/gtag'
+import React from 'react'
+import PropTypes from 'prop-types'
+import 'sass-reset'
+import '../app/styles/index.scss'
+import { useApp } from '../app/hooks'
+import { AppLayout } from '../layouts'
+
+const propTypes = {
+    'Component': PropTypes.func.isRequired,
+    // eslint-disable-next-line react/forbid-prop-types
+    'pageProps': PropTypes.object.isRequired,
+    // eslint-disable-next-line react/forbid-prop-types
+    'err': PropTypes.any,
+}
+
+const defaultProps = {
+    'err': undefined,
+}
 
 /**
- * @function
- * @name MyApp
- * @description next.js _app
- * @param {*} props - react component props
- * @param {React.ReactNode} props.Component - child
- * @param {object} props.pageProps - child props
- * @param {Error} props.err - error
- * @returns {React.ReactNode} - react component
+ * @param {object} props component props
+ * @param {Function} props.Component next.js component
+ * @param {object} props.pageProps next.js props
+ * @param {*} props.err next.js errors
+ * @returns {React.ReactElement} react component
  */
 export default function MyApp ({ Component, pageProps, err }) {
 
-    const router = useRouter ()
-
-    /**
-     * @function
-     * @name onRouterEvents
-     * @description inject google tag script when route events are fired
-     * @returns {Function<void>} - react hook clean up function
-     */
-    function onRouterEvents () {
-
-        const handleRouteChange = (url) => {
-
-            gtag.pageview (url)
-
-        }
-
-        router.events.on ('routeChangeComplete', handleRouteChange)
-
-        return () => {
-
-            router.events.off ('routeChangeComplete', handleRouteChange)
-
-        }
-
-    }
-
-    useEffect (onRouterEvents, [router.events])
+    useApp ()
 
     return (
         <>
-            <Head>
-                <title>
-                    Emkan Records
-                </title>
-                <meta property="viewport" content="width=device-width, initial-scale=1"/>
-                <meta property="og:title" content="Emkan Records"/>
-                <meta property="og:image"
-                    content="https://www.emkanrecords.com/_next/image?url=%2Fheader%2Fheader_bright.png&w=384&q=75"/>
-            </Head>
-            <LayoutComponent>
+            <AppLayout>
                 {/* eslint-disable-next-line react/jsx-props-no-spreading */}
                 <Component {...pageProps} err={err}/>
-            </LayoutComponent>
+            </AppLayout>
         </>
     )
 
 }
+
+MyApp.propTypes = propTypes
+
+MyApp.defaultProps = defaultProps
