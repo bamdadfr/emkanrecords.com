@@ -1,19 +1,19 @@
 import React from 'react'
-import AnimationFadeComponent from '@/components/animation-fade/animation-fade.component'
+import { DefaultLayout } from '../layouts'
 
 /**
- * @function
- * @description page: 404
- * @returns {React.ReactNode} - react component
+ * @returns {React.ReactElement} react component
  */
-export default function NotFound () {
+export default function NotFoundPage () {
 
     return (
-        <AnimationFadeComponent>
-            <h1>
-                Page Not Found
-            </h1>
-        </AnimationFadeComponent>
+        <>
+            <DefaultLayout>
+                <h1>
+                    Page Not Found
+                </h1>
+            </DefaultLayout>
+        </>
     )
 
 }

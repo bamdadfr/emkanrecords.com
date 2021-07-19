@@ -1,25 +1,18 @@
 import React from 'react'
-import Head from 'next/head'
 import { FaAt } from 'react-icons/fa'
-import AnimationFadeComponent from '@/components/animation-fade/animation-fade.component'
+import { MetaComponent } from '../components'
 import styles from './index.module.scss'
+import { DefaultLayout } from '../layouts'
 
 /**
- * @function
- * @description page: index
- * @returns {React.ReactNode} - react component
+ * @returns {React.ReactElement} react component
  */
-export default function Index () {
+export default function IndexPage () {
 
     return (
         <>
-            <Head>
-                <title>
-                    About | Emkan Records
-                </title>
-                <meta property="og:description" content="Digital record label from France."/>
-            </Head>
-            <AnimationFadeComponent>
+            <MetaComponent title="About | Emkan Records"/>
+            <DefaultLayout customMeta>
                 <h1>
                     digital record label from France.
                 </h1>
@@ -44,7 +37,7 @@ export default function Index () {
                     <br/>
                     soundcloud links only
                 </p>
-            </AnimationFadeComponent>
+            </DefaultLayout>
         </>
     )
 

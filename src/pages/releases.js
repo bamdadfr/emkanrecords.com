@@ -1,45 +1,35 @@
 import React, { Fragment } from 'react'
-import Head from 'next/head'
-import AnimationFadeComponent from '@/components/animation-fade/animation-fade.component'
-import ReleaseBodyComponent from '@/components/release-body/release-body.component'
-import { ReleasesData } from '@/data/releases.data'
+import { MetaComponent, ReleaseComponent } from '../components'
+import { ReleasesData } from '../app/data'
 import styles from './releases.module.scss'
+import { DefaultLayout } from '../layouts'
 
 /**
- * @function
- * @description page: releases
- * @returns {React.ReactNode} - react component
+ * @returns {React.ReactElement} react component
  */
 export default function Releases () {
 
     return (
         <>
-            <Head>
-                <title>
-                    Releases | Emkan Records
-                </title>
-                <meta property="og:description" content="Releases"/>
-            </Head>
-            <AnimationFadeComponent>
-                <h1
-                    style={{ 'display': 'none' }}
-                >
+            <MetaComponent title="Releases | Emkan Records"/>
+            <DefaultLayout customMeta>
+                <h1 style={{ 'display': 'none' }}>
                     releases
                 </h1>
                 <div className={styles.container}>
-                    {
-                        ReleasesData.map (
-                            (release) => (
-                                <Fragment key={release.id}>
-                                    <ReleaseBodyComponent>
-                                        {release}
-                                    </ReleaseBodyComponent>
-                                </Fragment>
-                            ),
-                        )
-                    }
+                    {ReleasesData.map ((release) => (
+                        <Fragment key={release.id}>
+                            <ReleaseComponent
+                                id={release.id}
+                                artist={release.artist}
+                                name={release.name}
+                                url={release.url}
+                                image={release.image}
+                            />
+                        </Fragment>
+                    ))}
                 </div>
-            </AnimationFadeComponent>
+            </DefaultLayout>
         </>
     )
 
