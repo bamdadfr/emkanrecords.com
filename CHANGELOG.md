@@ -1,3 +1,10 @@
+## [1.13.10](https://github.com/bamdadsabbagh/emkanrecords-com--www/compare/v1.13.9...v1.13.10) (2021-07-19)
+
+
+### Bug Fixes
+
+* **tests:** add `codecov` to dependencies ([e74cc0e](https://github.com/bamdadsabbagh/emkanrecords-com--www/commit/e74cc0e278f50b268e8f01a5766253dc4c71de66))
+
 ## [1.13.9](https://github.com/bamdadsabbagh/emkanrecords-com--www/compare/v1.13.8...v1.13.9) (2021-07-19)
 
 
