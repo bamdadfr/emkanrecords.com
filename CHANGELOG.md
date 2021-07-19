@@ -1,3 +1,10 @@
+## [1.13.11](https://github.com/bamdadsabbagh/emkanrecords-com--www/compare/v1.13.10...v1.13.11) (2021-07-19)
+
+
+### Bug Fixes
+
+* **tests:** add codecov command to package.json ([9db4c3a](https://github.com/bamdadsabbagh/emkanrecords-com--www/commit/9db4c3aff16239c6d7c224b8bf67109eaf532154))
+
 ## [1.13.10](https://github.com/bamdadsabbagh/emkanrecords-com--www/compare/v1.13.9...v1.13.10) (2021-07-19)
 
 
