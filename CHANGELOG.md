@@ -1,3 +1,10 @@
+## [1.13.12](https://github.com/bamdadsabbagh/emkanrecords-com--www/compare/v1.13.11...v1.13.12) (2021-07-19)
+
+
+### Bug Fixes
+
+* **meta:** rectify url prop ([c7e8651](https://github.com/bamdadsabbagh/emkanrecords-com--www/commit/c7e865146c3ccb1463c20990c68be7e928225ea2))
+
 ## [1.13.11](https://github.com/bamdadsabbagh/emkanrecords-com--www/compare/v1.13.10...v1.13.11) (2021-07-19)
 
 
