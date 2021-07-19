@@ -11,7 +11,7 @@ const propTypes = {
 
 const defaultProps = {
     'title': 'Emkan Records',
-    'url': 'https://www.screwmycode.in/',
+    'url': 'https://www.emkanrecords.com',
     'description': 'Digital record label from France.',
     'image': 'https://www.emkanrecords.com/_next/image?url=%2Fheader%2Fheader_bright.png&w=384&q=75',
 }
