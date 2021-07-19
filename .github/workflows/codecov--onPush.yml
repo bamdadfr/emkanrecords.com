@@ -1,4 +1,4 @@
-name: codecov--onPublished
+name: codecov--onPush
 
 on:
   push:

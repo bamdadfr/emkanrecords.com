@@ -25,6 +25,7 @@
 <p align="center">
     <img src="https://img.shields.io/github/v/release/bamdadsabbagh/emkanrecords-com--www">
     <img src="https://api.codeclimate.com/v1/badges/ced06df34aa1ac312864/maintainability">
+    <img src="https://codecov.io/gh/bamdadsabbagh/emkanrecords-com--www/branch/master/graph/badge.svg?token=CbmnJPQAa1">
 </p>
 
 <p align="center">
