@@ -1,12 +1,6 @@
 @import 'src/app/styles/colors';
 
-// todo: rewrite the nesting for better scoping
-
 .release {
-    //background: red;
-
-    // image
-
     div:first-child {
         border-radius: 4px;
     }
