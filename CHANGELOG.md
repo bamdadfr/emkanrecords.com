@@ -1,3 +1,10 @@
+## [1.13.9](https://github.com/bamdadsabbagh/emkanrecords-com--www/compare/v1.13.8...v1.13.9) (2021-07-19)
+
+
+### Performance Improvements
+
+* add new file structure + update dependencies + add tests + update README.md + extract logic to custom hooks ([a359da9](https://github.com/bamdadsabbagh/emkanrecords-com--www/commit/a359da9f6e755206e6b9ab65732ee7c26dad1a84))
+
 ## [1.13.8](https://github.com/bamdadsabbagh/emkanrecords-com--www/compare/v1.13.7...v1.13.8) (2021-07-19)
 
 
