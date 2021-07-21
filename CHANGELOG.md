@@ -1,3 +1,10 @@
+## [1.13.13](https://github.com/bamdadsabbagh/emkanrecords-com--www/compare/v1.13.12...v1.13.13) (2021-07-21)
+
+
+### Bug Fixes
+
+* remove sourcemaps from final build ([9007506](https://github.com/bamdadsabbagh/emkanrecords-com--www/commit/9007506406f00849acc388cfa20cf33ca6655294))
+
 ## [1.13.12](https://github.com/bamdadsabbagh/emkanrecords-com--www/compare/v1.13.11...v1.13.12) (2021-07-19)
 
 
