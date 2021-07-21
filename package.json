@@ -9,7 +9,8 @@
         "url": "https://bamdadsabbagh.com/"
     },
     "scripts": {
-        "build": "next build",
+        "build": "next build && yarn build:post",
+        "build:post": "find .next -type f -name \"*.map\" -exec rm {} \\;",
         "clean": "yarn next:clean && yarn package:clean",
         "dev": "yarn next:clean && next dev",
         "export": "next export",
