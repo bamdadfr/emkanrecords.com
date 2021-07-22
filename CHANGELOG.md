@@ -1,3 +1,10 @@
+## [1.13.14](https://github.com/bamdadsabbagh/emkanrecords-com--www/compare/v1.13.13...v1.13.14) (2021-07-22)
+
+
+### Performance Improvements
+
+* move fade animation to `animations` folder + replace `react-spring` with `@react-spring/web` + adjust coverage testing workflow ([84edd69](https://github.com/bamdadsabbagh/emkanrecords-com--www/commit/84edd693e062072dc571abd561b75491d286b583))
+
 ## [1.13.13](https://github.com/bamdadsabbagh/emkanrecords-com--www/compare/v1.13.12...v1.13.13) (2021-07-21)
 
 
