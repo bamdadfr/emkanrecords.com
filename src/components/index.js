@@ -1,5 +1,3 @@
-export { FadeInComponent } from './fade-in'
-
 export { FooterComponent } from './footer'
 
 export { HeaderComponent } from './header'

@@ -1,1 +1,0 @@
-export { FadeInComponent } from './fade-in.component'
