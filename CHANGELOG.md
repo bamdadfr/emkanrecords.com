@@ -1,3 +1,10 @@
+## [1.13.16](https://github.com/bamdadsabbagh/emkanrecords-com--www/compare/v1.13.15...v1.13.16) (2021-07-28)
+
+
+### Performance Improvements
+
+* **deps:** update to latest dependencies ([e6d67b6](https://github.com/bamdadsabbagh/emkanrecords-com--www/commit/e6d67b6105273da20e157a0fc838f7ac8d7e636e))
+
 ## [1.13.15](https://github.com/bamdadsabbagh/emkanrecords-com--www/compare/v1.13.14...v1.13.15) (2021-07-26)
 
 
