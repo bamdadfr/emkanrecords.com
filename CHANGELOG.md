@@ -1,3 +1,10 @@
+## [1.13.17](https://github.com/bamdadsabbagh/emkanrecords-com--www/compare/v1.13.16...v1.13.17) (2021-07-29)
+
+
+### Performance Improvements
+
+* **fade.animation:** rename fade.component.js to fade.animation.js ([04721af](https://github.com/bamdadsabbagh/emkanrecords-com--www/commit/04721afb1f0ab476ce3dd0d260487ca5d17daa55))
+
 ## [1.13.16](https://github.com/bamdadsabbagh/emkanrecords-com--www/compare/v1.13.15...v1.13.16) (2021-07-28)
 
 
