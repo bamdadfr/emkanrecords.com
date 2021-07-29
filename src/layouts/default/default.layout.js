@@ -1,7 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import { MetaComponent, FooterComponent, MenuComponent } from '../../components'
-import { FadeComponent } from '../../animations'
+import { FadeAnimation } from '../../animations'
 import styles from './default.layout.module.scss'
 
 const propTypes = {
@@ -32,9 +32,9 @@ export function DefaultLayout ({
             {!customMeta && <MetaComponent/>}
             <MenuComponent/>
             <main className={styles.container}>
-                <FadeComponent>
+                <FadeAnimation>
                     {children}
-                </FadeComponent>
+                </FadeAnimation>
             </main>
             <FooterComponent/>
         </>

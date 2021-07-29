@@ -1,17 +1,17 @@
 import React from 'react'
 import { render, screen } from '@testing-library/react'
-import { FadeComponent } from './fade.component'
+import { FadeAnimation } from './fade.animation'
 
 const string = 'this is the content of my test'
 const Children = () => <span aria-label="children">{string}</span>
 
-describe ('FadeComponent', () => {
+describe ('FadeAnimation', () => {
 
     describe ('container', () => {
 
         it ('should be in the document', () => {
 
-            const { container } = render (<FadeComponent><Children/></FadeComponent>)
+            const { container } = render (<FadeAnimation><Children/></FadeAnimation>)
 
             expect (container).toBeInTheDocument ()
 
@@ -19,7 +19,7 @@ describe ('FadeComponent', () => {
 
         it ('should be visible', () => {
 
-            const { container } = render (<FadeComponent><Children/></FadeComponent>)
+            const { container } = render (<FadeAnimation><Children/></FadeAnimation>)
 
             expect (container).toBeVisible ()
 
@@ -27,7 +27,7 @@ describe ('FadeComponent', () => {
 
         it ('should not be empty', () => {
 
-            const { container } = render (<FadeComponent><Children/></FadeComponent>)
+            const { container } = render (<FadeAnimation><Children/></FadeAnimation>)
 
             expect (container).not.toBeEmptyDOMElement ()
 
@@ -39,7 +39,7 @@ describe ('FadeComponent', () => {
 
         it ('should display the string content', () => {
 
-            render (<FadeComponent><Children/></FadeComponent>)
+            render (<FadeAnimation><Children/></FadeAnimation>)
 
             const children = screen.getByLabelText ('children')
 

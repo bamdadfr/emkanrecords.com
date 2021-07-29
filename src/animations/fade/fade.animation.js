@@ -11,7 +11,7 @@ const propTypes = {
  * @param {React.ReactNode} props.children children
  * @returns {React.ReactElement} react component
  */
-export function FadeComponent ({ children }) {
+export function FadeAnimation ({ children }) {
 
     const props = useSpring ({
         'from': {
@@ -30,4 +30,4 @@ export function FadeComponent ({ children }) {
 
 }
 
-FadeComponent.propTypes = propTypes
+FadeAnimation.propTypes = propTypes

@@ -1,1 +1,1 @@
-export { FadeComponent } from './fade.component'
+export { FadeAnimation } from './fade.animation'
