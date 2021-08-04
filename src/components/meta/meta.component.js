@@ -26,10 +26,10 @@ const defaultProps = {
  * @returns {React.ReactElement} react component
  */
 export function MetaComponent ({
-    title = defaultProps.title,
-    url = defaultProps.url,
-    description = defaultProps.description,
-    image = defaultProps.image,
+    title,
+    url,
+    description,
+    image,
 }) {
 
     // noinspection HtmlRequiredTitleElement,HtmlUnknownTarget
