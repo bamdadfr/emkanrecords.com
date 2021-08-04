@@ -25,7 +25,8 @@
         "package:sort": "npx sort-package-json",
         "start": "next start",
         "test": "jest",
-        "test:cov": "jest --coverage && codecov",
+        "test:cov": "yarn test:coverage",
+        "test:coverage": "jest --coverage && codecov",
         "test:watch": "jest --watch"
     },
     "dependencies": {
@@ -50,7 +51,6 @@
         "eslint-config-next": "^11.0.1",
         "jest": "^27.0.4",
         "jest-css-modules": "^2.1.0",
-        "jest-transform-stub": "^2.0.0",
         "react-icons": "^4.2.0",
         "rimraf": "^3.0.2",
         "sass": "^1.37.5",
