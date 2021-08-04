@@ -1,3 +1,14 @@
+## [1.13.19](https://github.com/bamdadsabbagh/emkanrecords-com--www/compare/v1.13.18...v1.13.19) (2021-08-04)
+
+
+### Performance Improvements
+
+* **deps:** add `yarn test:coverage` command + remove `jest-transform-stub` dev-dep ([ddd015f](https://github.com/bamdadsabbagh/emkanrecords-com--www/commit/ddd015fd1456c051febab579a75ce3ffd58e877c))
+* **deps:** upgrade to latest ([bc9dd62](https://github.com/bamdadsabbagh/emkanrecords-com--www/commit/bc9dd6257c40285b2e476cc6011fbe6ad37fb6b8))
+* **MetaComponent:** remove redundant `defaultProps` assignments ([cf51a8b](https://github.com/bamdadsabbagh/emkanrecords-com--www/commit/cf51a8b036869a11c8e154dba32fe775be737201))
+* **tests:** add unit tests ([7f44510](https://github.com/bamdadsabbagh/emkanrecords-com--www/commit/7f445102354d92dfa6c35a736db7d4aaa3c299ee))
+* **unit tests:** add global mocks for `.scss`, `next/router` and `next/head` + update jest.config.js and unit tests ([b5e2a1d](https://github.com/bamdadsabbagh/emkanrecords-com--www/commit/b5e2a1d988c834a4fcdd2b2551f0ff80b428677a))
+
 ## [1.13.18](https://github.com/bamdadsabbagh/emkanrecords-com--www/compare/v1.13.17...v1.13.18) (2021-08-02)
 
 
