@@ -1,3 +1,10 @@
+## [1.13.20](https://github.com/bamdadsabbagh/emkanrecords-com--www/compare/v1.13.19...v1.13.20) (2021-08-04)
+
+
+### Bug Fixes
+
+* **SEO:** add meta description ([48379f3](https://github.com/bamdadsabbagh/emkanrecords-com--www/commit/48379f315751a78e5d3f25f31b457ed962d95f52))
+
 ## [1.13.19](https://github.com/bamdadsabbagh/emkanrecords-com--www/compare/v1.13.18...v1.13.19) (2021-08-04)
 
 
