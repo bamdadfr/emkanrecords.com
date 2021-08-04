@@ -2,20 +2,6 @@ import React from 'react'
 import { render } from '@testing-library/react'
 import { ActiveLinkComponent } from './active-link.component'
 
-jest.mock ('next/router', () => ({
-
-    useRouter () {
-
-        return {
-            'route': '/',
-            'pathname': '/match',
-            'query': '',
-            'asPath': '',
-        }
-
-    },
-}))
-
 describe ('ActiveLinkComponent', () => {
 
     describe ('container', () => {
@@ -34,13 +20,6 @@ describe ('ActiveLinkComponent', () => {
 
             expect (container).toBeVisible ()
 
-        })
-
-    })
-
-    describe ('button', () => {
-
-        it ('should apply an active class', () => {
         })
 
     })

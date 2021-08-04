@@ -1,20 +1,6 @@
 import { renderHook } from '@testing-library/react-hooks'
 import { useActiveLinkComponent } from './use-active-link-component'
 
-jest.mock ('next/router', () => ({
-
-    useRouter () {
-
-        return {
-            'route': '/',
-            'pathname': '/match',
-            'query': '',
-            'asPath': '',
-        }
-
-    },
-}))
-
 describe ('useActiveLinkComponent', () => {
 
     describe ('active', () => {
@@ -29,7 +15,7 @@ describe ('useActiveLinkComponent', () => {
 
         it ('should return false when href is matching router.pathname', () => {
 
-            const { result } = renderHook (() => useActiveLinkComponent ('/match'))
+            const { result } = renderHook (() => useActiveLinkComponent ('/'))
 
             expect (result.current.active).toBe (true)
 
