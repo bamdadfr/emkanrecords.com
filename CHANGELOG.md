@@ -1,3 +1,10 @@
+# [1.14.0](https://github.com/bamdadsabbagh/emkanrecords-com--www/compare/v1.13.20...v1.14.0) (2021-08-06)
+
+
+### Features
+
+* remove all barrel files ([64e3fd7](https://github.com/bamdadsabbagh/emkanrecords-com--www/commit/64e3fd7af138e8d7d1aaf8822492340a8446bdaf))
+
 ## [1.13.20](https://github.com/bamdadsabbagh/emkanrecords-com--www/compare/v1.13.19...v1.13.20) (2021-08-04)
 
 
