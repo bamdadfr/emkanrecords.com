@@ -1,6 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import { HeaderComponent } from '../../components'
+import { HeaderComponent } from '../../components/header/header.component'
 
 const propTypes = {
     'children': PropTypes.element.isRequired,

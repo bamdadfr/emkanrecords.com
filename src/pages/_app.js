@@ -2,8 +2,8 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import 'sass-reset'
 import '../app/styles/index.scss'
-import { useApp } from '../app/hooks'
-import { AppLayout } from '../layouts'
+import { useApp } from '../app/hooks/use-app/use-app'
+import { AppLayout } from '../layouts/app/app.layout'
 
 const propTypes = {
     'Component': PropTypes.func.isRequired,
