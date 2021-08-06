@@ -1,7 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import Link from 'next/link'
-import { useActiveLinkComponent } from './hooks'
+import { useActiveLinkComponent } from './hooks/use-active-link-component'
 import styles from './active-link.component.module.scss'
 
 const propTypes = {

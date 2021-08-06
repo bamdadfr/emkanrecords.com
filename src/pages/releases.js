@@ -1,8 +1,9 @@
 import React, { Fragment } from 'react'
-import { MetaComponent, ReleaseComponent } from '../components'
-import { ReleasesData } from '../app/data'
+import { MetaComponent } from '../components/meta/meta.component'
+import { ReleaseComponent } from '../components/release/release.component'
+import { ReleasesData } from '../app/data/releases.data'
 import styles from './releases.module.scss'
-import { DefaultLayout } from '../layouts'
+import { DefaultLayout } from '../layouts/default/default.layout'
 
 /**
  * @returns {React.ReactElement} react component

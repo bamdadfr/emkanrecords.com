@@ -1,5 +1,5 @@
 import React from 'react'
-import { DefaultLayout } from '../layouts'
+import { DefaultLayout } from '../layouts/default/default.layout'
 
 /**
  * @returns {React.ReactElement} react component

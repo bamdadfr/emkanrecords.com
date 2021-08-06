@@ -1,1 +1,0 @@
-export { ReleaseComponent } from './release.component'

@@ -1,7 +1,9 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import { MetaComponent, FooterComponent, MenuComponent } from '../../components'
-import { FadeAnimation } from '../../animations'
+import { MetaComponent } from '../../components/meta/meta.component'
+import { FooterComponent } from '../../components/footer/footer.component'
+import { MenuComponent } from '../../components/menu/menu.component'
+import { FadeAnimation } from '../../animations/fade/fade.animation'
 import styles from './default.layout.module.scss'
 
 const propTypes = {

@@ -1,8 +1,8 @@
 import React from 'react'
 import { FaAt } from 'react-icons/fa'
-import { MetaComponent } from '../components'
+import { MetaComponent } from '../components/meta/meta.component'
 import styles from './index.module.scss'
-import { DefaultLayout } from '../layouts'
+import { DefaultLayout } from '../layouts/default/default.layout'
 
 /**
  * @returns {React.ReactElement} react component

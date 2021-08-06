@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from './menu.component.module.scss'
-import { ActiveLinkComponent } from './components'
+import { ActiveLinkComponent } from './components/active-link/active-link.component'
 
 /**
  * @returns {React.ReactElement} react component

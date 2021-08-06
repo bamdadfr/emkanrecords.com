@@ -1,1 +1,0 @@
-export { ReleasesData } from './releases.data'

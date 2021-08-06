@@ -1,1 +1,0 @@
-export { useActiveLinkComponent } from './use-active-link-component'
