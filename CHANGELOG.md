@@ -1,3 +1,10 @@
+## [1.14.3](https://github.com/bamdadsabbagh/emkanrecords-com--www/compare/v1.14.2...v1.14.3) (2021-08-09)
+
+
+### Performance Improvements
+
+* **styles:** better scss selectors ([f445bd7](https://github.com/bamdadsabbagh/emkanrecords-com--www/commit/f445bd7747f9b6fc081ed8b8ca000091f80e440b))
+
 ## [1.14.2](https://github.com/bamdadsabbagh/emkanrecords-com--www/compare/v1.14.1...v1.14.2) (2021-08-09)
 
 
