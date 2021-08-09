@@ -33,12 +33,12 @@ export function ReleaseComponent ({
     image,
 }) {
 
-    // const {image, artist, name, url, id} = children
     const paddedId = id.toString ().padStart (3, '0')
 
     return (
-        <div className={styles.release}>
+        <div>
             <Image
+                className={styles.artwork}
                 alt={'EMK' + paddedId}
                 src={image}
                 layout="intrinsic"
@@ -46,8 +46,8 @@ export function ReleaseComponent ({
                 height={370}
                 placeholder="blur"
             />
-            <div>
-                <span>
+            <div className={styles.details}>
+                <span className={styles.detailsRelease}>
                     <h3>
                         {name}
                     </h3>
@@ -55,8 +55,9 @@ export function ReleaseComponent ({
                         {artist}
                     </h2>
                 </span>
-                <span>
+                <span className={styles.detailsMarket}>
                     <a
+                        className={styles.detailsMarketSpotify}
                         href={url + '/spotify'}
                         target="_blank"
                         rel="noopener noreferrer"
@@ -65,6 +66,8 @@ export function ReleaseComponent ({
                         <FaSpotify/>
                     </a>
                     <a
+
+                        className={styles.detailsMarketYoutube}
                         href={url + '/youtube'}
                         target="_blank"
                         rel="noopener noreferrer"
@@ -73,6 +76,7 @@ export function ReleaseComponent ({
                         <FaYoutube/>
                     </a>
                     <a
+                        className={styles.detailsMarketCart}
                         href={url}
                         target="_blank"
                         rel="noopener noreferrer"

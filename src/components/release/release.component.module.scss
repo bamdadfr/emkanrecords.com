@@ -1,93 +1,65 @@
 @import 'src/app/styles/colors';
 
-.release {
-    div:first-child {
-        border-radius: 4px;
+.artwork {
+    border-radius: 4px;
+}
+
+.details {
+    display: flex;
+}
+
+.detailsRelease {
+    flex: 1;
+    margin-left: 1px;
+
+    h3 {
+        color: $secondary-bright;
+        font-size: 1.5rem;
+        margin-top: -4px;
     }
 
-    // details
+    h2 {
+        color: $secondary-dark;
+        font-size: 1rem;
+        margin-top: -8px;
+    }
+}
 
-    div:last-child {
-        display: flex;
+.detailsMarket {
+    color: $secondary-dark;
+    font-size: 1.667rem;
+    align-self: flex-start;
+    margin-right: 2px;
+    margin-top: -1px;
 
-        // title
+    svg {
+        transition: color 250ms ease-in-out;
+    }
+}
 
-        span:first-child {
-            flex: 1;
-            margin-left: 1px;
+.detailsMarketSpotify {
+    margin-right: 7px;
 
-            // name
+    &:hover {
+        color: $icon-spotify;
+    }
+}
 
-            h3 {
-                color: $secondary-bright;
-                font-size: 1.5rem;
-                margin-top: -4px;
-                //background: red;
-            }
+.detailsMarketYoutube {
+    margin-right: 6px;
 
-            // artist
+    &:hover {
+        color: $icon-youtube;
+    }
+}
 
-            h2 {
-                color: $secondary-dark;
-                font-size: 1rem;
-                margin-top: -8px;
-            }
-        }
+.detailsMarketCart {
+    svg {
+        padding-top: 1px;
+        padding-right: 1px;
+    }
 
-        // icons
-
-        span:last-child {
-            color: $secondary-dark;
-            font-size: 1.667rem;
-            //font-size: 1.333rem;
-
-            align-self: flex-start;
-            margin-right: 2px;
-            margin-top: -1px;
-
-            svg {
-                transition: color 250ms ease-in-out;
-            }
-
-            a {
-                display: inline-flex;
-                //background: red;
-
-                // spotify
-
-                &:first-child {
-                    margin-right: 7px;
-
-                    &:hover {
-                        color: $icon-spotify;
-                    }
-                }
-
-                // youtube
-
-                &:nth-child(2) {
-                    margin-right: 6px;
-
-                    &:hover {
-                        color: $icon-youtube;
-                    }
-                }
-
-                // cart
-
-                &:last-child {
-                    //background: blue;
-
-                    svg {
-                        padding-top: 1px;
-                        padding-right: 1px;
-                    }
-
-                    &:hover {
-                        color: $icon-cart;
-                    }
-                }
-            }
-        }
+    &:hover {
+        color: $icon-cart;
     }
 }

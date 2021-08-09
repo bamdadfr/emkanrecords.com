@@ -10,8 +10,14 @@ export function MenuComponent () {
     return (
         <>
             <nav className={styles.container}>
-                <ActiveLinkComponent href="/" text="About"/>
-                <ActiveLinkComponent href="/releases" text="Releases"/>
+                <ActiveLinkComponent
+                    href="/"
+                    text="About"
+                />
+                <ActiveLinkComponent
+                    href="/releases"
+                    text="Releases"
+                />
             </nav>
         </>
     )

@@ -11,6 +11,7 @@ export function FooterComponent () {
             <footer className={styles.container}>
                 Made by&nbsp;
                 <a
+                    className={styles.link}
                     href="https://www.bamdadsabbagh.com"
                     target="_blank"
                     rel="noopener noreferrer"

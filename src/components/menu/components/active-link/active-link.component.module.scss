@@ -1,6 +1,28 @@
 @import 'src/app/styles/colors';
 
+.link {
+    height: 36px;
+    width: 100%;
+    font-weight: 500;
+    font-size: 0.875rem;
+    text-transform: uppercase;
+    border-radius: 4px;
+    transition: background 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+
+    > * {
+        color: red;
+        background: red;
+    }
+
+    &:hover {
+        background: $primary;
+        color: $background;
+    }
+}
+
 .active {
+    @extend .link;
+
     background: $primary;
     color: $background;
 }

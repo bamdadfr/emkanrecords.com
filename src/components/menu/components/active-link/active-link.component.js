@@ -26,7 +26,10 @@ export function ActiveLinkComponent ({
         <Link href={href}>
             {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
             <a>
-                <button className={active ? styles.active : null} type="button">
+                <button
+                    type="button"
+                    className={active ? styles.active : styles.link}
+                >
                     {text}
                 </button>
             </a>
