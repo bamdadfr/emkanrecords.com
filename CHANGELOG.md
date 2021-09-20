@@ -1,3 +1,11 @@
+## [1.14.11](https://github.com/bamdadsabbagh/emkanrecords-com--www/compare/v1.14.10...v1.14.11) (2021-09-20)
+
+
+### Bug Fixes
+
+* **asfalte:** ⚙️ yarn-upgrade--onMondays-1000 ([55d760d](https://github.com/bamdadsabbagh/emkanrecords-com--www/commit/55d760d71cbf0ebb7b091634e072219015ede10e))
+* **CI:** use node version 14 in pipelines ([4e117f0](https://github.com/bamdadsabbagh/emkanrecords-com--www/commit/4e117f0ff3b8185262b011a96b4b16b30f12374a))
+
 ## [1.14.10](https://github.com/bamdadsabbagh/emkanrecords-com--www/compare/v1.14.9...v1.14.10) (2021-09-13)
 
 
