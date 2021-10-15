@@ -39,7 +39,7 @@
     },
     "devDependencies": {
         "@bamdadsabbagh/eslint-config": "^1.16.0",
-        "@bamdadsabbagh/stylelint-config": "^1.3.18",
+        "@bamdadsabbagh/stylelint-config": "^1.3.30",
         "@fontsource/roboto": "^4.5.0",
         "@testing-library/jest-dom": "^5.14.1",
         "@testing-library/react": "^12.0.0",
