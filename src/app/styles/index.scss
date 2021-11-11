@@ -6,38 +6,38 @@
 @include fontFace($weight: 500);
 
 html {
-    background: $background;
-    color: $primary;
+  background: $background;
+  color: $primary;
 }
 
 .page {
-    font-family: "Roboto", sans-serif;
-    height: 100vh;
-    width: 100%;
-    display: grid;
-    justify-content: center;
-    grid-template-areas:
+  font-family: "Roboto", sans-serif;
+  height: 100vh;
+  width: 100%;
+  display: grid;
+  justify-content: center;
+  grid-template-areas:
         "m header"
         "m nav"
         "m main"
         "m footer";
-    grid-template-rows: 160px 64px 1fr calc(2 * var(--base-gap));
-    grid-template-columns: minmax(var(--base-gap), 1fr) minmax(var(--base-gap), var(--width)) minmax(var(--base-gap), 1fr);
+  grid-template-rows: 160px 64px 1fr calc(2 * var(--base-gap));
+  grid-template-columns: minmax(var(--base-gap), 1fr) minmax(var(--base-gap), var(--width)) minmax(var(--base-gap), 1fr);
 
-    > header {
-        grid-area: header;
-    }
+  > header {
+    grid-area: header;
+  }
 
-    > nav {
-        grid-area: nav;
-    }
+  > nav {
+    grid-area: nav;
+  }
 
-    > main {
-        grid-area: main;
-        margin-top: 1rem;
-    }
+  > main {
+    grid-area: main;
+    margin-top: 1rem;
+  }
 
-    > footer {
-        grid-area: footer;
-    }
+  > footer {
+    grid-area: footer;
+  }
 }

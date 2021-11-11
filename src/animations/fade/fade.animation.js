@@ -1,33 +1,29 @@
-import React from 'react'
-import PropTypes from 'prop-types'
-import { animated, useSpring } from '@react-spring/web'
+import React from 'react';
+import PropTypes from 'prop-types';
+import { animated, useSpring } from '@react-spring/web';
 
 const propTypes = {
-    'children': PropTypes.node.isRequired,
-}
+  children: PropTypes.node.isRequired,
+};
 
 /**
- * @param {object} props react props
- * @param {React.ReactNode} props.children children
- * @returns {React.ReactElement} react component
+ * Component to fade in and out
+ *
+ * @param {object} props - Component props
+ * @param {React.ReactNode} props.children - Component children
+ * @returns {React.ReactElement} - Rendered component
  */
 export function FadeAnimation ({ children }) {
+  const props = useSpring ({
+    from: { opacity: 0 },
+    to: { opacity: 1 },
+  });
 
-    const props = useSpring ({
-        'from': {
-            'opacity': 0,
-        },
-        'to': {
-            'opacity': 1,
-        },
-    })
-
-    return (
-        <animated.div style={props}>
-            {children}
-        </animated.div>
-    )
-
+  return (
+    <animated.div style={props}>
+      {children}
+    </animated.div>
+  );
 }
 
-FadeAnimation.propTypes = propTypes
+FadeAnimation.propTypes = propTypes;

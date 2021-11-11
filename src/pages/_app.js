@@ -1,21 +1,21 @@
-import React from 'react'
-import PropTypes from 'prop-types'
-import 'sass-reset'
-import '../app/styles/index.scss'
-import { useApp } from '../app/hooks/use-app/use-app'
-import { AppLayout } from '../layouts/app/app.layout'
+import React from 'react';
+import PropTypes from 'prop-types';
+import 'sass-reset';
+import '../app/styles/index.scss';
+import { useApp } from '../app/hooks/use-app/use-app';
+import { AppLayout } from '../layouts/app/app.layout';
 
 const propTypes = {
-    'Component': PropTypes.func.isRequired,
-    // eslint-disable-next-line react/forbid-prop-types
-    'pageProps': PropTypes.object.isRequired,
-    // eslint-disable-next-line react/forbid-prop-types
-    'err': PropTypes.any,
-}
+  'Component': PropTypes.func.isRequired,
+  // eslint-disable-next-line react/forbid-prop-types
+  'pageProps': PropTypes.object.isRequired,
+  // eslint-disable-next-line react/forbid-prop-types
+  'err': PropTypes.any,
+};
 
 const defaultProps = {
-    'err': undefined,
-}
+  'err': undefined,
+};
 
 /**
  * @param {object} props component props
@@ -25,20 +25,18 @@ const defaultProps = {
  * @returns {React.ReactElement} react component
  */
 export default function MyApp ({ Component, pageProps, err }) {
+  useApp ();
 
-    useApp ()
-
-    return (
-        <>
-            <AppLayout>
-                {/* eslint-disable-next-line react/jsx-props-no-spreading */}
-                <Component {...pageProps} err={err}/>
-            </AppLayout>
-        </>
-    )
-
+  return (
+    <>
+      <AppLayout>
+        {/* eslint-disable-next-line react/jsx-props-no-spreading */}
+        <Component {...pageProps} err={err} />
+      </AppLayout>
+    </>
+  );
 }
 
-MyApp.propTypes = propTypes
+MyApp.propTypes = propTypes;
 
-MyApp.defaultProps = defaultProps
+MyApp.defaultProps = defaultProps;

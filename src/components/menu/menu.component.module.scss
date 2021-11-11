@@ -1,8 +1,8 @@
 @import 'src/app/styles/colors';
 
 .container {
-    display: grid;
-    align-items: center;
-    grid-template-columns: 1fr 1fr;
-    grid-column-gap: var(--base-gap);
+  display: grid;
+  align-items: center;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: var(--base-gap);
 }
