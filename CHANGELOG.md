@@ -1,3 +1,10 @@
+## [1.14.19](https://github.com/bamdadsabbagh/emkanrecords-com--www/compare/v1.14.18...v1.14.19) (2021-11-11)
+
+
+### Performance Improvements
+
+* update dependencies + apply new code style ([8616c2b](https://github.com/bamdadsabbagh/emkanrecords-com--www/commit/8616c2b67c632097c286cf020500329b3222c123))
+
 ## [1.14.18](https://github.com/bamdadsabbagh/emkanrecords-com--www/compare/v1.14.17...v1.14.18) (2021-11-08)
 
 
