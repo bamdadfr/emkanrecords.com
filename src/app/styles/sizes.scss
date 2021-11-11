@@ -5,37 +5,37 @@ $size-widescreen: 1216px;
 $size-fullhd: 1408px;
 
 :root {
-    --base-width: 370px;
-    --base-gap: 20px;
-    --width: calc(var(--columns) * var(--base-width) + (var(--columns) - 1) * var(--base-gap));
+  --base-width: 370px;
+  --base-gap: 20px;
+  --width: calc(var(--columns) * var(--base-width) + (var(--columns) - 1) * var(--base-gap));
 }
 
 @media screen and (max-width: $size-mobile) {
-    :root {
-        --columns: 1;
-    }
+  :root {
+    --columns: 1;
+  }
 }
 
 @media screen and (min-width: $size-tablet) and (max-width: $size-desktop) {
-    :root {
-        --columns: 2;
-    }
+  :root {
+    --columns: 2;
+  }
 }
 
 @media screen and (min-width: $size-desktop) and (max-width: $size-widescreen) {
-    :root {
-        --columns: 2;
-    }
+  :root {
+    --columns: 2;
+  }
 }
 
 @media screen and (min-width: $size-widescreen) and (max-width: $size-fullhd) {
-    :root {
-        --columns: 2;
-    }
+  :root {
+    --columns: 2;
+  }
 }
 
 @media screen and (min-width: $size-fullhd) {
-    :root {
-        --columns: 3;
-    }
+  :root {
+    --columns: 3;
+  }
 }
