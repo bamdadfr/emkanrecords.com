@@ -1,3 +1,10 @@
+## [1.14.21](https://github.com/bamdadsabbagh/emkanrecords-com--www/compare/v1.14.20...v1.14.21) (2021-11-16)
+
+
+### Bug Fixes
+
+* **next.js:** disable `outputFileTracing` to prevent sentry from crashing server functions ([0e604ab](https://github.com/bamdadsabbagh/emkanrecords-com--www/commit/0e604ab617786e63db143663b1ee062de8c0f02b))
+
 ## [1.14.20](https://github.com/bamdadsabbagh/emkanrecords-com--www/compare/v1.14.19...v1.14.20) (2021-11-15)
 
 
