@@ -1,3 +1,10 @@
+## [1.14.24](https://github.com/bamdadsabbagh/emkanrecords-com--www/compare/v1.14.23...v1.14.24) (2021-12-06)
+
+
+### Bug Fixes
+
+* **asfalte:** ⚙️ yarn-upgrade--onMondays-1000 ([3cb8b9d](https://github.com/bamdadsabbagh/emkanrecords-com--www/commit/3cb8b9d5289829a68e4083c4f72ad14dab0d475c))
+
 ## [1.14.23](https://github.com/bamdadsabbagh/emkanrecords-com--www/compare/v1.14.22...v1.14.23) (2021-11-29)
 
 
