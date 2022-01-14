@@ -787,10 +787,10 @@
   resolved "https://registry.yarnpkg.com/@react-spring/types/-/types-9.4.1.tgz#93a203e5b922362e6643b95aff0989dd1a33b77b"
   integrity sha512-eZmlFRc+XkY/HJi4RswLkIHH0nKQkqKRHPUqnseffcBuZ5FNXKDUmNnLUpqkrCpl746QCFVQtI5QptLklDATfQ==
 
-"@react-spring/web@^9.2.4":
-  version "9.4.1"
-  resolved "https://registry.yarnpkg.com/@react-spring/web/-/web-9.4.1.tgz#dd8560af6834a9c41cd7061bc98721e9f64a8557"
-  integrity sha512-ajlGJl0Zqa3idhZw0KL5chP8AIn4wPHpDY7WjtWaWjVZSZRSBAeHmfqNLtAGCjazeO/Q6zmt6wdGs8bX8q42rQ==
+"@react-spring/web@^9.4.2":
+  version "9.4.2"
+  resolved "https://registry.yarnpkg.com/@react-spring/web/-/web-9.4.2.tgz#ea8bb224c236d10097da463ea9e950f0939b7a5f"
+  integrity sha512-sWfA9NkVuvVOpjSlMkD2zcF6X3i8NSHTeH/uHCGKsN3mYqgkhvAF+E8GASO/H4KKGNhbRvgCZiwJXOtOGyUg6A==
   dependencies:
     "@react-spring/animated" "~9.4.0"
     "@react-spring/core" "~9.4.0"
