@@ -8,7 +8,7 @@ import headerImage from '../../../public/header/header_bright.png';
  *
  * @returns {React.ReactElement} - Header component
  */
-export function HeaderComponent () {
+export function HeaderComponent() {
   return (
     <>
       <header className={styles.container}>

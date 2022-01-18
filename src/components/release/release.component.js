@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import Image from 'next/image';
-import { FaShoppingCart, FaSpotify, FaYoutube } from 'react-icons/fa';
+import {FaShoppingCart, FaSpotify, FaYoutube} from 'react-icons/fa';
 import styles from './release.component.module.scss';
 
 const propTypes = {
@@ -9,7 +9,7 @@ const propTypes = {
   artist: PropTypes.string.isRequired,
   name: PropTypes.string.isRequired,
   url: PropTypes.string.isRequired,
-  image: PropTypes.shape ({
+  image: PropTypes.shape({
     src: PropTypes.string.isRequired,
     width: PropTypes.number.isRequired,
     height: PropTypes.number.isRequired,
@@ -27,14 +27,14 @@ const propTypes = {
  * @param {object} props.image - Release image
  * @returns {React.ReactElement} - Release component
  */
-export function ReleaseComponent ({
+export function ReleaseComponent({
   id,
   artist,
   name,
   url,
   image,
 }) {
-  const paddedId = id.toString ().padStart (3, '0');
+  const paddedId = id.toString().padStart(3, '0');
 
   return (
     <div>

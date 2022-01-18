@@ -26,7 +26,7 @@ const defaultProps = {
  * @param {string} [props.image] - Image of the page
  * @returns {React.ReactElement} - Meta tags component
  */
-export function MetaComponent ({
+export function MetaComponent({
   title,
   url,
   description,

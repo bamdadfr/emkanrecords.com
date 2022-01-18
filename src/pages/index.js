@@ -1,8 +1,8 @@
 import React from 'react';
-import { FaAt } from 'react-icons/fa';
-import { MetaComponent } from '../components/meta/meta.component';
+import {FaAt} from 'react-icons/fa';
+import {MetaComponent} from '../components/meta/meta.component';
 import styles from './index.module.scss';
-import { DefaultLayout } from '../layouts/default/default.layout';
+import {DefaultLayout} from '../layouts/default/default.layout';
 
 /**
  * Index page
@@ -10,7 +10,7 @@ import { DefaultLayout } from '../layouts/default/default.layout';
  *
  * @returns {React.ReactElement} - Index page
  */
-export default function IndexPage () {
+export default function IndexPage() {
   return (
     <>
       <MetaComponent title="About | Emkan Records" />

@@ -1,13 +1,13 @@
 import React from 'react';
 import styles from './menu.component.module.scss';
-import { ActiveLinkComponent } from './components/active-link/active-link.component';
+import {ActiveLinkComponent} from './components/active-link/active-link.component';
 
 /**
  * Component to render the menu
  *
  * @returns {React.ReactElement} - Menu component
  */
-export function MenuComponent () {
+export function MenuComponent() {
   return (
     <>
       <nav className={styles.container}>

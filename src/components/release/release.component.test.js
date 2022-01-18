@@ -1,6 +1,6 @@
 import React from 'react';
-import { render as defaultRender } from '@testing-library/react';
-import { ReleaseComponent } from './release.component';
+import {render as defaultRender} from '@testing-library/react';
+import {ReleaseComponent} from './release.component';
 
 const render = () => {
   const image = {
@@ -9,7 +9,7 @@ const render = () => {
     height: 370,
   };
 
-  const { container } = defaultRender (
+  const {container} = defaultRender(
     <ReleaseComponent
       artist="artist"
       id={0}
@@ -24,17 +24,17 @@ const render = () => {
   };
 };
 
-describe ('ReleaseComponent', () => {
-  describe ('container', () => {
-    it ('should be defined and visible', () => {
-      const { container } = render ();
-      expect (container).toBeInTheDocument ();
-      expect (container).toBeVisible ();
+describe('ReleaseComponent', () => {
+  describe('container', () => {
+    it('should be defined and visible', () => {
+      const {container} = render();
+      expect(container).toBeInTheDocument();
+      expect(container).toBeVisible();
     });
 
-    it ('should not be empty', () => {
-      const { container } = render ();
-      expect (container).not.toBeEmptyDOMElement ();
+    it('should not be empty', () => {
+      const {container} = render();
+      expect(container).not.toBeEmptyDOMElement();
     });
   });
 });

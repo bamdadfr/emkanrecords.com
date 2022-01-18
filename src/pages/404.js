@@ -1,5 +1,5 @@
 import React from 'react';
-import { DefaultLayout } from '../layouts/default/default.layout';
+import {DefaultLayout} from '../layouts/default/default.layout';
 
 /**
  * 404 page
@@ -7,7 +7,7 @@ import { DefaultLayout } from '../layouts/default/default.layout';
  *
  * @returns {React.ReactElement} - 404 page
  */
-export default function NotFoundPage () {
+export default function NotFoundPage() {
   return (
     <>
       <DefaultLayout>

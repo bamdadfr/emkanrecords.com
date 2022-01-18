@@ -4,7 +4,7 @@ import styles from './footer.component.module.scss';
 /**
  * @returns {React.ReactElement} react component
  */
-export function FooterComponent () {
+export function FooterComponent() {
   return (
     <>
       <footer className={styles.container}>
