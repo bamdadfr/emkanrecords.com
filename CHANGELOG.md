@@ -1,3 +1,10 @@
+## [1.14.31](https://github.com/bamdadsabbagh/emkanrecords-com--www/compare/v1.14.30...v1.14.31) (2022-01-18)
+
+
+### Performance Improvements
+
+* Update dependencies and apply latest eslint rules ([0803baa](https://github.com/bamdadsabbagh/emkanrecords-com--www/commit/0803baab7cdbb1bcae0e5886ed71895f86091bcb))
+
 ## [1.14.30](https://github.com/bamdadsabbagh/emkanrecords-com--www/compare/v1.14.29...v1.14.30) (2022-01-17)
 
 
