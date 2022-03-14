@@ -30,7 +30,7 @@
     "test:watch": "jest --watch"
   },
   "dependencies": {
-    "@react-spring/web": "^9.2.4",
+    "@react-spring/web": "^9.4.4",
     "@sentry/nextjs": "^6.14.2",
     "next": "12.0.8",
     "prop-types": "^15.7.2",
