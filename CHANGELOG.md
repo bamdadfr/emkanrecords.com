@@ -1,3 +1,10 @@
+# [1.15.0](https://github.com/bamdadsabbagh/emkanrecords-com--www/compare/v1.14.44...v1.15.0) (2022-05-07)
+
+
+### Features
+
+* Add sitemap + Update dependencies + Add .env example ([3963b71](https://github.com/bamdadsabbagh/emkanrecords-com--www/commit/3963b71c7b485e6b6699fce9a248d495cbd3d2d3))
+
 ## [1.14.44](https://github.com/bamdadsabbagh/emkanrecords-com--www/compare/v1.14.43...v1.14.44) (2022-04-18)
 
 
