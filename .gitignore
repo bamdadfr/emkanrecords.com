@@ -35,5 +35,4 @@ out
 # sentry.io
 sentry.properties
 
-# env
-.env
+.idea/sonarlint

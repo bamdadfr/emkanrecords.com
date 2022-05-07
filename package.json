@@ -10,7 +10,9 @@
   },
   "scripts": {
     "build": "next build && yarn build:post",
-    "build:post": "find .next -type f -name \"*.map\" -exec rm {} \\;",
+    "build:post": "yarn build:post:remove-source-maps && yarn build:post:build-sitemap",
+    "build:post:build-sitemap": "next-sitemap",
+    "build:post:remove-source-maps": "find .next -type f -name \"*.map\" -exec rm {} \\;",
     "clean": "yarn next:clean && yarn package:clean",
     "dev": "yarn next:clean && next dev",
     "export": "next export",
@@ -30,29 +32,30 @@
     "test:watch": "jest --watch"
   },
   "dependencies": {
-    "@react-spring/web": "^9.2.4",
-    "@sentry/nextjs": "^6.14.2",
-    "next": "12.0.8",
+    "@react-spring/web": "^9.4.5",
+    "@sentry/nextjs": "^6.19.7",
+    "next": "12.1.6",
     "prop-types": "^15.7.2",
-    "react": "17.0.2",
-    "react-dom": "17.0.2"
+    "react": "18.1.0",
+    "react-dom": "18.1.0"
   },
   "devDependencies": {
-    "@bamdadsabbagh/eslint-config": "^2.0.10",
+    "@bamdadsabbagh/eslint-config": "^2.0.26",
     "@fontsource/roboto": "^4.5.0",
     "@testing-library/jest-dom": "^5.14.1",
-    "@testing-library/react": "^12.0.0",
-    "@testing-library/react-hooks": "^7.0.2",
-    "@types/react": "^17.0.17",
-    "@types/react-dom": "^17.0.9",
-    "babel-jest": "^27.0.2",
+    "@testing-library/react": "^13.2.0",
+    "@testing-library/react-hooks": "^8.0.0",
+    "@types/react": "^18.0.9",
+    "@types/react-dom": "^18.0.3",
+    "babel-jest": "^28.1.0",
     "codecov": "^3.8.2",
-    "eslint-config-next": "^12.0.3",
-    "jest": "^27.0.4",
+    "eslint-config-next": "^12.1.6",
+    "jest": "^28.1.0",
     "jest-css-modules": "^2.1.0",
+    "next-sitemap": "^2.5.20",
     "react-icons": "^4.2.0",
     "rimraf": "^3.0.2",
-    "sass": "^1.39.0",
+    "sass": "^1.51.0",
     "sass-reset": "^1.0.2"
   }
 }
