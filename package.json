@@ -43,7 +43,7 @@
     "@bamdadsabbagh/eslint-config": "^2.0.26",
     "@fontsource/roboto": "^4.5.0",
     "@testing-library/jest-dom": "^5.14.1",
-    "@testing-library/react": "^13.2.0",
+    "@testing-library/react": "^13.3.0",
     "@testing-library/react-hooks": "^8.0.0",
     "@types/react": "^18.0.9",
     "@types/react-dom": "^18.0.3",
