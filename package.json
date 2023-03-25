@@ -34,7 +34,7 @@
   "dependencies": {
     "@react-spring/web": "^9.4.5",
     "@sentry/nextjs": "^6.19.7",
-    "next": "12.1.6",
+    "next": "12.3.4",
     "prop-types": "^15.7.2",
     "react": "18.1.0",
     "react-dom": "18.1.0"
