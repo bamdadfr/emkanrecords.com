@@ -1,3 +1,21 @@
+# [2.0.0](https://github.com/bamdadsabbagh/emkanrecords-com--www/compare/v1.15.0...v2.0.0) (2023-07-31)
+
+
+### Bug Fixes
+
+* **Releases:** Copy array when sorting ([06f95b4](https://github.com/bamdadsabbagh/emkanrecords-com--www/commit/06f95b43ce8dda25e144360c28e73d083885356b))
+* **Releases:** Remove smarturl third party service and add static links ([496816a](https://github.com/bamdadsabbagh/emkanrecords-com--www/commit/496816aecf60607eb2f9670f833ead8fc405b4d7))
+
+
+### Features
+
+* Upgrade to nextjs 13 and typescript ([9695149](https://github.com/bamdadsabbagh/emkanrecords-com--www/commit/9695149725e37f5b94ff4426b7db3c6423bfe53f))
+
+
+### BREAKING CHANGES
+
+* Upgrade to nextjs 13 and typescript
+
 # [1.15.0](https://github.com/bamdadsabbagh/emkanrecords-com--www/compare/v1.14.44...v1.15.0) (2022-05-07)
 
 
