@@ -11,9 +11,11 @@ jobs:
     steps:
       - uses: actions/checkout@master
 
-      - run: yarn
+      - run: npm -g i pnpm
 
-      - run: yarn test:cov
+      - run: pnpm i --frozen-lockfile --ignore-scripts
+
+      - run: pnpm test:cov
 
       - uses: codecov/codecov-action@master
         with:
