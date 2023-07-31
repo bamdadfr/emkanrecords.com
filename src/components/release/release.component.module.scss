@@ -46,20 +46,20 @@
 }
 
 .detailsMarketYoutube {
-  margin-right: 6px;
+  margin-right: 4px;
 
   &:hover {
     color: $icon-youtube;
   }
 }
 
-.detailsMarketCart {
+.detailsMarketItunes {
   svg {
     padding-top: 1px;
     padding-right: 1px;
   }
 
   &:hover {
-    color: $icon-cart;
+    color: $icon-itunes;
   }
 }

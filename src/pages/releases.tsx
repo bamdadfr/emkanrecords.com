@@ -17,15 +17,9 @@ export default function Releases() {
       <DefaultLayout customMeta>
         <h1 style={{display: 'none'}}>releases</h1>
         <div className={styles.container}>
-          {ReleasesData.map((release) => (
+          {ReleasesData.sort((a, b) => b.id - a.id).map((release) => (
             <Fragment key={release.id}>
-              <ReleaseComponent
-                id={release.id}
-                artist={release.artist}
-                name={release.name}
-                url={release.url}
-                image={release.image}
-              />
+              <ReleaseComponent release={release} />
             </Fragment>
           ))}
         </div>

@@ -1,38 +1,25 @@
 import Image from 'next/legacy/image';
-import {FaShoppingCart, FaSpotify, FaYoutube} from 'react-icons/fa';
+import {FaItunesNote, FaSpotify, FaYoutube} from 'react-icons/fa';
 
+import {type Release} from '../../app/data/releases.data';
 import styles from './release.component.module.scss';
 
 interface ReleaseComponentProps {
-  id: number;
-  artist: string;
-  name: string;
-  url: string;
-  image: {
-    src: string;
-    width: number;
-    height: number;
-  };
+  release: Release;
 }
 
 /**
  * Component to display a release
  */
-export function ReleaseComponent({
-  id,
-  artist,
-  name,
-  url,
-  image,
-}: ReleaseComponentProps) {
-  const paddedId = id.toString().padStart(3, '0');
+export function ReleaseComponent({release}: ReleaseComponentProps) {
+  const paddedId = release.id.toString().padStart(3, '0');
 
   return (
     <div>
       <Image
         className={styles.artwork}
         alt={'EMK' + paddedId}
-        src={image}
+        src={release.image}
         layout="intrinsic"
         width={370}
         height={370}
@@ -40,36 +27,36 @@ export function ReleaseComponent({
       />
       <div className={styles.details}>
         <span className={styles.detailsRelease}>
-          <h3>{name}</h3>
-          <h2>{artist}</h2>
+          <h3>{release.name}</h3>
+          <h2>{release.artist}</h2>
         </span>
         <span className={styles.detailsMarket}>
           <a
             className={styles.detailsMarketSpotify}
-            href={url + '/spotify'}
+            href={release.retailers.spotify}
             target="_blank"
             rel="noopener noreferrer"
-            aria-label={`${artist} - ${name} - spotify`}
+            aria-label={`${release.artist} - ${release.name} - spotify`}
           >
             <FaSpotify />
           </a>
           <a
             className={styles.detailsMarketYoutube}
-            href={url + '/youtube'}
+            href={release.retailers.youtube}
             target="_blank"
             rel="noopener noreferrer"
-            aria-label={`${artist} - ${name} - youtube`}
+            aria-label={`${release.artist} - ${release.name} - youtube`}
           >
             <FaYoutube />
           </a>
           <a
-            className={styles.detailsMarketCart}
-            href={url}
+            className={styles.detailsMarketItunes}
+            href={release.retailers.itunes}
             target="_blank"
             rel="noopener noreferrer"
-            aria-label={`${artist} - ${name} - shop`}
+            aria-label={`${release.artist} - ${release.name} - itunes`}
           >
-            <FaShoppingCart />
+            <FaItunesNote />
           </a>
         </span>
       </div>
