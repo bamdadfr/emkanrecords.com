@@ -23,7 +23,7 @@ export interface Release {
   };
 }
 
-export const ReleasesData: Release[] = [
+export const releases: Release[] = [
   {
     id: 0,
     artist: 'Gary Stallman',

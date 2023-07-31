@@ -1,6 +1,6 @@
 import {Fragment} from 'react';
 
-import {ReleasesData} from '../app/data/releases.data';
+import {releases} from '../app/data/releases';
 import {MetaComponent} from '../components/meta/meta.component';
 import {ReleaseComponent} from '../components/release/release.component';
 import {DefaultLayout} from '../layouts/default/default.layout';
@@ -17,11 +17,13 @@ export default function Releases() {
       <DefaultLayout customMeta>
         <h1 style={{display: 'none'}}>releases</h1>
         <div className={styles.container}>
-          {ReleasesData.sort((a, b) => b.id - a.id).map((release) => (
-            <Fragment key={release.id}>
-              <ReleaseComponent release={release} />
-            </Fragment>
-          ))}
+          {[...releases]
+            .sort((a, b) => b.id - a.id)
+            .map((release) => (
+              <Fragment key={release.id}>
+                <ReleaseComponent release={release} />
+              </Fragment>
+            ))}
         </div>
       </DefaultLayout>
     </>

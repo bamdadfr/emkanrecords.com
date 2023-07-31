@@ -1,7 +1,7 @@
 import Image from 'next/legacy/image';
 import {FaItunesNote, FaSpotify, FaYoutube} from 'react-icons/fa';
 
-import {type Release} from '../../app/data/releases.data';
+import {type Release} from '../../app/data/releases';
 import styles from './release.component.module.scss';
 
 interface ReleaseComponentProps {
