@@ -9,7 +9,6 @@ jobs:
   codecov--onPublished:
     runs-on: ubuntu-latest
     steps:
-
       - uses: actions/checkout@master
 
       - run: yarn

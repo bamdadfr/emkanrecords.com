@@ -10,11 +10,7 @@ module.exports = {
     'next/image': '<rootDir>/__mocks__/next-image.js',
   },
   testEnvironment: 'jsdom',
-  modulePathIgnorePatterns: [
-    '<rootDir>/.next/',
-  ],
+  modulePathIgnorePatterns: ['<rootDir>/.next/'],
   coverageDirectory: './coverage/',
-  collectCoverageFrom: [
-    '<rootDir>/src/**/*.js',
-  ],
+  collectCoverageFrom: ['<rootDir>/src/**/*.ts', '<rootDir>/src/**/*.tsx'],
 };

@@ -7,7 +7,9 @@ $size-fullhd: 1408px;
 :root {
   --base-width: 370px;
   --base-gap: 20px;
-  --width: calc(var(--columns) * var(--base-width) + (var(--columns) - 1) * var(--base-gap));
+  --width: calc(
+    var(--columns) * var(--base-width) + (var(--columns) - 1) * var(--base-gap)
+  );
 }
 
 @media screen and (max-width: $size-mobile) {
