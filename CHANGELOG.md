@@ -1,3 +1,10 @@
+## [2.0.1](https://github.com/bamdadsabbagh/emkanrecords-com--www/compare/v2.0.0...v2.0.1) (2023-07-31)
+
+
+### Bug Fixes
+
+* Dummy commit to increment semantic versioning ([ededc5a](https://github.com/bamdadsabbagh/emkanrecords-com--www/commit/ededc5a1d1226c894f20f1485456e3d20f5aa23c))
+
 # [2.0.0](https://github.com/bamdadsabbagh/emkanrecords-com--www/compare/v1.15.0...v2.0.0) (2023-07-31)
 
 
