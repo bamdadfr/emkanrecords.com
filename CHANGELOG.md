@@ -1,3 +1,10 @@
+## [2.0.2](https://github.com/bamdadsabbagh/emkanrecords-com--www/compare/v2.0.1...v2.0.2) (2023-08-07)
+
+
+### Bug Fixes
+
+* **Data:** Add spotify link to EMK001 ([5a4dcfe](https://github.com/bamdadsabbagh/emkanrecords-com--www/commit/5a4dcfea80e2309ea8031ed7152749a14f46a6ff))
+
 ## [2.0.1](https://github.com/bamdadsabbagh/emkanrecords-com--www/compare/v2.0.0...v2.0.1) (2023-07-31)
 
 
