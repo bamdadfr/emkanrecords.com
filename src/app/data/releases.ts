@@ -47,7 +47,7 @@ export const releases: Release[] = [
     retailers: {
       youtube:
         'https://www.youtube.com/playlist?list=PLOLsSaniv_GHRvxjwb2JEEav9zlq8O1vw',
-      spotify: '',
+      spotify: 'https://open.spotify.com/track/3gzJnSBYBKNiowjnPADnjn',
       itunes: 'https://music.apple.com/album/signature-single/1129053093',
     },
   },
