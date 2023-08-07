@@ -23,8 +23,8 @@ dependencies:
 
 devDependencies:
   '@fontsource/roboto':
-    specifier: ^5.0.5
-    version: 5.0.5
+    specifier: ^5.0.8
+    version: 5.0.8
   '@next/eslint-plugin-next':
     specifier: ^13.4.12
     version: 13.4.12
@@ -471,8 +471,8 @@ packages:
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
     dev: true
 
-  /@fontsource/roboto@5.0.5:
-    resolution: {integrity: sha512-IMXFq5AMgGx0sgNLfwWsmPuy3qa7lmDmQcXXihqwF4mT2UpD725cbxZj93ERY793OWon+6V1ANax02I3nt9+4w==}
+  /@fontsource/roboto@5.0.8:
+    resolution: {integrity: sha512-XxPltXs5R31D6UZeLIV1td3wTXU3jzd3f2DLsXI8tytMGBkIsGcc9sIyiupRtA8y73HAhuSCeweOoBqf6DbWCA==}
     dev: true
 
   /@humanwhocodes/config-array@0.11.10:
