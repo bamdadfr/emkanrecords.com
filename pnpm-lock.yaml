@@ -9,8 +9,8 @@ dependencies:
     specifier: ^9.7.3
     version: 9.7.3(react-dom@18.2.0)(react@18.2.0)
   '@sentry/nextjs':
-    specifier: ^7.60.1
-    version: 7.60.1(next@13.4.12)(react@18.2.0)
+    specifier: ^7.65.0
+    version: 7.65.0(next@13.4.12)(react@18.2.0)
   next:
     specifier: 13.4.12
     version: 13.4.12(@babel/core@7.22.9)(react-dom@18.2.0)(react@18.2.0)(sass@1.64.1)
@@ -971,25 +971,25 @@ packages:
     resolution: {integrity: sha512-V+MvGwaHH03hYhY+k6Ef/xKd6RYlc4q8WBx+2ANmipHJcKuktNcI/NgEsJgdSUF6Lw32njT6OnrRsKYCdgHjYw==}
     dev: true
 
-  /@sentry-internal/tracing@7.60.1:
-    resolution: {integrity: sha512-2vM+3/ddzmoBfi92OOD9FFTHXf0HdQhKtNM26+/RsmkKnTid+/inbvA7nKi+Qa7ExcnlC6eclEHQEg+0X3yDkQ==}
+  /@sentry-internal/tracing@7.65.0:
+    resolution: {integrity: sha512-TEYkiq5vKr1Y79YIu+UYr1sO3vEMttQOBsOZLziDbqiC7TvKUARBR4W5XWfb9qBVDeon87EFNKluW0/+7rzYWw==}
     engines: {node: '>=8'}
     dependencies:
-      '@sentry/core': 7.60.1
-      '@sentry/types': 7.60.1
-      '@sentry/utils': 7.60.1
+      '@sentry/core': 7.65.0
+      '@sentry/types': 7.65.0
+      '@sentry/utils': 7.65.0
       tslib: 2.6.1
     dev: false
 
-  /@sentry/browser@7.60.1:
-    resolution: {integrity: sha512-opZQee3S0c459LXt8YGpwOM/qiTlzluHEEnfW2q+D2yVCWh8iegsDX3kbRiv4i/mtQu9yPhM9M761KDnc/0eZw==}
+  /@sentry/browser@7.65.0:
+    resolution: {integrity: sha512-TUzZPAXNJ/Y1yakFODYhsEtdDpLdkgjTfrx5i9MOnXQLrcRR0C4TC1KitqbP6Tv7Xha9WiR0TDZkh7gS/9RxEA==}
     engines: {node: '>=8'}
     dependencies:
-      '@sentry-internal/tracing': 7.60.1
-      '@sentry/core': 7.60.1
-      '@sentry/replay': 7.60.1
-      '@sentry/types': 7.60.1
-      '@sentry/utils': 7.60.1
+      '@sentry-internal/tracing': 7.65.0
+      '@sentry/core': 7.65.0
+      '@sentry/replay': 7.65.0
+      '@sentry/types': 7.65.0
+      '@sentry/utils': 7.65.0
       tslib: 2.6.1
     dev: false
 
@@ -1010,27 +1010,27 @@ packages:
       - supports-color
     dev: false
 
-  /@sentry/core@7.60.1:
-    resolution: {integrity: sha512-yr/0VFYWOJyXj+F2nifkRYxXskotsNnDggUnFOZZN2ZgTG94IzRFsOZQ6RslHJ8nrYPTBNO74reU0C0GB++xRw==}
+  /@sentry/core@7.65.0:
+    resolution: {integrity: sha512-EwZABW8CtAbRGXV69FqeCqcNApA+Jbq308dko0W+MFdFe+9t2RGubUkpPxpJcbWy/dN2j4LiuENu1T7nWn0ZAQ==}
     engines: {node: '>=8'}
     dependencies:
-      '@sentry/types': 7.60.1
-      '@sentry/utils': 7.60.1
+      '@sentry/types': 7.65.0
+      '@sentry/utils': 7.65.0
       tslib: 2.6.1
     dev: false
 
-  /@sentry/integrations@7.60.1:
-    resolution: {integrity: sha512-GkxGGUOGyRZ2aJrHfGPGJ40wh+r03xDHgjeM7SMHwdJdxTgFhv4xUZAl6NlywbxL5t2jhVwCMZNYIvy/vUrcFQ==}
+  /@sentry/integrations@7.65.0:
+    resolution: {integrity: sha512-9b54p0UrkWe9+RAWWTObJQ2k/uStqaUj7BkNFyuaxfKQ4IZViqc4Sa7d7zX2X1oynGNL3ic7iqcgVTh7NvNsAQ==}
     engines: {node: '>=8'}
     dependencies:
-      '@sentry/types': 7.60.1
-      '@sentry/utils': 7.60.1
+      '@sentry/types': 7.65.0
+      '@sentry/utils': 7.65.0
       localforage: 1.10.0
       tslib: 2.6.1
     dev: false
 
-  /@sentry/nextjs@7.60.1(next@13.4.12)(react@18.2.0):
-    resolution: {integrity: sha512-AwDbcvYudNOukYPndPId5Re8sRXdhA4iPS87QsRexAetUvPY/bCckFkdaGJok+OlMNBN8o3eudNNCytyZT2s+A==}
+  /@sentry/nextjs@7.65.0(next@13.4.12)(react@18.2.0):
+    resolution: {integrity: sha512-/Pyuf+UKyIA3GXnqRiLv6qZIT0lsN0BHAB67Is/GaQlYA+0zsqSYX24HGqAJ6U3bz+6d9W0dX5AmyVwobH9Vdg==}
     engines: {node: '>=8'}
     peerDependencies:
       next: ^10.0.8 || ^11.0 || ^12.0 || ^13.0
@@ -1041,12 +1041,12 @@ packages:
         optional: true
     dependencies:
       '@rollup/plugin-commonjs': 24.0.0(rollup@2.78.0)
-      '@sentry/core': 7.60.1
-      '@sentry/integrations': 7.60.1
-      '@sentry/node': 7.60.1
-      '@sentry/react': 7.60.1(react@18.2.0)
-      '@sentry/types': 7.60.1
-      '@sentry/utils': 7.60.1
+      '@sentry/core': 7.65.0
+      '@sentry/integrations': 7.65.0
+      '@sentry/node': 7.65.0
+      '@sentry/react': 7.65.0(react@18.2.0)
+      '@sentry/types': 7.65.0
+      '@sentry/utils': 7.65.0
       '@sentry/webpack-plugin': 1.20.0
       chalk: 3.0.0
       next: 13.4.12(@babel/core@7.22.9)(react-dom@18.2.0)(react@18.2.0)(sass@1.64.1)
@@ -1059,14 +1059,14 @@ packages:
       - supports-color
     dev: false
 
-  /@sentry/node@7.60.1:
-    resolution: {integrity: sha512-lBt3RqncY4XbzM+PlTbH/tUWeOsm24anwEzvA2DSDP1NL3WZ5MdvT77q7NqpvpVNd2LeGAQ6x7AXDzE53YBfnQ==}
+  /@sentry/node@7.65.0:
+    resolution: {integrity: sha512-zRCHOO7vIQukgFdEib3X7nP7HA9Uyc/o4QMtBnAREaYKzERGRnArvaB3Na0bXsuLVCOELoCAlrzFH3apmgxBQw==}
     engines: {node: '>=8'}
     dependencies:
-      '@sentry-internal/tracing': 7.60.1
-      '@sentry/core': 7.60.1
-      '@sentry/types': 7.60.1
-      '@sentry/utils': 7.60.1
+      '@sentry-internal/tracing': 7.65.0
+      '@sentry/core': 7.65.0
+      '@sentry/types': 7.65.0
+      '@sentry/utils': 7.65.0
       cookie: 0.4.2
       https-proxy-agent: 5.0.1
       lru_map: 0.3.3
@@ -1075,39 +1075,39 @@ packages:
       - supports-color
     dev: false
 
-  /@sentry/react@7.60.1(react@18.2.0):
-    resolution: {integrity: sha512-977wb5gp7SHv9kHPs1HZtL60slt2WBFY9/YJI9Av7BjjJ/A89OhtBwbVhIcKXZ4hwHQVWuOiFCJdMrIfZXpFPA==}
+  /@sentry/react@7.65.0(react@18.2.0):
+    resolution: {integrity: sha512-1ABxHwEHw5J4avUr8TBch3l7UszbNIroWergwiLPSy+EJU8WuB3Fdx0zSU+hS4Sujf8HNcRgu1JyWThZFTnIMA==}
     engines: {node: '>=8'}
     peerDependencies:
       react: 15.x || 16.x || 17.x || 18.x
     dependencies:
-      '@sentry/browser': 7.60.1
-      '@sentry/types': 7.60.1
-      '@sentry/utils': 7.60.1
+      '@sentry/browser': 7.65.0
+      '@sentry/types': 7.65.0
+      '@sentry/utils': 7.65.0
       hoist-non-react-statics: 3.3.2
       react: 18.2.0
       tslib: 2.6.1
     dev: false
 
-  /@sentry/replay@7.60.1:
-    resolution: {integrity: sha512-WHQxEpJbHICs12L17LGgS/ql91yn9wJDH/hgb+1H90HaasjoR54ofWCKul29OvYV0snTWuHd6xauwtzyv9tzvg==}
+  /@sentry/replay@7.65.0:
+    resolution: {integrity: sha512-vhlk5F9RrhMQ+gOjNlLoWXamAPLNIT6wNII1O9ae+DRhZFmiUYirP5ag6dH5lljvNZndKl+xw+lJGJ3YdjXKlQ==}
     engines: {node: '>=12'}
     dependencies:
-      '@sentry/core': 7.60.1
-      '@sentry/types': 7.60.1
-      '@sentry/utils': 7.60.1
+      '@sentry/core': 7.65.0
+      '@sentry/types': 7.65.0
+      '@sentry/utils': 7.65.0
     dev: false
 
-  /@sentry/types@7.60.1:
-    resolution: {integrity: sha512-8lKKSCOhZ953cWxwnfZwoR3ZFFlZG4P3PQFTaFt/u4LxLh/0zYbdtgvtUqXRURjMCi5P6ddeE9Uw9FGnTJCsTw==}
+  /@sentry/types@7.65.0:
+    resolution: {integrity: sha512-YYq7IDLLhpSBTmHoyWFtq/5ZDaEJ01r7xGuhB0aSIq33cm2I7im/B3ipzoOP/ukGZSIhuYVW9t531xZEO0+6og==}
     engines: {node: '>=8'}
     dev: false
 
-  /@sentry/utils@7.60.1:
-    resolution: {integrity: sha512-ik+5sKGBx4DWuvf6UUKPSafaDiASxP+Xvjg3C9ppop2I/JWxP1FfZ5g22n5ZmPmNahD6clTSoTWly8qyDUlUOw==}
+  /@sentry/utils@7.65.0:
+    resolution: {integrity: sha512-2JEBf4jzRSClhp+LJpX/E3QgHEeKvXqFMeNhmwQ07qqd6szhfH2ckYFj4gXk6YiGGY4Act3C6oxLfdZovG71bw==}
     engines: {node: '>=8'}
     dependencies:
-      '@sentry/types': 7.60.1
+      '@sentry/types': 7.65.0
       tslib: 2.6.1
     dev: false
 
