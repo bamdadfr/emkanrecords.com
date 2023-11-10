@@ -1,3 +1,16 @@
+# [2.1.0](https://github.com/bamdadsabbagh/emkanrecords-com--www/compare/v2.0.2...v2.1.0) (2023-11-10)
+
+
+### Bug Fixes
+
+* Hide sourde maps in sentry settings ([23c1280](https://github.com/bamdadsabbagh/emkanrecords-com--www/commit/23c1280632a382a66d598a3c3ed456379620bd70))
+* Remove testing library + jest-dom types + Replace yarn commands with pnpm ([3360b94](https://github.com/bamdadsabbagh/emkanrecords-com--www/commit/3360b944f4773970736e6a95cf64bd2a8bdd19d4))
+
+
+### Features
+
+* Update dependencies + Replace `yarn` commands with `pnpm` ([d60b227](https://github.com/bamdadsabbagh/emkanrecords-com--www/commit/d60b227c0aa2e1732a8c1a2ef0073c1336ca993e))
+
 ## [2.0.2](https://github.com/bamdadsabbagh/emkanrecords-com--www/compare/v2.0.1...v2.0.2) (2023-08-07)
 
 
