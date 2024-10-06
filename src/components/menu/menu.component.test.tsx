@@ -1,4 +1,5 @@
 import {render as defaultRender} from '@testing-library/react';
+import React from 'react';
 
 import {MenuComponent} from './menu.component';
 
@@ -6,7 +7,7 @@ const render = () => {
   const {container} = defaultRender(<MenuComponent />);
 
   return {
-    container: container,
+    container,
   };
 };
 

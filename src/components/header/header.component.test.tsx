@@ -1,4 +1,5 @@
 import {render as defaultRender} from '@testing-library/react';
+import React from 'react';
 
 import {HeaderComponent} from './header.component';
 
@@ -6,7 +7,7 @@ const render = () => {
   const {container} = defaultRender(<HeaderComponent />);
 
   return {
-    container: container,
+    container,
   };
 };
 

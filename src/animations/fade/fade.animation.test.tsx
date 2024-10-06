@@ -1,4 +1,5 @@
 import {render as defaultRender, screen} from '@testing-library/react';
+import React from 'react';
 
 import {FadeAnimation} from './fade.animation';
 
@@ -12,8 +13,8 @@ const render = () => {
   );
 
   return {
-    container: container,
-    string: string,
+    container,
+    string,
     children: screen.getByLabelText('children'),
   };
 };

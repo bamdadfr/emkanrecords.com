@@ -1,4 +1,5 @@
 import {render as defaultRender} from '@testing-library/react';
+import React from 'react';
 
 import NotFoundPage from '../pages/404';
 
@@ -6,7 +7,7 @@ const render = () => {
   const {container} = defaultRender(<NotFoundPage />);
 
   return {
-    container: container,
+    container,
   };
 };
 

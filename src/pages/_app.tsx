@@ -5,6 +5,9 @@ import '../app/styles/index.scss';
 
 import {AppProps} from 'next/app';
 import {AppComponent} from 'next/dist/shared/lib/router/router';
+import {DefaultSeo} from 'next-seo';
+import React from 'react';
+import {SEO} from 'src/seo';
 
 import {useApp} from '../app/hooks/use-app/use-app';
 import {AppLayout} from '../layouts/app/app.layout';
@@ -28,8 +31,11 @@ export default function MyApp({
 
   return (
     <>
+      {/* eslint-disable-next-line react/jsx-props-no-spreading */}
+      <DefaultSeo {...SEO} />
       <AppLayout>
         <Component
+          /* eslint-disable-next-line react/jsx-props-no-spreading */
           {...pageProps}
           err={err}
         />

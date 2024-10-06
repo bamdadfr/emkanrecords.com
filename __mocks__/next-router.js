@@ -1,9 +1,9 @@
-const on = jest.fn ((eventType, listenerFunction) => ({
+const on = jest.fn((eventType, listenerFunction) => ({
   eventType,
   listenerFunction,
 }));
 
-const off = jest.fn ((eventType, listenerFunction) => ({
+const off = jest.fn((eventType, listenerFunction) => ({
   eventType,
   listenerFunction,
 }));
@@ -14,7 +14,7 @@ module.exports = {
     pathname: '/',
     asPath: '/',
     query: {},
-    replace: jest.fn (),
+    replace: jest.fn(),
     events: {
       on,
       off,

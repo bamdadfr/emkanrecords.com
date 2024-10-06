@@ -1,6 +1,5 @@
-import {ReactElement} from 'react';
-
-import {HeaderComponent} from '../../components/header/header.component';
+import React, {ReactElement} from 'react';
+import {HeaderComponent} from 'src/components/header/header.component';
 
 interface AppLayoutProps {
   children: ReactElement;
@@ -8,11 +7,9 @@ interface AppLayoutProps {
 
 export function AppLayout({children}: AppLayoutProps) {
   return (
-    <>
-      <section className="page">
-        <HeaderComponent />
-        {children}
-      </section>
-    </>
+    <section className="page">
+      <HeaderComponent />
+      {children}
+    </section>
   );
 }
