@@ -1,4 +1,3 @@
-/* eslint-disable jsdoc/valid-types */
 /** @type {import('next-sitemap').IConfig} */
 
 module.exports = {

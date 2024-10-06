@@ -1,31 +1,55 @@
+'use strict';
+
 module.exports = {
-  root: true,
   env: {
-    node: true,
     browser: true,
+    node: true,
+    jest: true,
+  },
+  parser: '@typescript-eslint/parser',
+  parserOptions: {
+    requireConfigFile: true,
+    sourceType: 'module',
+  },
+  settings: {
+    'import/resolver': {
+      typescript: {},
+      node: {
+        extensions: ['.js', '.jsx', '.ts', '.tsx'],
+      },
+    },
   },
   extends: [
     'eslint:recommended',
+    'airbnb',
+    'plugin:jsx-a11y/recommended',
+    'prettier',
     'plugin:@typescript-eslint/recommended',
-    'plugin:@next/next/recommended',
   ],
-  parser: '@typescript-eslint/parser',
-  parserOptions: {
-    parser: '@typescript-eslint/parser',
-    sourceType: 'module',
-  },
-  overrides: [
-    {
-      files: ['*.ts', '*.tsx', '*.js', '*.jsx'],
-      parser: '@typescript-eslint/parser',
-    },
+  plugins: [
+    '@typescript-eslint',
+    'import',
+    '@babel',
+    'jsx-a11y',
+    'prettier',
+    'react-hooks',
+    'testing-library',
+    'jest-dom',
+    'simple-import-sort',
   ],
-  ignorePatterns: ['src/lib/**/*.ts'],
-  plugins: ['simple-import-sort'],
   rules: {
-    'no-console': process.env.NODE_ENV === 'production' ? 'warn' : 'off',
-    'no-debugger': process.env.NODE_ENV === 'production' ? 'warn' : 'off',
-    // Rules from @bamdadsabbagh/eslint-config
+    'react/require-default-props': 'off',
+    // .jsx rules
+    'react/jsx-filename-extension': [
+      1,
+      {extensions: ['.js', '.jsx', '.ts', '.tsx']},
+    ],
+    'import/extensions': 'off',
+    'react/jsx-indent': ['error', 2],
+    'react/prop-types': 'off',
+    'react-hooks/rules-of-hooks': ['error'],
+    'react-hooks/exhaustive-deps': ['warn'],
+    // .js rules
     'strict': 'off',
     'semi': ['error', 'always'],
     'indent': [
@@ -36,9 +60,6 @@ module.exports = {
         SwitchCase: 1,
       },
     ],
-    'simple-import-sort/imports': 'error',
-    'simple-import-sort/exports': 'error',
-    'object-shorthand': ['error', 'never'],
     'init-declarations': 'off',
     'no-undef-init': 'off',
     'comma-dangle': ['error', 'always-multiline'],
@@ -73,13 +94,8 @@ module.exports = {
     'semi-style': ['error', 'last'],
     'eqeqeq': 'error',
     'quotes': ['error', 'single', {avoidEscape: true}],
-    'no-unused-vars': [
-      'warn',
-      {
-        argsIgnorePattern:
-          '^(symbol|price|tag|since|limit|params|market|timeframe|api|path|code|currency|response|requestHeaders|requestBody|bidsKey|asksKey)',
-      },
-    ],
+    'no-unused-vars': 'off',
+    '@typescript-eslint/no-unused-vars': ['error'],
     'new-parens': 'error',
     'new-cap': ['error'],
     'no-var': 'error',
@@ -117,12 +133,15 @@ module.exports = {
     'no-underscore-dangle': 'off',
     'consistent-return': 'off',
     'no-await-in-loop': 'off',
+    'jsx-a11y/click-events-have-key-events': 'warn',
+    'jsx-a11y/no-static-element-interactions': 'warn',
     'arrow-spacing': ['warn', {before: true, after: true}],
     'arrow-parens': ['error', 'always'],
     'key-spacing': ['error', {beforeColon: false, afterColon: true}],
     'comma-spacing': ['warn', {before: false, after: true}],
+    'import/no-extraneous-dependencies': ['error', {devDependencies: true}],
     'import/prefer-default-export': 'off',
-    // typescript
+    'jsdoc/require-jsdoc': 'off',
     '@typescript-eslint/type-annotation-spacing': [
       'error',
       {
@@ -144,7 +163,7 @@ module.exports = {
         },
         singleline: {
           delimiter: 'semi',
-          requireLast: false,
+          requireLast: true,
         },
         multilineDetection: 'brackets',
       },
