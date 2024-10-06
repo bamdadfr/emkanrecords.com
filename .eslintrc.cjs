@@ -169,5 +169,7 @@ module.exports = {
       },
     ],
     '@typescript-eslint/object-curly-spacing': ['error', 'never'],
+    'simple-import-sort/imports': 'error',
+    'simple-import-sort/exports': 'error',
   },
 };
