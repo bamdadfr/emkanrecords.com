@@ -1,3 +1,17 @@
+# [2.2.0](https://github.com/bamdadfr/emkanrecords.com/compare/v2.1.0...v2.2.0) (2024-10-06)
+
+
+### Bug Fixes
+
+* apply eslint rules ([6f9d0f1](https://github.com/bamdadfr/emkanrecords.com/commit/6f9d0f1f61e38f9d7754582c992a4416e5d966b1))
+* remove sentry ([b5850ef](https://github.com/bamdadfr/emkanrecords.com/commit/b5850efde8a503ba9ffd7d3cb793e0e4c2984dc7))
+
+
+### Features
+
+* update deps ([f5910e3](https://github.com/bamdadfr/emkanrecords.com/commit/f5910e3b6ed5d62904a707ff8cb3f09e310dc872))
+* use next-seo ([f12e32f](https://github.com/bamdadfr/emkanrecords.com/commit/f12e32f26fb312254bda702f171660b50bb2d936))
+
 # [2.1.0](https://github.com/bamdadsabbagh/emkanrecords-com--www/compare/v2.0.2...v2.1.0) (2023-11-10)
 
 
