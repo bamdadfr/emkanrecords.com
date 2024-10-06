@@ -1,16 +1,14 @@
 import Image from 'next/legacy/image';
+import React from 'react';
 import {FaItunesNote, FaSpotify, FaYoutube} from 'react-icons/fa';
+import {type Release} from 'src/app/data/releases';
 
-import {type Release} from '../../app/data/releases';
 import styles from './release.component.module.scss';
 
 interface ReleaseComponentProps {
   release: Release;
 }
 
-/**
- * Component to display a release
- */
 export function ReleaseComponent({release}: ReleaseComponentProps) {
   const paddedId = release.id.toString().padStart(3, '0');
 

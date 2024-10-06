@@ -1,4 +1,5 @@
 import {render as defaultRender} from '@testing-library/react';
+import React from 'react';
 
 import {DefaultLayout} from './default.layout';
 
@@ -10,7 +11,7 @@ const render = () => {
   );
 
   return {
-    container: container,
+    container,
   };
 };
 
