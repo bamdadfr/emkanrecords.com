@@ -32,7 +32,6 @@
   },
   "dependencies": {
     "@react-spring/web": "^9.7.4",
-    "@sentry/nextjs": "^8.33.1",
     "next": "14.2.14",
     "next-seo": "^6.6.0",
     "next-sitemap": "^4.2.3",
