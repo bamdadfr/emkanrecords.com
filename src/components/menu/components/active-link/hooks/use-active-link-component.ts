@@ -9,6 +9,6 @@ export function useActiveLinkComponent(href: string): UseActiveLinkComponent {
   const active = router.pathname === href;
 
   return {
-    active: active,
+    active,
   };
 }

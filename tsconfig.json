@@ -28,10 +28,17 @@
       "src/*": [
         "src/*"
       ],
+      "public/*": [
+        "public/*"
+      ],
       "__mocks__/*": [
         "__mocks__/*"
       ]
-    }
+    },
+    "types": [
+      "jest",
+      "@testing-library/jest-dom"
+    ]
   },
   "include": [
     "next-env.d.ts",
@@ -41,10 +48,5 @@
   ],
   "exclude": [
     "node_modules"
-  ],
-  "types": [
-    "node",
-    "jest",
-    "@testing-library/jest-dom"
   ]
 }

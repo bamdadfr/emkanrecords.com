@@ -1,4 +1,5 @@
 import {render as defaultRender} from '@testing-library/react';
+import React from 'react';
 
 import ReleasesPage from '../pages/releases';
 
@@ -6,7 +7,7 @@ const render = () => {
   const {container} = defaultRender(<ReleasesPage />);
 
   return {
-    container: container,
+    container,
   };
 };
 
