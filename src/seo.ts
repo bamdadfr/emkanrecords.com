@@ -6,8 +6,7 @@ const description = 'Digital record label from France';
 export const SEO: DefaultSeoProps = {
   defaultTitle: title,
   titleTemplate: '%s | Emkan Records',
-  description:
-    'Digital record label from France',
+  description: 'Digital record label from France',
   canonical: 'https://www.emkanrecords.com/',
   norobots: false,
   openGraph: {
@@ -35,7 +34,7 @@ export const SEO: DefaultSeoProps = {
     {
       rel: 'apple-touch-icon',
       sizes: '180x180',
-      href: 'favicon/apple-touch-icon.png',
+      href: '/favicon/apple-touch-icon.png',
     },
     {
       rel: 'icon',
