@@ -1,3 +1,10 @@
+## [2.2.1](https://github.com/bamdadfr/emkanrecords.com/compare/v2.2.0...v2.2.1) (2024-10-09)
+
+
+### Bug Fixes
+
+* use absolute apple favicon ([f75c55d](https://github.com/bamdadfr/emkanrecords.com/commit/f75c55d37708efe0ddf766941d35f9f6006507ab))
+
 # [2.2.0](https://github.com/bamdadfr/emkanrecords.com/compare/v2.1.0...v2.2.0) (2024-10-06)
 
 
