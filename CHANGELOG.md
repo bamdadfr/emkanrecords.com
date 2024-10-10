@@ -1,3 +1,10 @@
+## [2.2.2](https://github.com/bamdadfr/emkanrecords.com/compare/v2.2.1...v2.2.2) (2024-10-10)
+
+
+### Bug Fixes
+
+* use canonical without trailing slash ([6f27a90](https://github.com/bamdadfr/emkanrecords.com/commit/6f27a909d891ad8405442cf4fb8b59cd56cecbc2))
+
 ## [2.2.1](https://github.com/bamdadfr/emkanrecords.com/compare/v2.2.0...v2.2.1) (2024-10-09)
 
 
