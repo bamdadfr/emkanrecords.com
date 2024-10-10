@@ -2,12 +2,13 @@ import {type DefaultSeoProps} from 'next-seo';
 
 const title = 'Emkan Records - Digital record label from France';
 const description = 'Digital record label from France';
+const url = 'https://www.emkanrecords.com';
 
 export const SEO: DefaultSeoProps = {
   defaultTitle: title,
   titleTemplate: '%s | Emkan Records',
   description: 'Digital record label from France',
-  canonical: 'https://www.emkanrecords.com/',
+  canonical: url,
   norobots: false,
   openGraph: {
     title,
@@ -15,7 +16,7 @@ export const SEO: DefaultSeoProps = {
     siteName: title,
     type: 'website',
     locale: 'en_US',
-    url: 'https://www.emkanrecords.com/',
+    url,
     images: [
       {
         url: '/_next/image?url=%2Fheader%2Fheader_bright.png&w=384&q=75',
