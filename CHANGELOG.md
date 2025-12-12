@@ -1,3 +1,10 @@
+## [2.2.3](https://github.com/bamdadfr/emkanrecords.com/compare/v2.2.2...v2.2.3) (2025-12-12)
+
+
+### Bug Fixes
+
+* react CVE ([dad03a6](https://github.com/bamdadfr/emkanrecords.com/commit/dad03a6f99da25e3a4af234bec2036f665f90d6c))
+
 ## [2.2.2](https://github.com/bamdadfr/emkanrecords.com/compare/v2.2.1...v2.2.2) (2024-10-10)
 
 
